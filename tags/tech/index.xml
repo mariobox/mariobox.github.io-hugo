@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Mario Sanchez Carrion</title>
+    <link>http://www.mariosanchez.org/tags/tech/</link>
+    <description>Recent content in Tech on Mario Sanchez Carrion</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Understanding Static Site Generators</title>
+      <link>http://www.mariosanchez.org/ssg</link>
+      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/ssg</guid>
+      <description>&lt;p&gt;When I started learning how to build websites from scratch one of the hardest concepts for me to grasp was how a static site generator (SSG) worked. Understanding the gist of SSG&amp;rsquo;s took me a while and many false starts along the way.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s what I was missing: The key idea to understanding how a SSGs works is that there are two main components in the process: the source files and the static site generator itself. The source files are the raw material and the SSG is the machine. Once the machine processes the raw materials the result is the finished product: a static website made entirely out of HTML, CSS and Javascript files.&lt;/p&gt;
+
+&lt;p&gt;In summary, you can&amp;rsquo;t just deploy the source files and expect the website to render in your browser. You have to run them through the SSG first.&lt;/p&gt;
+
+&lt;p&gt;To run a SSG first you have to choose, download and install one (there are &lt;a href=&#34;http://www.staticsitegenerators.net&#34;&gt;hundreds&lt;/a&gt; of SSG&amp;rsquo;s out there). Sometimes, depending on the static site generator you choose, you may need to download other programs (like Python or Ruby) that are necessary for the SSG to work.&lt;/p&gt;
+
+&lt;p&gt;Now, back to the source files. There are two kinds of source files: content files and templates. The content files are your blog posts and pages, which can be written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. The templates determine the way your content is displayed, and are written in a combination of HTML and the programming language your SSG is written on.&lt;/p&gt;
+
+&lt;p&gt;Templates are great because they enable the SSG to automatically update all common elements of your site (headers, footers and menus), generate a post list, and add any new post to that list.&lt;/p&gt;
+
+&lt;p&gt;Once they work their magic, static site generators place the static site&amp;rsquo;s files in a special folder. Depending on the SSG you are using, this special folder may be called /_site or /public or something else.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can command your SSG to &amp;ldquo;serve&amp;rdquo; the site in your local environment (that would be your computer or laptop). To see the result, you need to open your browser and type &amp;ldquo;localhost:xxxx&amp;rdquo;, where &amp;ldquo;xxxx&amp;rdquo; is a four digit number determined by the SSG you are using.&lt;/p&gt;
+
+&lt;p&gt;Everything we&amp;rsquo;ve talked about so far takes place in your computer or laptop. Now you need to deploy your site to the web by uploading your static files to a web host like Amazon, Dropbox, Github Pages or other (each of them will give you detailed instructions on how to do it).&lt;/p&gt;
+
+&lt;p&gt;If you are deep into digital self-reliance, you may choose to deploy your site to a VPS (virtual private server). You will first need to install the SSG (plus the programs that enable it) on your VPS. You can then upload the source files, run the SSG, and if you&amp;rsquo;ve done everything right your newly created static site should then be live on the web.&lt;/p&gt;
+
+&lt;p&gt;In order to use a SSG you will need to learn, at a bare minimum, the basics of HTML and CSS, a few key Linux-style commands, how to write in Markdown, and have access to a Linux-style terminal emulator.&lt;/p&gt;
+
+&lt;p&gt;For this site, I am currently using a SSG called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. It is lightning fast and doesn&amp;rsquo;t require you to download any program other than the Hugo executable. Since I&amp;rsquo;m working in a Windows box, I use a terminal emulator called &lt;a href=&#34;https://msysgit.github.io/&#34;&gt;Git Bash&lt;/a&gt;. I am deploying the resulting static files in &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; using &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; for version control and to push (upload) my site to Github Page&amp;rsquo;s server.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Evolution Of My Digital Presence</title>
+      <link>http://www.mariosanchez.org/digital-presence</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/digital-presence</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
+
+&lt;p&gt;When I talk about a having a digital presence, though, I&amp;rsquo;m not talking about being a tenant in Zuck&amp;rsquo;s massive apartment complex, but rather of building and owning our own digital home: a website that we can deploy using our own domain, designed and tweaked to our liking, and where we call the shots.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-early-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Early Days&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;ve had a digital presence through self-deployed websites (mainly as a hobby) since the early 2000&amp;rsquo;s. I started off by learning some basic HTML tags and hastily coding a website that I used to publish notes-to-self about search engine optimization, a topic I was deeply interested in back then. Then, Web 2.0 came along.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-wordpress-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Wordpress Days&lt;/h3&gt;
+
+&lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
+
+&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when the simplicity of &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt; won me over. Good things don&amp;rsquo;t last forever, though, and some time after I switched Posterous sold out to Twitter and closed down. I had to take my posts and reluctantly move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
+
+&lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
+
+&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
+
+&lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
+
+&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: since it doesn&amp;rsquo;t use any programming, a hand-coded HTML site needs you to create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not that big of a deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
+
+&lt;p&gt;A static site generator is basically a program that takes your content and merges it with predefined templates that determine the layout and the look and feel of your pages, and then spits out your site as a bunch of HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages whenever you make a change to a common element of your site (like the navigation menu, footer, or sidebar)-all done automatically.&lt;/p&gt;
+
+&lt;p&gt;While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.&lt;/p&gt;
+
+&lt;p&gt;The static site generator I&amp;rsquo;m currently using is &lt;a href=&#34;http://www.jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;, although there are literally &lt;a href=&#34;https://staticsitegenerators.net/&#34;&gt;hundreds&lt;/a&gt; that you can choose from.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; As of March 30, 2015 I am not using Jekyll any more. I have switched to &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Tools of the Trade&lt;/h3&gt;
+
+&lt;p&gt;In order to deploy a static site generator I had to learn a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write blog posts and content in general (easy);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML, easy; CSS a little harder);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; to record changes to the site and communicate with my web hosting server (hard to wrap your head around the concept, but not that difficult once you &amp;ldquo;get it&amp;rdquo;); and&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cli.learncodethehardway.org/bash_cheat_sheet.pdf&#34;&gt;Linux-style command line essentials&lt;/a&gt; to install the required software and to move quickly around my hard drive folders (easy).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aside from that, I had to download the following programs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; to version control my site and access a command line emmulator called Git Bash;&lt;/li&gt;
+&lt;li&gt;Ruby and Ruby&amp;rsquo;s Dev Package, necessary to make Jekyll run;&lt;/li&gt;
+&lt;li&gt;Python, also needed to run Jekyll; and&lt;/li&gt;
+&lt;li&gt;The Jekyll and Github Pages gems: to generate the site and enable hosting in &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jekyll-windows.juthilo.com/&#34;&gt;This site&lt;/a&gt; gives a very good overview of how to install Jekyll if you have a Windows box.&lt;/p&gt;
+
+&lt;p&gt;Finally, I opened an account with &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to create the &lt;a href=&#34;https://github.com/mariobox/mariobox.github.io&#34;&gt;site&amp;rsquo;s remote repository&lt;/a&gt; (basically a backup copy of my website&amp;rsquo;s files that Github uses to generate and serve my site to the public web). I also cloned an existing repository called &lt;a href=&#34;https://github.com/barryclark/jekyll-now&#34;&gt;Jekyll Now&lt;/a&gt;, which provides a basic template for a Jekyll blog, so you don&amp;rsquo;t have to start from scratch (you can later tweak it locally, in your computer, to make it look the way you want).&lt;/p&gt;
+
+&lt;h3 id=&#34;next-steps:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Next Steps&lt;/h3&gt;
+
+&lt;p&gt;So, what&amp;rsquo;s next? Perhaps tweak the look and feel of the site some more, creating sub-domains, deploying to a virtual private server (VPS), and installing a Linux operating system. Stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Use Gmail With Your Own Domain</title>
+      <link>http://www.mariosanchez.org/gmail</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/gmail</guid>
+      <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Go to any domain registrar (like Godaddy or Namecheap) and register the domain name you want to use.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, in your control panel you should be able to find the &lt;strong&gt;Email Forwarding&lt;/strong&gt; feature.  This is where you will create your new &lt;em&gt;you@yourname.com&lt;/em&gt; email address and forward it to &lt;em&gt;yourname@gmail.com&lt;/em&gt;. Note: if you&amp;rsquo;re using Godaddy, &lt;a href=&#34;http://help.godaddy.com/article/1725&#34;&gt;this page&lt;/a&gt; will give you more details on how to do this.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After you&amp;rsquo;ve done that, log on to Gmail, click on &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;Accounts&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Another Email Address&lt;/strong&gt;, and add &lt;em&gt;you@yourname.com&lt;/em&gt; to the list.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click NEXT, and Google will now send you a message to &lt;em&gt;you@yourname.com&lt;/em&gt; so you can verify it&amp;rsquo;s yours. Here&amp;rsquo;s the trick: since you already set up email forwarding in step 2 you will receive this email at &lt;em&gt;yourname@gmail.com&lt;/em&gt; ;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on the verification link and then go back to Gmail&amp;rsquo;s &lt;strong&gt;Accounts&lt;/strong&gt; tab in the &lt;strong&gt;Settings&lt;/strong&gt; menu. Your new, branded email address should already be listed there. Click on the link that says &amp;ldquo;make default&amp;rdquo; next to it, and check the radio button next to &amp;ldquo;always reply from my default address&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. You should now be ready to use Gmail with your own branded email address. If you want more details, you can visit Gmail&amp;rsquo;s custom domain &lt;a href=&#34;http://mail.google.com/support/bin/answer.py?hl=en&amp;amp;amp;ctx=mail&amp;amp;amp;answer=22370&#34;&gt;help page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
