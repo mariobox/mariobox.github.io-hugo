@@ -1,18 +1,33 @@
 <!DOCTYPE html>
+
+
 <html>
+
+
 <head>
+
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
 <link rel="stylesheet" type="text/css" href="/css/basic.css">
-<title>The Evolution Of My Digital Presence - mariosanchez.org</title>    
+
+<title>Mario Sanchez Carrion - mariosanchez.org</title>    
+
 </head>
+
+
 <body>
-<div id="header">
-<img src="/images/MSC-JPG.jpg" width="100px" style="border-radius: 100%; margin-top: 30px;">
-<h1>Mario Sanchez Carrion</h1>
+
+<header>
+
+<a href="/"><span class="logo">/mariosanchez.<span style="color:#888;">org</span>/</a></span>
 
 <nav><a href="/">HOME</a> | <a href="/blog">BLOG</a> | <a href="/reading">READ</a> | <a href="/photos">PHOTOS</a> | <a href="/about">ABOUT</a></nav>
-</div>
-<div class="content">
+
+</header>
+
+<article>
+
+<hr />
 
 <h2>The Evolution Of My Digital Presence</h2>
     
@@ -49,13 +64,11 @@
 
 <p>While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.</p>
 
-<p>The static site generator I&rsquo;m currently using is <a href="http://www.jekyllrb.com">Jekyll</a>, although there are literally <a href="https://staticsitegenerators.net/">hundreds</a> that you can choose from.</p>
-
-<p><strong>Update:</strong> As of March 30, 2015 I am not using Jekyll any more. I have switched to <a href="http://www.gohugo.io">Hugo</a>.</p>
+<p>The first static site generator I used was <a href="http://www.jekyllrb.com">Jekyll</a>. After a few months, though, I started to find Jekyll somehow limiting (it&rsquo;s a fairly old SSG), so I gave <a href="http://gohugo.io">Hugo</a> a try and have been using it ever since. I am extremely happy with Hugo: it is fast, intuitive, and just needs one executable file to run (no complicated dependencies).</p>
 
 <h3 id="the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3">The Tools of the Trade</h3>
 
-<p>In order to deploy a static site generator I had to learn a few things:</p>
+<p>In order to run my site using a static site generator I had to learn a few things:</p>
 
 <ul>
 <li><a href="http://daringfireball.net/projects/markdown/">Markdown</a> to write blog posts and content in general (easy);</li>
@@ -67,35 +80,43 @@
 <p>Aside from that, I had to download the following programs:</p>
 
 <ul>
-<li><a href="http://git-scm.com/download/win">Git for Windows</a> to version control my site and access a command line emmulator called Git Bash;</li>
-<li>Ruby and Ruby&rsquo;s Dev Package, necessary to make Jekyll run;</li>
-<li>Python, also needed to run Jekyll; and</li>
-<li>The Jekyll and Github Pages gems: to generate the site and enable hosting in <a href="https://pages.github.com/">Github Pages</a>.</li>
+<li><a href="http://git-scm.com/download/win">Git for Windows</a> to version control my site and access a command line emmulator called Git Bash; and</li>
+<li>The <a href="http://gohugo.io">Hugo</a> executable.</li>
 </ul>
 
-<p><a href="http://jekyll-windows.juthilo.com/">This site</a> gives a very good overview of how to install Jekyll if you have a Windows box.</p>
-
-<p>Finally, I opened an account with <a href="http://www.github.com">Github</a> to create the <a href="https://github.com/mariobox/mariobox.github.io">site&rsquo;s remote repository</a> (basically a backup copy of my website&rsquo;s files that Github uses to generate and serve my site to the public web). I also cloned an existing repository called <a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a>, which provides a basic template for a Jekyll blog, so you don&rsquo;t have to start from scratch (you can later tweak it locally, in your computer, to make it look the way you want).</p>
-
-<h3 id="next-steps:97065e0991d562180917b8c3cd63a3c3">Next Steps</h3>
-
-<p>So, what&rsquo;s next? Perhaps tweak the look and feel of the site some more, creating sub-domains, deploying to a virtual private server (VPS), and installing a Linux operating system. Stay tuned.</p>
+<p>Finally, I opened an account with <a href="http://www.github.com">Github</a> to create the <a href="https://github.com/mariobox/mariobox.github.io">site&rsquo;s remote repository</a> where I version-control the site&rsquo;s source files, and another repository to version and host the site&rsquo;s public files (those that get served to the web by Github pages to render the site in the browser).</p>
 
 
 <p>Tags: <a href="../../tags/tech">tech</a> </p>
 
 
-</div>
+</article>
+
+
 <footer>
+
 <hr />
-<div class="social">
-<p><strong>You can also find me here:</strong></p>
-<p><a href="http://www.github.com/mariobox"><img src="/images/Github.png" class="social-icon" alt="Github"></a><a href="http://www.teamtreehouse.com/mariosanchezcarrion"><img src="/images/Treehouse.png" class="social-icon" alt="Treehouse"></a></p>
+
+<div class="footer-pic">
+
+<img src="/images/mypictr_165x165.jpg" width="120px" class="profile">
+
 </div>
+
 <div class="contact">
-<p><strong>Contact me:</strong></p>
-<p><a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a></p>
+
+<p><strong>Mario Sanchez Carrion</strong><br />Miami based product manager and technology enthusiast.</p>
+
+<p><strong>Contact me:</strong><br />
+<a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a></p>
+
+<p><strong>Find me in:</strong><br />
+<a href="http://www.github.com/mariobox"><img src="/images/Github.png" class="social-icon" alt="Github"></a><a href="http://www.teamtreehouse.com/mariosanchezcarrion"><img src="/images/Treehouse.png" class="social-icon" alt="Treehouse"></a></p>
+
 </div>
+
 </footer>
+
 </body>
-</html>      
+
+</html> 
