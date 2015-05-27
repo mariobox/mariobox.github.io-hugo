@@ -187,6 +187,24 @@
     </item>
     
     <item>
+      <title>Good Stuff From Elsewhere</title>
+      <link>http://www.mariosanchez.org/good-stuff/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/good-stuff/</guid>
+      <description>&lt;p&gt;Interesting links from the web, ordered by date added.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-19 |&lt;/span&gt; &lt;a href=&#34;http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet&#34;&gt;The Mission To Decentralize The Internet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://medium.com/lets-make-things/navigating-the-product-maze-f7dce97eeb34&#34;&gt;Navigating the Product Maze&lt;/a&gt;: How to design a product.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;http://exilelifestyle.com/appropriation/&#34;&gt;Appropriation&lt;/a&gt;: Great article about personal branding, beyond the superficial stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://joshkaufman.net/core-human-skills/&#34;&gt;The 12 Core Human Skills&lt;/a&gt; by Josh Kaufman.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Colophon</title>
       <link>http://www.mariosanchez.org/colophon/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
@@ -203,24 +221,6 @@
 &lt;p&gt;If you want to use a similar setup you will need to master the basics of HTML and CSS, get comfortable with a few Linux-style commands, learn the Markdown syntax, and get familiar with the most common &lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; commands.&lt;/p&gt;
 
 &lt;p&gt;You will also need a Linux-style terminal emulator. If you use a Windows box, downloading &lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; will give you access to a bare-bones terminal emulator called Git Bash.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Good Stuff From Elsewhere</title>
-      <link>http://www.mariosanchez.org/good-stuff/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/good-stuff/</guid>
-      <description>&lt;p&gt;Interesting links from the web, ordered by date added.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-19 |&lt;/span&gt; &lt;a href=&#34;http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet&#34;&gt;The Mission To Decentralize The Internet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://medium.com/lets-make-things/navigating-the-product-maze-f7dce97eeb34&#34;&gt;Navigating the Product Maze&lt;/a&gt;: How to design a product.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;http://exilelifestyle.com/appropriation/&#34;&gt;Appropriation&lt;/a&gt;: Great article about personal branding, beyond the superficial stuff.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://joshkaufman.net/core-human-skills/&#34;&gt;The 12 Core Human Skills&lt;/a&gt; by Josh Kaufman.&lt;/p&gt;
 </description>
     </item>
     
