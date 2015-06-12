@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Mario Sanchez Carrion</title>
-    <link>http://www.mariosanchez.org/tags/life/</link>
+    <link>http://localhost:1313/tags/life/</link>
     <description>Recent content in Life on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.mariosanchez.org/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Building Blocks of Success</title>
-      <link>http://www.mariosanchez.org/success/</link>
+      <link>http://localhost:1313/success/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/success/</guid>
+      <guid>http://localhost:1313/success/</guid>
       <description>
 
 &lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
@@ -165,10 +165,10 @@
     
     <item>
       <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/mini</link>
+      <link>http://localhost:1313/mini</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mini</guid>
+      <guid>http://localhost:1313/mini</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
 
 &lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way.&lt;/p&gt;
@@ -183,10 +183,10 @@
     
     <item>
       <title>The Smoking Room</title>
-      <link>http://www.mariosanchez.org/smoking-room</link>
+      <link>http://localhost:1313/smoking-room</link>
       <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/smoking-room</guid>
+      <guid>http://localhost:1313/smoking-room</guid>
       <description>&lt;p&gt;I&amp;rsquo;m finally back in Shanghai and about to enter my hotel room. I swipe my key card over the sensor, open the door, and immediately sense a strange smell. I walk in a few steps, take a deep breath and think: &amp;ldquo;somebody has been smoking in this room&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Perhaps it&amp;rsquo;s just me&amp;rdquo;, I question myself, as I drop my suitcase and walk toward the opposite side of the room: &amp;ldquo;No&amp;hellip; still cigarette smell&amp;rdquo;, I think. Then I glance at the nightstand and, aha! the proof: an ashtray, and, neatly resting on its edges, a matchbox. They have given me a freaking smoking room.&lt;/p&gt;

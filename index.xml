@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mario Sanchez Carrion</title>
-    <link>http://www.mariosanchez.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Lima</title>
-      <link>http://www.mariosanchez.org/lima/</link>
+      <link>http://localhost:1313/lima/</link>
       <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/lima/</guid>
+      <guid>http://localhost:1313/lima/</guid>
       <description>&lt;p&gt;A few pictures from a Saturday morning walk through Miraflores Malecon (boardwalk) in Lima, Peru.&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/bf6f0d31c3f57d4096323f541c7287de/tumblr_nplc2hPYSe1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Italy In Motion</title>
-      <link>http://www.mariosanchez.org/italyinmotion/</link>
+      <link>http://localhost:1313/italyinmotion/</link>
       <pubDate>Sun, 17 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/italyinmotion/</guid>
+      <guid>http://localhost:1313/italyinmotion/</guid>
       <description>&lt;p&gt;A few pictures from Italy In Motion, an interesting exposition of iconic Italian cars and bikes in Coral Gables, Miami.&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/09784396750c3cdfab2cb0d5379f2160/tumblr_nogpcm9V3V1qz7ur9o7_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>The Building Blocks of Success</title>
-      <link>http://www.mariosanchez.org/success/</link>
+      <link>http://localhost:1313/success/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/success/</guid>
+      <guid>http://localhost:1313/success/</guid>
       <description>
 
 &lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
@@ -208,11 +208,31 @@
     </item>
     
     <item>
-      <title>Good Stuff From Elsewhere</title>
-      <link>http://www.mariosanchez.org/good-stuff/</link>
+      <title>Colophon</title>
+      <link>http://localhost:1313/colophon/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/good-stuff/</guid>
+      <guid>http://localhost:1313/colophon/</guid>
+      <description>&lt;p&gt;This site is a DIY project, built and maintained using a &lt;a href=&#34;http://localhost:1313/ssg/&#34;&gt;static site generator&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo is extremely fast and doesn&amp;rsquo;t require other programs to run.&lt;/p&gt;
+
+&lt;p&gt;The site&amp;rsquo;s content is written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. Hugo takes the Markdown source files and converts them into a light weight, ready-to-deploy static site made of just HTML and CSS files.&lt;/p&gt;
+
+&lt;p&gt;The source files and the site&amp;rsquo;s HTML files are both versioned with &lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; and stored remotely in &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; in two different repositories. &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; (Github&amp;rsquo;s hosting service) deploys the site&amp;rsquo;s HTML files to the open web.&lt;/p&gt;
+
+&lt;p&gt;For styling, I went for a minimalist look and feel based on a responsive CSS framework called &lt;a href=&#34;http://localhost:1313/css/modena.css&#34;&gt;modena.css&lt;/a&gt; that I patched together from pieces of other open source style sheets.&lt;/p&gt;
+
+&lt;p&gt;If you want to use a similar setup you will need to master the basics of HTML and CSS, get comfortable with a few Linux-style commands, learn the Markdown syntax, and get familiar with the most common &lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; commands.&lt;/p&gt;
+
+&lt;p&gt;You will also need a Linux-style terminal emulator. If you use a Windows box, downloading &lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; will give you access to a bare-bones terminal emulator called Git Bash.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Good Stuff From Elsewhere</title>
+      <link>http://localhost:1313/good-stuff/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/good-stuff/</guid>
       <description>&lt;p&gt;Interesting links from the web, ordered by date added.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-19 |&lt;/span&gt; &lt;a href=&#34;http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet&#34;&gt;The Mission To Decentralize The Internet&lt;/a&gt;.&lt;/p&gt;
@@ -226,31 +246,11 @@
     </item>
     
     <item>
-      <title>Colophon</title>
-      <link>http://www.mariosanchez.org/colophon/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/colophon/</guid>
-      <description>&lt;p&gt;This site is a DIY project, built and maintained using a &lt;a href=&#34;http://www.mariosanchez.org/ssg/&#34;&gt;static site generator&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo is extremely fast and doesn&amp;rsquo;t require other programs to run.&lt;/p&gt;
-
-&lt;p&gt;The site&amp;rsquo;s content is written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. Hugo takes the Markdown source files and converts them into a light weight, ready-to-deploy static site made of just HTML and CSS files.&lt;/p&gt;
-
-&lt;p&gt;The source files and the site&amp;rsquo;s HTML files are both versioned with &lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; and stored remotely in &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; in two different repositories. &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; (Github&amp;rsquo;s hosting service) deploys the site&amp;rsquo;s HTML files to the open web.&lt;/p&gt;
-
-&lt;p&gt;For styling, I went for a minimalist look and feel based on a responsive CSS framework called &lt;a href=&#34;http://www.mariosanchez.org/css/modena.css&#34;&gt;modena.css&lt;/a&gt; that I patched together from pieces of other open source style sheets.&lt;/p&gt;
-
-&lt;p&gt;If you want to use a similar setup you will need to master the basics of HTML and CSS, get comfortable with a few Linux-style commands, learn the Markdown syntax, and get familiar with the most common &lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; commands.&lt;/p&gt;
-
-&lt;p&gt;You will also need a Linux-style terminal emulator. If you use a Windows box, downloading &lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; will give you access to a bare-bones terminal emulator called Git Bash.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Bogota</title>
-      <link>http://www.mariosanchez.org/bogota/</link>
+      <link>http://localhost:1313/bogota/</link>
       <pubDate>Sat, 11 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/bogota/</guid>
+      <guid>http://localhost:1313/bogota/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/9245d7420ec6e64cc74bfa89e38e9b46/tumblr_nmnn7lm1sF1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
 Teleferico to Monserrate.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -273,10 +273,10 @@ Andres Carne de Res.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Dubai</title>
-      <link>http://www.mariosanchez.org/dubai/</link>
+      <link>http://localhost:1313/dubai/</link>
       <pubDate>Sat, 04 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/dubai/</guid>
+      <guid>http://localhost:1313/dubai/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/32ad41d563a3b338800ef59f57f3d70d/tumblr_nm3x24PUSv1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
 Dubai mall.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -308,10 +308,10 @@ Rest stop.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/ssg</link>
+      <link>http://localhost:1313/ssg</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/ssg</guid>
+      <guid>http://localhost:1313/ssg</guid>
       <description>&lt;p&gt;When I started learning how to build websites from scratch one of the hardest concepts for me to grasp was how a static site generator (SSG) worked. Understanding the gist of SSG&amp;rsquo;s took me a while and many false starts along the way.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what I was missing: The key idea to understanding how a SSGs works is that there are two main components in the process: the source files and the static site generator itself. The source files are the raw material and the SSG is the machine. Once the machine processes the raw materials the result is the finished product: a static website made entirely out of HTML, CSS and Javascript files.&lt;/p&gt;
@@ -340,10 +340,10 @@ Rest stop.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Barcelona</title>
-      <link>http://www.mariosanchez.org/barcelona/</link>
+      <link>http://localhost:1313/barcelona/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/barcelona/</guid>
+      <guid>http://localhost:1313/barcelona/</guid>
       <description>&lt;p&gt;Pictures from Barcelona taken in September 2013.&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/c81f530899472352207dc04bdedee661/tumblr_njsq58iFbS1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
@@ -380,10 +380,10 @@ No visit to Barcelona is complete without a tour of Camp Nou, home of FC Barcelo
     
     <item>
       <title>Madrid</title>
-      <link>http://www.mariosanchez.org/madrid/</link>
+      <link>http://localhost:1313/madrid/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/madrid/</guid>
+      <guid>http://localhost:1313/madrid/</guid>
       <description>&lt;p&gt;Madrid is part of my short list of places to visit again. Here are some pictures:&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b0ca27510356be627cfe8ac00714863/tumblr_njuj2p36Yh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
@@ -423,10 +423,10 @@ Although technically not Madrid, Toledo is only about an hour away and makes a g
     
     <item>
       <title>Russia</title>
-      <link>http://www.mariosanchez.org/russia/</link>
+      <link>http://localhost:1313/russia/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/russia/</guid>
+      <guid>http://localhost:1313/russia/</guid>
       <description>&lt;p&gt;Here are some pictures from a visit to St. Petersburg and Moscow in October 2014.&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/345fef073c5dc0a3e57a369bd0c5be67/tumblr_njsc5xYCSL1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
@@ -487,10 +487,10 @@ St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/digital-presence</link>
+      <link>http://localhost:1313/digital-presence</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/digital-presence</guid>
+      <guid>http://localhost:1313/digital-presence</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -547,10 +547,10 @@ St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Unsolicited Financial Advice</title>
-      <link>http://www.mariosanchez.org/money-tips</link>
+      <link>http://localhost:1313/money-tips</link>
       <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/money-tips</guid>
+      <guid>http://localhost:1313/money-tips</guid>
       <description>&lt;p&gt;In this short post I will try to summarize what I would do to start building wealth if I were just starting out. Your circumstances may be different, so proceed with caution and don&amp;rsquo;t take this as gospel.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -577,10 +577,10 @@ St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/mini</link>
+      <link>http://localhost:1313/mini</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mini</guid>
+      <guid>http://localhost:1313/mini</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
 
 &lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way.&lt;/p&gt;
@@ -595,10 +595,10 @@ St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
     
     <item>
       <title>Work The System - Book Review</title>
-      <link>http://www.mariosanchez.org/wts</link>
+      <link>http://localhost:1313/wts</link>
       <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/wts</guid>
+      <guid>http://localhost:1313/wts</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/images/wts.jpg&#34; class=&#34;book&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;I decided to read &lt;a href=&#34;http://amzn.to/1zpyqRi&#34;&gt;Work The System&lt;/a&gt; when it was highly recommended by two respected business thinkers that I follow online: &lt;a href=&#34;http://www.joshkaufman.net&#34;&gt;Josh Kaufman&lt;/a&gt; and &lt;a href=&#34;http://www.sebastianmarshall.com&#34;&gt;Sebastian Marshall&lt;/a&gt;.  Also, because I&amp;rsquo;ve been very busy lately and a deep understanding of systems, standardization and automation will bring more control, less stress, and more time for value-adding activities like thinking, strategizing, and keeping healthy.&lt;/p&gt;
