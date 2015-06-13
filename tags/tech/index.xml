@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Mario Sanchez Carrion</title>
-    <link>http://localhost:1313/tags/tech/</link>
+    <link>http://www.mariosanchez.org/tags/tech/</link>
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://localhost:1313/ssg</link>
+      <link>http://www.mariosanchez.org/ssg</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ssg</guid>
+      <guid>http://www.mariosanchez.org/ssg</guid>
       <description>&lt;p&gt;When I started learning how to build websites from scratch one of the hardest concepts for me to grasp was how a static site generator (SSG) worked. Understanding the gist of SSG&amp;rsquo;s took me a while and many false starts along the way.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what I was missing: The key idea to understanding how a SSGs works is that there are two main components in the process: the source files and the static site generator itself. The source files are the raw material and the SSG is the machine. Once the machine processes the raw materials the result is the finished product: a static website made entirely out of HTML, CSS and Javascript files.&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://localhost:1313/digital-presence</link>
+      <link>http://www.mariosanchez.org/digital-presence</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/digital-presence</guid>
+      <guid>http://www.mariosanchez.org/digital-presence</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -61,7 +61,7 @@
 
 &lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
 
-&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when the simplicity of &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt; won me over. Good things don&amp;rsquo;t last forever, though, and some time after I switched Posterous sold out to Twitter and closed down. I had to take my posts and reluctantly move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
+&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when I discovered &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt;. Good things don&amp;rsquo;t last forever, though, and a short time later Posterous sold out to Twitter and closed down. I had to take my posts and move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
 
 &lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
 
@@ -69,11 +69,11 @@
 
 &lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
 
-&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: since it doesn&amp;rsquo;t use any programming, a hand-coded HTML site needs you to create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not that big of a deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: a hand-coded HTML site with no programming involved requires that you create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not such a big deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
 
-&lt;p&gt;A static site generator is basically a program that takes your content and merges it with predefined templates that determine the layout and the look and feel of your pages, and then spits out your site as a bunch of HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages whenever you make a change to a common element of your site (like the navigation menu, footer, or sidebar)-all done automatically.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;../ssg/&#34;&gt;static site generator&lt;/a&gt; is basically a program that takes your content, merges it with predefined templates and style sheets, and generates a site made of just HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages automatically when you make changes to the common elements of the site (navigation menu, footer, or sidebar).&lt;/p&gt;
 
 &lt;p&gt;While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.&lt;/p&gt;
 
@@ -85,7 +85,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write blog posts and content in general (easy);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML, easy; CSS a little harder);&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML is fairly easy; CSS is a little harder);&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; to record changes to the site and communicate with my web hosting server (hard to wrap your head around the concept, but not that difficult once you &amp;ldquo;get it&amp;rdquo;); and&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cli.learncodethehardway.org/bash_cheat_sheet.pdf&#34;&gt;Linux-style command line essentials&lt;/a&gt; to install the required software and to move quickly around my hard drive folders (easy).&lt;/li&gt;
 &lt;/ul&gt;
@@ -98,15 +98,17 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Finally, I opened an account with &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to create the &lt;a href=&#34;https://github.com/mariobox/mariobox.github.io&#34;&gt;site&amp;rsquo;s remote repository&lt;/a&gt; where I version-control the site&amp;rsquo;s source files, and another repository to version and host the site&amp;rsquo;s public files (those that get served to the web by Github pages to render the site in the browser).&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m extremely happy with this set-up, and for the time being it is all I need: a simple way to generate, update and deploy a minimalistic personal website at $0 cost.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://localhost:1313/gmail</link>
+      <link>http://www.mariosanchez.org/gmail</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/gmail</guid>
+      <guid>http://www.mariosanchez.org/gmail</guid>
       <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
