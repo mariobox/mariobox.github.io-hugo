@@ -232,6 +232,22 @@
     </item>
     
     <item>
+      <title>About This Site</title>
+      <link>http://www.mariosanchez.org/colophon/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/colophon/</guid>
+      <description>&lt;p&gt;This site is a DIY project, built and maintained using a &lt;a href=&#34;http://www.mariosanchez.org/ssg/&#34;&gt;static site generator&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo is extremely fast and doesn&amp;rsquo;t require other programs to run.&lt;/p&gt;
+
+&lt;p&gt;The site&amp;rsquo;s content is written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. Hugo takes the Markdown source files and converts them into a light weight, ready-to-deploy static site made of just HTML and CSS files.&lt;/p&gt;
+
+&lt;p&gt;The source files and the site&amp;rsquo;s HTML files are both versioned with &lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; and stored remotely in &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; in two different repositories. &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; (Github&amp;rsquo;s hosting service) deploys the site&amp;rsquo;s HTML files to the open web.&lt;/p&gt;
+
+&lt;p&gt;For styling, I went for a minimalist look and feel based on a super-simple CSS framework I (appropriately) called &lt;a href=&#34;http://www.mariosanchez.org/css/basic.css&#34;&gt;basic.css&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Good Stuff From Elsewhere</title>
       <link>http://www.mariosanchez.org/good-stuff/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
@@ -246,26 +262,6 @@
 &lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;http://exilelifestyle.com/appropriation/&#34;&gt;Appropriation&lt;/a&gt;: Great article about personal branding, beyond the superficial stuff.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://joshkaufman.net/core-human-skills/&#34;&gt;The 12 Core Human Skills&lt;/a&gt; by Josh Kaufman.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Colophon</title>
-      <link>http://www.mariosanchez.org/colophon/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/colophon/</guid>
-      <description>&lt;p&gt;This site is a DIY project, built and maintained using a &lt;a href=&#34;http://www.mariosanchez.org/ssg/&#34;&gt;static site generator&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo is extremely fast and doesn&amp;rsquo;t require other programs to run.&lt;/p&gt;
-
-&lt;p&gt;The site&amp;rsquo;s content is written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. Hugo takes the Markdown source files and converts them into a light weight, ready-to-deploy static site made of just HTML and CSS files.&lt;/p&gt;
-
-&lt;p&gt;The source files and the site&amp;rsquo;s HTML files are both versioned with &lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; and stored remotely in &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; in two different repositories. &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; (Github&amp;rsquo;s hosting service) deploys the site&amp;rsquo;s HTML files to the open web.&lt;/p&gt;
-
-&lt;p&gt;For styling, I went for a minimalist look and feel based on a responsive CSS framework called &lt;a href=&#34;http://www.mariosanchez.org/css/modena.css&#34;&gt;modena.css&lt;/a&gt; that I patched together from pieces of other open source style sheets.&lt;/p&gt;
-
-&lt;p&gt;If you want to use a similar setup you will need to master the basics of HTML and CSS, get comfortable with a few Linux-style commands, learn the Markdown syntax, and get familiar with the most common &lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; commands.&lt;/p&gt;
-
-&lt;p&gt;You will also need a Linux-style terminal emulator. If you use a Windows box, downloading &lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; will give you access to a bare-bones terminal emulator called Git Bash.&lt;/p&gt;
 </description>
     </item>
     
@@ -403,6 +399,49 @@ No visit to Barcelona is complete without a tour of Camp Nou, home of FC Barcelo
     </item>
     
     <item>
+      <title>Madrid</title>
+      <link>http://www.mariosanchez.org/madrid/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/madrid/</guid>
+      <description>&lt;p&gt;Madrid is part of my short list of places to visit again. Here are some pictures:&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b0ca27510356be627cfe8ac00714863/tumblr_njuj2p36Yh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Churreria San Gines. Possibly the best churros in Madrid. Served with thick hot chocolate. Worth every calory.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/d706936f2cb20c622dea79aac2987721/tumblr_njuj1jaKVL1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+The Gourmet Experience: great gourmet food court in the 9th floor of El Corte Ingles of Gran Via.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/c55b8b9419b8926e08f14069954c92a2/tumblr_njuixeTKsk1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+The Crystal Palace, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/46a6b76312d0809a84f08eec5c84fcd6/tumblr_njuj03w7SI1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Go to Mercado San Miguel, next to Plaza Mayor, for mid-morning tapas and cava.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/71cc0a196268b67b13fc256a2f910561/tumblr_njuiyphO491qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Exhibit at Museo Reina Sofia.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/2863bbadaf415992136c74ac2c0f4d63/tumblr_njuiw3SHBf1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+AVE high speed train.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/60b37e7e77da07881d2212b8cf41c22e/tumblr_njuiuyB5Jq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Jamon Iberico de Bellota. Quite a treat.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/f28f3ff1659c5bb27df50621699248e4/tumblr_njuituNzRh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Taking a shot at rowing, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/91e6d2c13c2f1d084a77931bd19d06e6/tumblr_njuisqjsJG1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Madrid&#39;s Plaza Mayor.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/e39c6aa8b1b34493f44b30e00a5227a4/tumblr_njuirkELPq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Cambio de Guardia at Palacio Real. Happens every Wednesday (except July, August and September) at 11:00am. Worth it.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/98ed24c344e08314ad7f69a48af3997f/tumblr_njujlcOUmQ1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Although technically not Madrid, Toledo is only about an hour away and makes a great day trip. Pictured: the Alcazar.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Russia</title>
       <link>http://www.mariosanchez.org/russia/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
@@ -463,49 +502,6 @@ Street view from inside the Hermitage.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/965f60bcea56ba1efcdd7cedcf70e9be/tumblr_njsb78r0lH1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
 St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Madrid</title>
-      <link>http://www.mariosanchez.org/madrid/</link>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/madrid/</guid>
-      <description>&lt;p&gt;Madrid is part of my short list of places to visit again. Here are some pictures:&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b0ca27510356be627cfe8ac00714863/tumblr_njuj2p36Yh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Churreria San Gines. Possibly the best churros in Madrid. Served with thick hot chocolate. Worth every calory.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/d706936f2cb20c622dea79aac2987721/tumblr_njuj1jaKVL1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-The Gourmet Experience: great gourmet food court in the 9th floor of El Corte Ingles of Gran Via.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/c55b8b9419b8926e08f14069954c92a2/tumblr_njuixeTKsk1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-The Crystal Palace, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/46a6b76312d0809a84f08eec5c84fcd6/tumblr_njuj03w7SI1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Go to Mercado San Miguel, next to Plaza Mayor, for mid-morning tapas and cava.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/71cc0a196268b67b13fc256a2f910561/tumblr_njuiyphO491qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Exhibit at Museo Reina Sofia.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/2863bbadaf415992136c74ac2c0f4d63/tumblr_njuiw3SHBf1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-AVE high speed train.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/60b37e7e77da07881d2212b8cf41c22e/tumblr_njuiuyB5Jq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Jamon Iberico de Bellota. Quite a treat.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/f28f3ff1659c5bb27df50621699248e4/tumblr_njuituNzRh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Taking a shot at rowing, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/91e6d2c13c2f1d084a77931bd19d06e6/tumblr_njuisqjsJG1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Madrid&#39;s Plaza Mayor.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/e39c6aa8b1b34493f44b30e00a5227a4/tumblr_njuirkELPq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Cambio de Guardia at Palacio Real. Happens every Wednesday (except July, August and September) at 11:00am. Worth it.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/98ed24c344e08314ad7f69a48af3997f/tumblr_njujlcOUmQ1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Although technically not Madrid, Toledo is only about an hour away and makes a great day trip. Pictured: the Alcazar.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
