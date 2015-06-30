@@ -6,8 +6,30 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact Me</title>
+      <link>http://www.mariosanchez.org/contact/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/contact/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../images/mypictr_165x165.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The best way to reach me is by Email: &lt;a href=&#34;mailto:mario@mariosanchez.org&#34;&gt;mario@mariosanchez.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also find me in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linkedin.com/in/mariobox&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.twitter.com/mariobox&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.github.com/mariobox&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.teamtreehouse.com/mariosanchezcarrion&#34;&gt;Treehouse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.instagram.com/mariosc305&#34;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Using The Best Tools</title>
@@ -237,13 +259,27 @@
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>http://www.mariosanchez.org/colophon/</guid>
-      <description>&lt;p&gt;This site is a DIY project, built and maintained using a &lt;a href=&#34;http://www.mariosanchez.org/ssg/&#34;&gt;static site generator&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo is extremely fast and doesn&amp;rsquo;t require other programs to run.&lt;/p&gt;
+      <description>&lt;p&gt;This site is a DIY project, created using basic front end web development tools and techniques. The goal of this site is to serve as a minimal personal website where I can post articles, pictures and updates, with the least amount of maintenance possible.&lt;/p&gt;
 
-&lt;p&gt;The site&amp;rsquo;s content is written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. Hugo takes the Markdown source files and converts them into a light weight, ready-to-deploy static site made of just HTML and CSS files.&lt;/p&gt;
+&lt;p&gt;These are the tools and resources I&amp;rsquo;m currently using:&lt;/p&gt;
 
-&lt;p&gt;The source files and the site&amp;rsquo;s HTML files are both versioned with &lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; and stored remotely in &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; in two different repositories. &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; (Github&amp;rsquo;s hosting service) deploys the site&amp;rsquo;s HTML files to the open web.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt; static site generator. After trying Jekyll for a while, I find Hugo much more versatile our of the box. It is fast, easy to set up and a pleasure to use.  Plus, it doesn&amp;rsquo;t require other programs to run. Everything I need, nothing that I don&amp;rsquo;t.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;For styling, I went for a minimalist look and feel based on a super-simple CSS framework I (appropriately) called &lt;a href=&#34;http://www.mariosanchez.org/css/basic.css&#34;&gt;basic.css&lt;/a&gt;.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write the content of blog posts and pages.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;HTML5&lt;/strong&gt; and &lt;strong&gt;CSS3&lt;/strong&gt; to tweak Hugo&amp;rsquo;s templates and change the look and feel of the site as I please.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.git-scm.com&#34;&gt;Git&lt;/a&gt; to version control the site&amp;rsquo;s files, and to upload changes to the server. Since I&amp;rsquo;m still using Windows, I use the &lt;a href=&#34;(https://msysgit.github.io/&#34;&gt;Git for Windows&lt;/a&gt; app. However, I don&amp;rsquo;t use the GUI but the bare-bones terminal emulator that comes with it, called Git Bash.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to maintain my site&amp;rsquo;s files in a remote repository. Actually, I use two different repositories: one to host the site&amp;rsquo;s source files and another to host the HTML and CSS files that are used by the server to deploy the site to the open web.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt; to host my site. Github let&amp;rsquo;s you host your site for free, as long as it is non-commercial and you only use HTML and CSS.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The fonts I am currently using are &lt;strong&gt;Roboto&lt;/strong&gt; and &lt;strong&gt;Roboto Condensed&lt;/strong&gt;, both available in &lt;a href=&#34;http://www.google.com/fonts/&#34;&gt;Google Fonts&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For styling, I created an &lt;a href=&#34;http://www.mariosanchez.org/css/basic.css&#34;&gt;ultra-simple CSS file&lt;/a&gt; that renders a one-column responsive site that looks good in laptops, tablets and phones.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -399,49 +435,6 @@ No visit to Barcelona is complete without a tour of Camp Nou, home of FC Barcelo
     </item>
     
     <item>
-      <title>Madrid</title>
-      <link>http://www.mariosanchez.org/madrid/</link>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/madrid/</guid>
-      <description>&lt;p&gt;Madrid is part of my short list of places to visit again. Here are some pictures:&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b0ca27510356be627cfe8ac00714863/tumblr_njuj2p36Yh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Churreria San Gines. Possibly the best churros in Madrid. Served with thick hot chocolate. Worth every calory.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/d706936f2cb20c622dea79aac2987721/tumblr_njuj1jaKVL1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-The Gourmet Experience: great gourmet food court in the 9th floor of El Corte Ingles of Gran Via.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/c55b8b9419b8926e08f14069954c92a2/tumblr_njuixeTKsk1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-The Crystal Palace, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/46a6b76312d0809a84f08eec5c84fcd6/tumblr_njuj03w7SI1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Go to Mercado San Miguel, next to Plaza Mayor, for mid-morning tapas and cava.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/71cc0a196268b67b13fc256a2f910561/tumblr_njuiyphO491qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Exhibit at Museo Reina Sofia.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/2863bbadaf415992136c74ac2c0f4d63/tumblr_njuiw3SHBf1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-AVE high speed train.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/60b37e7e77da07881d2212b8cf41c22e/tumblr_njuiuyB5Jq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Jamon Iberico de Bellota. Quite a treat.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/f28f3ff1659c5bb27df50621699248e4/tumblr_njuituNzRh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Taking a shot at rowing, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/91e6d2c13c2f1d084a77931bd19d06e6/tumblr_njuisqjsJG1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Madrid&#39;s Plaza Mayor.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/e39c6aa8b1b34493f44b30e00a5227a4/tumblr_njuirkELPq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Cambio de Guardia at Palacio Real. Happens every Wednesday (except July, August and September) at 11:00am. Worth it.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/98ed24c344e08314ad7f69a48af3997f/tumblr_njujlcOUmQ1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-Although technically not Madrid, Toledo is only about an hour away and makes a great day trip. Pictured: the Alcazar.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Russia</title>
       <link>http://www.mariosanchez.org/russia/</link>
       <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
@@ -502,6 +495,49 @@ Street view from inside the Hermitage.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/965f60bcea56ba1efcdd7cedcf70e9be/tumblr_njsb78r0lH1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
 St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Madrid</title>
+      <link>http://www.mariosanchez.org/madrid/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/madrid/</guid>
+      <description>&lt;p&gt;Madrid is part of my short list of places to visit again. Here are some pictures:&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b0ca27510356be627cfe8ac00714863/tumblr_njuj2p36Yh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Churreria San Gines. Possibly the best churros in Madrid. Served with thick hot chocolate. Worth every calory.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/d706936f2cb20c622dea79aac2987721/tumblr_njuj1jaKVL1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+The Gourmet Experience: great gourmet food court in the 9th floor of El Corte Ingles of Gran Via.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/c55b8b9419b8926e08f14069954c92a2/tumblr_njuixeTKsk1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+The Crystal Palace, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/46a6b76312d0809a84f08eec5c84fcd6/tumblr_njuj03w7SI1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Go to Mercado San Miguel, next to Plaza Mayor, for mid-morning tapas and cava.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/71cc0a196268b67b13fc256a2f910561/tumblr_njuiyphO491qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Exhibit at Museo Reina Sofia.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/2863bbadaf415992136c74ac2c0f4d63/tumblr_njuiw3SHBf1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+AVE high speed train.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/60b37e7e77da07881d2212b8cf41c22e/tumblr_njuiuyB5Jq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Jamon Iberico de Bellota. Quite a treat.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/f28f3ff1659c5bb27df50621699248e4/tumblr_njuituNzRh1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Taking a shot at rowing, at Parque del Buen Retiro.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/91e6d2c13c2f1d084a77931bd19d06e6/tumblr_njuisqjsJG1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Madrid&#39;s Plaza Mayor.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/e39c6aa8b1b34493f44b30e00a5227a4/tumblr_njuirkELPq1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Cambio de Guardia at Palacio Real. Happens every Wednesday (except July, August and September) at 11:00am. Worth it.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/98ed24c344e08314ad7f69a48af3997f/tumblr_njujlcOUmQ1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
+Although technically not Madrid, Toledo is only about an hour away and makes a great day trip. Pictured: the Alcazar.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -594,24 +630,6 @@ St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;With this set up, plus good money habits, you should be well on your way to a comfortable financial position.&lt;/p&gt;
 
 &lt;p&gt;Remember that these are just a few tips, and that there are plenty of good books in the personal finance space that you can read. Two that I recommend are: &lt;a href=&#34;http://amzn.to/1EzmBcC&#34;&gt;The Millionaire Next Door&lt;/a&gt;, by William D. Danko, to start developing good money habits, and &lt;a href=&#34;http://amzn.to/0761147489&#34;&gt;I Will Teach You To Be Rich&lt;/a&gt;, by Ramit Sethi, for actionable tips on setting up your financial accounts and designing the right systems to manage your money.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/mini</link>
-      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/mini</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
-
-&lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way.&lt;/p&gt;
-
-&lt;p&gt;Minimalism starts by understanding that everything we surround ourselves with either adds value to our life or is just taking space. Things add value by being useful or by bringing us joy. Everything we let into our lives has to earn it&amp;rsquo;s place.&lt;/p&gt;
-
-&lt;p&gt;A good way to make minimalism a daily practice is to get into the habit of constantly asking ourselves this question: &amp;ldquo;What is this doing here?&amp;rdquo; If it&amp;rsquo;s not adding value or bringing us joy, get rid of it. Throw it away or give it to someone who may need it/like it/want it. Here&amp;rsquo;s the key, though: whatever we decide to do we must decide quickly, or the resistance (laziness, procrastination, the just-in-case syndrome) will take over.&lt;/p&gt;
-
-&lt;p&gt;Keep it up until this daily practice becomes a habit, and you&amp;rsquo;ll be surprised by how eliminating physical clutter contributes to getting rid of mental clutter too. I&amp;rsquo;ve noticed that since I&amp;rsquo;m doing this I&amp;rsquo;m able to think more clearly, and have an easier time getting organized and getting things done.&lt;/p&gt;
 </description>
     </item>
     
