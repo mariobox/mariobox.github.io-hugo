@@ -391,6 +391,8 @@ Rest stop.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;In order to use a SSG you will need to learn, at a bare minimum, the basics of HTML and CSS, a few key Linux-style commands, how to write in Markdown, and have access to a Linux-style terminal emulator.&lt;/p&gt;
 
 &lt;p&gt;For this site, I am currently using a SSG called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. It is lightning fast and doesn&amp;rsquo;t require you to download any program other than the Hugo executable. Since I&amp;rsquo;m working in a Windows box, I use a terminal emulator called &lt;a href=&#34;https://msysgit.github.io/&#34;&gt;Git Bash&lt;/a&gt;. I am deploying the resulting static files in &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; using &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; for version control and to push (upload) my site to Github Page&amp;rsquo;s server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Read &lt;a href=&#34;http://davidwalsh.name/introduction-static-site-generators&#34;&gt;this article&lt;/a&gt; for a more comprehensive explanation of how static site generators work.&lt;/p&gt;
 </description>
     </item>
     
