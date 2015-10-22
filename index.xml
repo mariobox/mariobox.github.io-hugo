@@ -6,8 +6,38 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What I&#39;m Doing Now</title>
+      <link>http://www.mariosanchez.org/now</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/now</guid>
+      <description>&lt;p&gt;I spend most of the time at my day job. Other than that, this is what I&amp;rsquo;m doing now:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Start my day with a 30-45 stretching routine followed by a healthy breakfast. Every day.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Simplifying my life and constantly getting rid of stuff, with a &lt;a href=&#34;http://www.mariosanchez.org/mini&#34;&gt;practical minimalism&lt;/a&gt; frame of mind.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Becoming more active managing and growing my investments. I am now focusing on undervalued stocks and real estate.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Reading, mainly personal development and investment books. Currently reading:  &lt;a href=&#34;http://www.amazon.com/Other-Peoples-Money-Housing-Greatest/dp/0142180718&#34;&gt;Other People&amp;rsquo;s Money: Inside the Housing Crisis and the Demise of the Greatest Real Estate Deal Ever Made&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learning to use a static site generator to update this site. Currently using &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; in conjuction with a responsive cascading style sheet.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Planning trips for the next few months. Possible destinations: Portland, Raleigh, Lima Peru, Greece.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Figuring out how will I spend my next 30 years. No specifics yet, but it will be something I enjoy and am good at, and not dictated by the traditional yardsticks of success, like money, status or the opinion of others. The aim is to be happy and not stressed.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This page was inspired by &lt;a href=&#34;http://www.sivers.org/nowff&#34;&gt;Derek Sivers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last Updated: October 20, 2015&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Brooklyn and Manhattan</title>
@@ -294,6 +324,24 @@
     </item>
     
     <item>
+      <title>Good Stuff From Elsewhere</title>
+      <link>http://www.mariosanchez.org/good-stuff/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/good-stuff/</guid>
+      <description>&lt;p&gt;Interesting links from the web, ordered by date added.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-19 |&lt;/span&gt; &lt;a href=&#34;http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet&#34;&gt;The Mission To Decentralize The Internet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://medium.com/lets-make-things/navigating-the-product-maze-f7dce97eeb34&#34;&gt;Navigating the Product Maze&lt;/a&gt;: How to design a product.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;http://exilelifestyle.com/appropriation/&#34;&gt;Appropriation&lt;/a&gt;: Great article about personal branding, beyond the superficial stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://joshkaufman.net/core-human-skills/&#34;&gt;The 12 Core Human Skills&lt;/a&gt; by Josh Kaufman.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>About This Site</title>
       <link>http://www.mariosanchez.org/colophon/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
@@ -320,24 +368,6 @@
 
 &lt;li&gt;&lt;p&gt;For styling, I am using a responsive css sheet called &lt;em&gt;framework.css&lt;/em&gt; created by &lt;a href=&#34;http://www.evbogue&#34;&gt;Ev Bogue&lt;/a&gt; with some minor modifications to the font and line height selections.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Good Stuff From Elsewhere</title>
-      <link>http://www.mariosanchez.org/good-stuff/</link>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/good-stuff/</guid>
-      <description>&lt;p&gt;Interesting links from the web, ordered by date added.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-19 |&lt;/span&gt; &lt;a href=&#34;http://www.newyorker.com/tech/elements/the-mission-to-decentralize-the-internet&#34;&gt;The Mission To Decentralize The Internet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://medium.com/lets-make-things/navigating-the-product-maze-f7dce97eeb34&#34;&gt;Navigating the Product Maze&lt;/a&gt;: How to design a product.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;http://exilelifestyle.com/appropriation/&#34;&gt;Appropriation&lt;/a&gt;: Great article about personal branding, beyond the superficial stuff.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;date&#34;&gt;2015-04-11 |&lt;/span&gt; &lt;a href=&#34;https://joshkaufman.net/core-human-skills/&#34;&gt;The 12 Core Human Skills&lt;/a&gt; by Josh Kaufman.&lt;/p&gt;
 </description>
     </item>
     
@@ -580,68 +610,6 @@ Street view from inside the Hermitage.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/965f60bcea56ba1efcdd7cedcf70e9be/tumblr_njsb78r0lH1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
 St. Petersburg. View from the apartment.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/digital-presence</link>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/digital-presence</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
-
-&lt;p&gt;When I talk about a having a digital presence, though, I&amp;rsquo;m not talking about being a tenant in Zuck&amp;rsquo;s massive apartment complex, but rather of building and owning our own digital home: a website that we can deploy using our own domain, designed and tweaked to our liking, and where we call the shots.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-early-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Early Days&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;ve had a digital presence through self-deployed websites (mainly as a hobby) since the early 2000&amp;rsquo;s. I started off by learning some basic HTML tags and hastily coding a website that I used to publish notes-to-self about search engine optimization, a topic I was deeply interested in back then. Then, Web 2.0 came along.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-wordpress-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Wordpress Days&lt;/h3&gt;
-
-&lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
-
-&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when I discovered &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt;. Good things don&amp;rsquo;t last forever, though, and a short time later Posterous sold out to Twitter and closed down. I had to take my posts and move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
-
-&lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
-
-&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
-
-&lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
-
-&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: a hand-coded HTML site with no programming involved requires that you create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not such a big deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
-
-&lt;p&gt;A &lt;a href=&#34;../ssg/&#34;&gt;static site generator&lt;/a&gt; is basically a program that takes your content, merges it with predefined templates and style sheets, and generates a site made of just HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages automatically when you make changes to the common elements of the site (navigation menu, footer, or sidebar).&lt;/p&gt;
-
-&lt;p&gt;While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.&lt;/p&gt;
-
-&lt;p&gt;The first static site generator I used was &lt;a href=&#34;http://www.jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;. After a few months, though, I started to find Jekyll somehow limiting (it&amp;rsquo;s a fairly old SSG), so I gave &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; a try and have been using it ever since. I am extremely happy with Hugo: it is fast, intuitive, and just needs one executable file to run (no complicated dependencies).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Tools of the Trade&lt;/h3&gt;
-
-&lt;p&gt;In order to run my site using a static site generator I had to learn a few things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write blog posts and content in general (easy);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML is fairly easy; CSS is a little harder);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; to record changes to the site and communicate with my web hosting server (hard to wrap your head around the concept, but not that difficult once you &amp;ldquo;get it&amp;rdquo;); and&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cli.learncodethehardway.org/bash_cheat_sheet.pdf&#34;&gt;Linux-style command line essentials&lt;/a&gt; to install the required software and to move quickly around my hard drive folders (easy).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Aside from that, I had to download the following programs:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; to version control my site and access a command line emmulator called Git Bash; and&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; executable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Finally, I opened an account with &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to create the &lt;a href=&#34;https://github.com/mariobox/mariobox.github.io&#34;&gt;site&amp;rsquo;s remote repository&lt;/a&gt; where I version-control the site&amp;rsquo;s source files, and another repository to version and host the site&amp;rsquo;s public files (those that get served to the web by Github pages to render the site in the browser).&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m extremely happy with this set-up, and for the time being it is all I need: a simple way to generate, update and deploy a minimalistic personal website at $0 cost.&lt;/p&gt;
 </description>
     </item>
     
