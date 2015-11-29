@@ -1,0 +1,56 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+
+/* TEAM */
+
+    Owner, Editor & Developer: Mario Sanchez Carrion
+    Contact: http://mariosanchez.org/contact/
+    Twitter: @mariobox
+    Location: Miami, FL
+
+
+/* THANKS */
+
+    Hugo Author: Steve Francia
+    Contact: http://spf13.com
+    Twitter: @spf13
+
+    Hugo Contributor: Bjorn Erik Pedersen
+    Contact: http://bep.is/
+
+    Hugo Community: http://gohugo.io/community/mailing-list/
+
+    Github Team: https://github.com/about/team
+
+    Tech Influencer and Mentor: Ev Bogue
+    Contact: http://evbogue.com
+
+    
+/* TECHNOLOGY */
+
+    Static Site Generator: Hugo, http://gohugo.io/
+
+    Language Used by Hugo, go, http://golang.org/
+
+    Site Base: HTML5, CSS3, Javascript
+
+    Version Control: Git, http://git-scm.com
+
+    Site Source Repository: Github, https://github.com/mariobox/Hugo-Source
+
+    Site Web Host: Github Pages, http://pages.github.com
+
+    Font Host: Google Web Fonts, http://fonts.google.com
+
+    Markup: Markdown, http://daringfireball.net/projects/markdown/
+
+    Domain Registrar: Godaddy, http://godaddy.com
+
+
+/* SITE */
+
+	Last update: See latest commit here https://github.com/mariobox/mariobox.github.io
+	Language: English / Spanish
+	Doctype: HTML5
+	
