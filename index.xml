@@ -379,7 +379,7 @@ are great!).&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;The fonts I am currently using are &lt;strong&gt;Roboto&lt;/strong&gt; and &lt;strong&gt;Roboto Condensed&lt;/strong&gt;, both available in &lt;a href=&#34;http://www.google.com/fonts/&#34;&gt;Google Fonts&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;For styling, I am using a responsive css sheet called &lt;em&gt;framework.css&lt;/em&gt; created by &lt;a href=&#34;http://www.evbogue&#34;&gt;Ev Bogue&lt;/a&gt; with some minor modifications to the font and line height selections.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For styling, I am using a minimal css sheet that I put together from scratch. I used to run a resposive multi-column framework but for the effects of this site (just one column) it was overkill, so I stopped using it. For more complicated sites, though, a responsive framework is the way to go.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I have also created a &lt;a href=&#34;../humans.txt&#34;&gt;humans.txt&lt;/a&gt; file, which contains pretty much the same information as above, but in a more standard format, as suggested by the &lt;a href=&#34;http://humanstxt.org&#34;&gt;Humanstxt&lt;/a&gt; organization.&lt;/p&gt;
