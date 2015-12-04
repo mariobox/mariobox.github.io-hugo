@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Mario Sanchez Carrion</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://www.mariosanchez.org/blog/</link>
     <description>Recent content in Blog on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Nov 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.mariosanchez.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Power Morning Productivity Bubble</title>
-      <link>http://localhost:1313/mornings</link>
+      <link>http://www.mariosanchez.org/mornings</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mornings</guid>
+      <guid>http://www.mariosanchez.org/mornings</guid>
       <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
 
 &lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
@@ -38,10 +38,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>What I&#39;m Doing Now</title>
-      <link>http://localhost:1313/now</link>
+      <link>http://www.mariosanchez.org/now</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/now</guid>
+      <guid>http://www.mariosanchez.org/now</guid>
       <description>&lt;p&gt;This is how I spend my time these days:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -72,10 +72,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Using The Best Tools</title>
-      <link>http://localhost:1313/best-tools</link>
+      <link>http://www.mariosanchez.org/best-tools</link>
       <pubDate>Sat, 20 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/best-tools</guid>
+      <guid>http://www.mariosanchez.org/best-tools</guid>
       <description>&lt;p&gt;When I was growing up in Peru back in the 80&amp;rsquo;s I used to play tennis every weekend. I was never very good at it, but I loved to have the coolest rackets and shoes. Back then that meant either a &lt;a href=&#34;http://www.80s-tennis.com/pages/maxply-fort_80-ad.html&#34;&gt;Dunlop Maxply&lt;/a&gt; or a &lt;a href=&#34;http://racquetmuseum.com/2014/01/23/wilson-jack-kramer-autograph/&#34;&gt;Wilson Jack Kramer&lt;/a&gt; racket, and a pair of &lt;a href=&#34;https://en.wikipedia.org/wiki/Adidas_Stan_Smith&#34;&gt;Adidas Stan Smith&lt;/a&gt; tennis shoes. Needless to say, none of those tools made me be a better player. They were just status symbols.&lt;/p&gt;
 
 &lt;p&gt;There is a right time for buying yourself great tools, but it is usually not when you are just a beginner or a dabbler. &lt;mark&gt;At the early stages of any endevour, focused and disciplined practice will get you further than using the latest gadgets&lt;/mark&gt;.&lt;/p&gt;
@@ -98,10 +98,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Building Blocks of Success</title>
-      <link>http://localhost:1313/success/</link>
+      <link>http://www.mariosanchez.org/success/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/success/</guid>
+      <guid>http://www.mariosanchez.org/success/</guid>
       <description>
 
 &lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
@@ -199,10 +199,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://localhost:1313/ssg</link>
+      <link>http://www.mariosanchez.org/ssg</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ssg</guid>
+      <guid>http://www.mariosanchez.org/ssg</guid>
       <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
@@ -235,10 +235,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://localhost:1313/digital-presence</link>
+      <link>http://www.mariosanchez.org/digital-presence</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/digital-presence</guid>
+      <guid>http://www.mariosanchez.org/digital-presence</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -297,10 +297,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Unsolicited Financial Advice</title>
-      <link>http://localhost:1313/money-tips</link>
+      <link>http://www.mariosanchez.org/money-tips</link>
       <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/money-tips</guid>
+      <guid>http://www.mariosanchez.org/money-tips</guid>
       <description>&lt;p&gt;In this short post I will try to summarize what I would do to start building wealth if I were just starting out. Your circumstances may be different, so proceed with caution and don&amp;rsquo;t take this as gospel.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -327,10 +327,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Practical Minimalism</title>
-      <link>http://localhost:1313/mini</link>
+      <link>http://www.mariosanchez.org/mini</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/mini</guid>
+      <guid>http://www.mariosanchez.org/mini</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
 
 &lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  &lt;mark&gt;Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way&lt;/mark&gt;.&lt;/p&gt;
@@ -345,10 +345,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Work The System - Book Review</title>
-      <link>http://localhost:1313/wts</link>
+      <link>http://www.mariosanchez.org/wts</link>
       <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/wts</guid>
+      <guid>http://www.mariosanchez.org/wts</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/images/wts.jpg&#34; class=&#34;book&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;I decided to read &lt;a href=&#34;http://amzn.to/1zpyqRi&#34;&gt;Work The System&lt;/a&gt; when it was highly recommended by two respected business thinkers that I follow online: &lt;a href=&#34;http://www.joshkaufman.net&#34;&gt;Josh Kaufman&lt;/a&gt; and &lt;a href=&#34;http://www.sebastianmarshall.com&#34;&gt;Sebastian Marshall&lt;/a&gt;.  Also, because I&amp;rsquo;ve been very busy lately and a deep understanding of systems, standardization and automation will bring more control, less stress, and more time for value-adding activities like thinking, strategizing, and keeping healthy.&lt;/p&gt;
@@ -387,10 +387,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>How To Build a Brand</title>
-      <link>http://localhost:1313/brand</link>
+      <link>http://www.mariosanchez.org/brand</link>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/brand</guid>
+      <guid>http://www.mariosanchez.org/brand</guid>
       <description>
 
 &lt;p&gt;In the paragraphs below I am outlining a basic roadmap you can follow to build your small business brand. You will still have to put out a lot of work, but it will help you clarify the process and ask better questions along the way.&lt;/p&gt;
@@ -655,10 +655,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Sam&#39;s Rules for Building a Business</title>
-      <link>http://localhost:1313/sams-rules</link>
+      <link>http://www.mariosanchez.org/sams-rules</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/sams-rules</guid>
+      <guid>http://www.mariosanchez.org/sams-rules</guid>
       <description>
 
 &lt;p&gt;A few years ago, during a trip to Bentonville, Arkansas, I had the chance to visit Walmart&amp;#8217;s first store (originally called Walton&amp;#8217;s 5-10), and picked up a leaflet containing Sam Walton&amp;#8217;s 10 rules for building a successful business. Pearls of wisdom, straight from the man who built the world&amp;#8217;s most successful retailer out of nothing. Since I haven&amp;rsquo;t been able to find a link to it on the Internet, I am transcribing them below (all of them are great, but I especially like #7, #9 and #10):&lt;/p&gt;
@@ -707,10 +707,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://localhost:1313/gmail</link>
+      <link>http://www.mariosanchez.org/gmail</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/gmail</guid>
+      <guid>http://www.mariosanchez.org/gmail</guid>
       <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
@@ -733,10 +733,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Smoking Room</title>
-      <link>http://localhost:1313/smoking-room</link>
+      <link>http://www.mariosanchez.org/smoking-room</link>
       <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/smoking-room</guid>
+      <guid>http://www.mariosanchez.org/smoking-room</guid>
       <description>&lt;p&gt;I&amp;rsquo;m finally back in Shanghai and about to enter my hotel room. I swipe my key card over the sensor, open the door, and immediately sense a strange smell. I walk in a few steps, take a deep breath and think: &amp;ldquo;somebody has been smoking in this room&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Perhaps it&amp;rsquo;s just me&amp;rdquo;, I question myself, as I drop my suitcase and walk toward the opposite side of the room: &amp;ldquo;No&amp;hellip; still cigarette smell&amp;rdquo;, I think. Then I glance at the nightstand and, aha! the proof: an ashtray, and, neatly resting on its edges, a matchbox. They have given me a freaking smoking room.&lt;/p&gt;
@@ -761,10 +761,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Tu Marca Personal</title>
-      <link>http://localhost:1313/marca-personal</link>
+      <link>http://www.mariosanchez.org/marca-personal</link>
       <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/marca-personal</guid>
+      <guid>http://www.mariosanchez.org/marca-personal</guid>
       <description>&lt;p&gt;Mucho se ha escrito sobre el concepto de marca personal. A juzgar por gran parte del material que se puede encontrar en Internet, podr&amp;iacute;a pensarse que se trata de un concepto superficial y fr&amp;iacute;volo. Por ello, en los p&amp;aacute;rrafos que siguen intentare plasmar mi opini&amp;oacute;n sobre el tema y explicar por que es importante.&lt;/p&gt;
 
 &lt;h2 id=&#34;un-poco-de-historia:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;Un Poco de Historia&lt;/h2&gt;
