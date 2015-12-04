@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Mario Sanchez Carrion</title>
-    <link>http://www.mariosanchez.org/tags/tech/</link>
+    <link>http://localhost:1313/tags/tech/</link>
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/ssg</link>
+      <link>http://localhost:1313/ssg</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/ssg</guid>
+      <guid>http://localhost:1313/ssg</guid>
       <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/digital-presence</link>
+      <link>http://localhost:1313/digital-presence</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/digital-presence</guid>
+      <guid>http://localhost:1313/digital-presence</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -109,10 +109,10 @@
     
     <item>
       <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://www.mariosanchez.org/gmail</link>
+      <link>http://localhost:1313/gmail</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/gmail</guid>
+      <guid>http://localhost:1313/gmail</guid>
       <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
