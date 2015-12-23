@@ -187,13 +187,13 @@ December 23, 2015 - 696 Words
 <li>footer.html (for copyright or similar info)</li>
 </ul>
 
-<p>Place this templates in a folder called /layouts/partials/. These partial templates can be called from any other template (for example from single.hmtl or list.html) by simply using the following code within those templates:</p>
+<p>Place these templates in a folder called /layouts/partials/. These partial templates can be called from any other template (for example from single.hmtl or list.html) by simply using the following code within those templates:</p>
 
 <pre><code>{{ partial "header.html" . }}</code></pre>
 
 <p>or</p>
 
-<pre><code>{{ partial "footer.html . "}}</code></pre>
+<pre><code>{{ partial "footer.html" . }}</code></pre>
 
 <hr />
 
@@ -231,6 +231,8 @@ December 23, 2015 - 696 Words
 
 <p>If everything went well Hugo will generate your website and you will be able to see it at <a href="http://localhost:1313">http://localhost:1313</a> .</p>
 
+<hr />
+
 <h4 id="get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd">Get your site ready to upload</h4>
 
 <p>Once you&rsquo;re satisfied with the way your site looks, run the hugo command by itself:</p>
@@ -241,9 +243,9 @@ December 23, 2015 - 696 Words
 
 <hr />
 
-<p><em>Update:</em></p>
+<p><strong>Update:</strong></p>
 
-<p>If you don&rsquo;t want to start from scratch, I have created a Minimal Hugo Site and git pushed the <a href="https://github.com/mariobox/MinimalHugoSite">source code</a> to github.</p>
+<p>If you don&rsquo;t want to start from scratch, I have created a Minimal Hugo Site and git pushed the <a href="https://github.com/mariobox/MinimalHugoSite">source code</a> to Github.</p>
 
 <p>You can simply clone the repository by running:</p>
 

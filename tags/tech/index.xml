@@ -140,13 +140,13 @@
 &lt;li&gt;footer.html (for copyright or similar info)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Place this templates in a folder called /layouts/partials/. These partial templates can be called from any other template (for example from single.hmtl or list.html) by simply using the following code within those templates:&lt;/p&gt;
+&lt;p&gt;Place these templates in a folder called /layouts/partials/. These partial templates can be called from any other template (for example from single.hmtl or list.html) by simply using the following code within those templates:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;{{ partial &#34;header.html&#34; . }}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ partial &#34;footer.html . &#34;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;{{ partial &#34;footer.html&#34; . }}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
@@ -184,6 +184,8 @@
 
 &lt;p&gt;If everything went well Hugo will generate your website and you will be able to see it at &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt; .&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
@@ -194,9 +196,9 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you don&amp;rsquo;t want to start from scratch, I have created a Minimal Hugo Site and git pushed the &lt;a href=&#34;https://github.com/mariobox/MinimalHugoSite&#34;&gt;source code&lt;/a&gt; to github.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to start from scratch, I have created a Minimal Hugo Site and git pushed the &lt;a href=&#34;https://github.com/mariobox/MinimalHugoSite&#34;&gt;source code&lt;/a&gt; to Github.&lt;/p&gt;
 
 &lt;p&gt;You can simply clone the repository by running:&lt;/p&gt;
 
