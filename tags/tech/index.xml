@@ -6,8 +6,203 @@
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How To Create a Minimal Hugo Site</title>
+      <link>http://www.mariosanchez.org/minimalhugo</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/minimalhugo</guid>
+      <description>
+
+&lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
+
+&lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;install-hugo-in-a-work-folder-like-c-users-project:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install hugo in a work folder like C:\Users\Project&lt;/h4&gt;
+
+&lt;p&gt;Go to your terminal and from your root go to your /Project folder:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Project&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-project-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of Project called /projecthugo:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site ~/Project/projecthugo/&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should now see a skeleton with the basic structure of a Hugo site but no content or any of the folders or files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;archetypes  config.toml content layouts static data&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;installing-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Installing Hugo in your path.&lt;/h4&gt;
+
+&lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
+
+&lt;p&gt;Do &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;again and you should now see the hugo executable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;archetypes  config.toml content layouts static data hugo.exe&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open post1.md with your favorite text editor and you will see three fields already pre-written in the top section of the file, called &amp;ldquo;front matter&amp;rdquo; (between the +++ marks). By default, Hugo includes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Description&lt;/li&gt;
+&lt;li&gt;Date and&lt;/li&gt;
+&lt;li&gt;Draft&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can add more parameters later. For example, you may want to add a Title (if not, Hugo will &amp;ldquo;guess&amp;rdquo; the title from the file name).&lt;/p&gt;
+
+&lt;p&gt;Update the Description field and write some content below the second +++ line (leave one or two lines blank at the beginning).&lt;/p&gt;
+
+&lt;p&gt;If you want your post to go live change &lt;pre&gt;&lt;code&gt;draft = true&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;for&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;draft = false&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create another post called post2.md following a similar process.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;create-a-couple-of-main-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of main pages that are not posts&lt;/h3&gt;
+
+&lt;p&gt;These are pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new about.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new contact.md&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open your favorite text editor and create some content for about.md and contact.md&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
+
+&lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;single.html&lt;/li&gt;
+&lt;li&gt;list.html&lt;/li&gt;
+&lt;li&gt;summary.html&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;li.html&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Single is for your individual content (e.g. posts or pages)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;List is to create a list of posts.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Summary and li are views that will be used in your List template, depending if you just want a list of posts titles or a summary of each post in addition to the title.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Hugo documentation provides instructions on what code to use in each of them.&lt;/p&gt;
+
+&lt;p&gt;You can create section specific templates if your site is larger but for now _default templates are all we need.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
+
+&lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;header.html (includes a link to the style sheet and the site&amp;rsquo;s navigation)&lt;/li&gt;
+&lt;li&gt;footer.html (for copyright or similar info)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Place this templates in a folder called /layouts/partials/. These partial templates can be called from any other template (for example from single.hmtl or list.html) by simply using the following code within those templates:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{ partial &#34;header.html&#34; . }}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{ partial &#34;footer.html . &#34;}}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
+
+&lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&lt; link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://www.mariosanchez.org/css/style.css&#34; &gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+
+&lt;p&gt;Self explanatory.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
+
+&lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
+
+&lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -w&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If everything went well Hugo will generate your website and you will be able to see it at &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt; .&lt;/p&gt;
+
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+
+&lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You are now ready to upload or git push your site to your web hosting service.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to start from scratch, I have created a Minimal Hugo Site and git pushed the &lt;a href=&#34;https://github.com/mariobox/MinimalHugoSite&#34;&gt;source code&lt;/a&gt; to github.&lt;/p&gt;
+
+&lt;p&gt;You can simply clone the repository by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/mariobox/MinimalHugoSite.git&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Git Cheat Sheet</title>
