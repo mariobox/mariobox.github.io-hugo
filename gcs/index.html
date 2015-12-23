@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+<meta name="description" content="Personal website of Mario Sanchez Carrion">  
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<link type="text/plain" rel="author" href="/humans.txt" />
+
+<title>Git Cheat Sheet - mariosanchez.org</title> 
+
+ 
+</head>
+
+<body>
+
+<nav>
+
+<div class="contain">
+
+<div class="four col">
+
+
+
+<a href="/"><em><strong><span style="color:#000; font-size:2.0em">M</span><span style="color:#666; font-size:2.0em;">S</span><span style="color:#999; font-size:2.0em">C</span></a></strong></em>
+
+</div>
+
+<div class="eight col">
+
+
+
+<span class="menu"><a href="/post/">Blog</a></span>
+<span class="menu"><a href="/book/">Books</a></span>
+<span class="menu"><a href="/photos/">Photos</a> </span>
+<span class="menu"><a href="/about/">About</a></span>
+
+</div>
+
+</div>
+
+</nav>
+
+
+<br />
+
+<hr />
+
+
+
+<h1>Git Cheat Sheet</h1>
+    
+<div class="date">
+
+<p>
+December 22, 2015 - 352 Words
+</p>
+
+</div>
+
+<p>I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.</p>
+
+<p>Here we go:</p>
+
+<pre><code>git config --global user.name "your user name"</code></pre>
+
+<pre><code>git config --global user.email "your email"</code></pre>
+
+<p>Tell Git your usename and email. You only need to do this once.</p>
+
+<hr />
+
+<pre><code>git config --list</code></pre>
+
+<p>Prints a list all the options you have configured Git for, including your user.name and user.email.</p>
+
+<hr />
+
+<pre><code>git init</code></pre>
+
+<p>Creates a Git repository in the current folder.</p>
+
+<hr />
+
+<pre><code>git clone /path/to/repository</code></pre>
+
+<p>Clones (makes a working copy) of a repository you want to have in your computer. If the repository is in a repository host like <a href="http://www.github.com">Github</a> the repository will typically have a URL like: <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a>.</p>
+
+<hr />
+
+<pre><code>git status -s</code></pre>
+
+<p>Shows you the status of files in current directory, in short notation. You will get one or two characters to the left of the file name:</p>
+
+<ul>
+<li>M: the file has been modified</li>
+<li>A: new file that has been added to the staging area</li>
+<li>MM: file that has been modified, staged, and modified again</li>
+<li>?: new file not yet tracked</li>
+</ul>
+
+<hr />
+
+<pre><code>git add file name</code></pre>, or
+
+<pre><code>git add --all</code></pre>
+
+<p>Adds a file, or all files that have been created or modified to the staging area.</p>
+
+<hr />
+
+<pre><code>git commit -m "commit message"</code></pre>
+
+<p>Commits (records) your changes to your local Git repository. Remember to write a short message between the quote marks so that others can understand what you did.</p>
+
+<hr />
+
+<pre><code>git push origin master</code></pre>
+
+<p>Pushes (uploads) your changes to your remote repository.</p>
+
+<hr />
+
+<pre><code>git pull origin master</code></pre>
+
+<p>If you&rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local repository and want your files to revert back to the state they were when they were last pushed to your remote.</p>
+
+
+<br />
+
+<p><strong>Tags:</strong></p> 
+
+
+
+<ul>
+<li id="tags"> <a href="http://www.mariosanchez.org/tags/tech">tech</a> </li>
+</ul>
+
+<br />
+
+<center>
+
+<div>
+	<a href="http://www.mariosanchez.org/6s">Previous</a> | <a href="http://www.mariosanchez.org/post/">Blog</a>
+</div>
+
+</center>
+
+<br />
+
+<hr />
+
+<div class="contain">
+
+<div class="three col">
+
+<img src="http://www.mariosanchez.org/images/mypictr_165x165.jpg" width="120px" class="roundnew">
+
+</div>
+
+<div class="nine col">
+
+<p><strong>Mario Sanchez-Carrion</strong> | <strong>mariosanchez.org</strong><br />
+Miami-based product manager.<br />
+<a href="tel:305-699-6541">(305) 699-6541</a><br />
+<a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a> | <a href="http://www.twitter.com/mariobox">@mariobox</a>
+</p>
+
+</div>
+
+</div>
+
+<hr />
+
+<p class="small">&#169;2015 Mario Sanchez Carrion | Powered by <a href="http://gohugo.io">Hugo</a> | <a href="/colophon">About This Site</a></p>
+
+</body>
+
+</html>

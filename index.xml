@@ -10,6 +10,81 @@
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Git Cheat Sheet</title>
+      <link>http://www.mariosanchez.org/gcs</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/gcs</guid>
+      <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
+
+&lt;p&gt;Here we go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --global user.name &#34;your user name&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --global user.email &#34;your email&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tell Git your usename and email. You only need to do this once.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --list&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Prints a list all the options you have configured Git for, including your user.name and user.email.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creates a Git repository in the current folder.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone /path/to/repository&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Clones (makes a working copy) of a repository you want to have in your computer. If the repository is in a repository host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the repository will typically have a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git status -s&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Shows you the status of files in current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M: the file has been modified&lt;/li&gt;
+&lt;li&gt;A: new file that has been added to the staging area&lt;/li&gt;
+&lt;li&gt;MM: file that has been modified, staged, and modified again&lt;/li&gt;
+&lt;li&gt;?: new file not yet tracked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;, or
+
+&lt;pre&gt;&lt;code&gt;git add --all&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adds a file, or all files that have been created or modified to the staging area.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git commit -m &#34;commit message&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Commits (records) your changes to your local Git repository. Remember to write a short message between the quote marks so that others can understand what you did.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pushes (uploads) your changes to your remote repository.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local repository and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>So Good They Can&#39;t Ignore You</title>
       <link>http://www.mariosanchez.org/sgtci/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
@@ -614,29 +689,6 @@ are great!).&lt;/p&gt;
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://41.media.tumblr.com/775dcedf9a0785b9374ab8d5c3e4706e/tumblr_nplc2hPYSe1qz7ur9o4_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://40.media.tumblr.com/72638a57587dcf15694ae127283c29e0/tumblr_nplc2hPYSe1qz7ur9o5_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Italy In Motion</title>
-      <link>http://www.mariosanchez.org/italyinmotion/</link>
-      <pubDate>Sun, 17 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/italyinmotion/</guid>
-      <description>&lt;p&gt;A few pictures from Italy In Motion, an interesting exposition of iconic Italian cars and bikes in Coral Gables, Miami.&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/09784396750c3cdfab2cb0d5379f2160/tumblr_nogpcm9V3V1qz7ur9o7_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/ee72bbeba61141f9a402e03d4d10c4ec/tumblr_nogpcm9V3V1qz7ur9o5_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;
-&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/8c84e1ce24b6fd9aa2d2640c1d25d568/tumblr_nogpcm9V3V1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/8df9ac76972a4cdacc9ee1953161e128/tumblr_nogpcm9V3V1qz7ur9o3_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/fd86906b536ed214661e1d28f1df4578/tumblr_nogpcm9V3V1qz7ur9o2_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/3ee2ca933a64470933895b93420f68a0/tumblr_nogpcm9V3V1qz7ur9o4_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     

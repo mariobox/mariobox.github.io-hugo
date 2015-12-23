@@ -6,8 +6,83 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Git Cheat Sheet</title>
+      <link>http://www.mariosanchez.org/gcs</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/gcs</guid>
+      <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
+
+&lt;p&gt;Here we go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --global user.name &#34;your user name&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --global user.email &#34;your email&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tell Git your usename and email. You only need to do this once.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git config --list&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Prints a list all the options you have configured Git for, including your user.name and user.email.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creates a Git repository in the current folder.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone /path/to/repository&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Clones (makes a working copy) of a repository you want to have in your computer. If the repository is in a repository host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the repository will typically have a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git status -s&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Shows you the status of files in current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;M: the file has been modified&lt;/li&gt;
+&lt;li&gt;A: new file that has been added to the staging area&lt;/li&gt;
+&lt;li&gt;MM: file that has been modified, staged, and modified again&lt;/li&gt;
+&lt;li&gt;?: new file not yet tracked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;, or
+
+&lt;pre&gt;&lt;code&gt;git add --all&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Adds a file, or all files that have been created or modified to the staging area.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git commit -m &#34;commit message&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Commits (records) your changes to your local Git repository. Remember to write a short message between the quote marks so that others can understand what you did.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pushes (uploads) your changes to your remote repository.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local repository and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The 6S Discipline</title>
@@ -822,102 +897,6 @@ are great!).&lt;/p&gt;
 &lt;p&gt;It is said that as years go by we get more impatient. I wonder, though, if impatient is the right word, or if what we really become is more selfish and entitled. Could it be possible that years of accumulating possessions and fancy titles can make us forget where we come from, and turn us into insufferable jerks ready to go off when our wine is not at the right temperature, the food we just picked up for dinner messes up our new car smell or a young couple with active young children sits too close to us on a plane?&lt;/p&gt;
 
 &lt;p&gt;I hope not, but even in those cases when it seems it has, we can&amp;rsquo;t change the past just by wishing we had acted differently. What we can do, though, is to remember all those times when those we mistreated reacted with more grace and elegance than us and pay it forward.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tu Marca Personal</title>
-      <link>http://www.mariosanchez.org/marca-personal</link>
-      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/marca-personal</guid>
-      <description>&lt;p&gt;Mucho se ha escrito sobre el concepto de marca personal. A juzgar por gran parte del material que se puede encontrar en Internet, podr&amp;iacute;a pensarse que se trata de un concepto superficial y fr&amp;iacute;volo. Por ello, en los p&amp;aacute;rrafos que siguen intentare plasmar mi opini&amp;oacute;n sobre el tema y explicar por que es importante.&lt;/p&gt;
-
-&lt;h2 id=&#34;un-poco-de-historia:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;Un Poco de Historia&lt;/h2&gt;
-
-&lt;p&gt;El concepto de &lt;strong&gt;branding personal&lt;/strong&gt; no es nuevo. Existi&amp;oacute; siempre, aunque muchas veces confundido entre conceptos parecidos, como reputaci&amp;oacute;n, experiencia y personalidad.&lt;/p&gt;
-
-&lt;p&gt;Fue el autor norteamericano Tom Peters en su ya cl&amp;aacute;sico art&amp;iacute;culo &lt;a href=&#34;http://www.fastcompany.com%2Fmagazine%2F10%2Fbrandyou.html&#34;&gt;The Brand Called You&lt;/a&gt; (aparecido en la revista Fast Company en Agosto de 1997) el primero en definirlo formalmente.&lt;/p&gt;
-
-&lt;p&gt;En su art&amp;iacute;culo, Peters afirma que la &amp;uacute;nica manera de lograr diferenciarnos como profesionales en un mundo cada vez m&amp;aacute;s competitivo es manejando nuestra carrera como las grandes empresas manejan las marcas de sus productos.&lt;/p&gt;
-
-&lt;h2 id=&#34;qu-es-el-branding-personal:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;&amp;iquest;Qu&amp;eacute; es el Branding Personal?&lt;/h2&gt;
-
-&lt;p&gt;Branding personal es el &lt;strong&gt;proceso de definir con precisi&amp;oacute;n qu&amp;eacute; nos hace diferentes, de especificar como esa diferencia se traduce en un beneficio relevante para nuestra clientela o audiencia, y de comunicar ese beneficio de manera clara, concisa y efectiva.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;El branding personal nos permite romper el paradigma tradicional de tener que adaptarnos a las diferentes oportunidades que se nos presentan (ll&amp;aacute;mese un empleo o un proyecto), y nos da la pauta para saber si esas oportunidades son realmente compatibles con nosotros.&lt;/p&gt;
-
-&lt;p&gt;Un proceso de branding personal bien ejecutado har&amp;aacute; que las oportunidades correctas &lt;strong&gt;vengan a nosotros&lt;/strong&gt; en lugar de nosotros tener que perseguirlas.&lt;/p&gt;
-
-&lt;p&gt;El branding personal implica tambi&amp;eacute;n actuar con una visi&amp;oacute;n a largo plazo. No podemos reinventarnos todos los d&amp;iacute;as. Cada una de nuestras acciones contribuye a que acumulemos (o perdamos) brand equity, y sus consecuencias se dejar&amp;aacute;n sentir por mucho tiempo.&lt;/p&gt;
-
-&lt;h2 id=&#34;en-favor-del-branding-personal:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;En Favor del Branding Personal&lt;/h2&gt;
-
-&lt;p&gt;Hay quienes dicen que el branding personal es un enfoque simplista que ignora la complejidad de nuestra condici&amp;oacute;n humana y nos reduce a la categor&amp;iacute;a de objetos.&lt;/p&gt;
-
-&lt;p&gt;Nada podr&amp;iacute;a estar m&amp;aacute;s lejos de la realidad.&lt;/p&gt;
-
-&lt;p&gt;Esa complejidad, mezcla &amp;uacute;nica de nuestros &lt;strong&gt;talentos, valores, relaciones, experiencias y preferencias personales&lt;/strong&gt; es precisamente lo que nos hace diferentes. No se trata entonces de ignorar nuestra complejidad, sino de definirla de tal manera que nos ayude a comunicar el valor que solamente nosotros podemos ofrecer.&lt;/p&gt;
-
-&lt;p&gt;No asumir la responsabilidad de construir nuestra marca personal es dejar que se nos defina a trav&amp;eacute;s de descripciones de trabajo gen&amp;eacute;ricas e impersonales, y que nos convirtamos en &lt;em&gt;commodities&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;comunicando-tu-marca-personal:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;Comunicando Tu Marca Personal&lt;/h2&gt;
-
-&lt;p&gt;Las mejores marcas personales son capaces de comunicar lo que representan en muy pocas palabras. Un ejemplo es el candidato (y hoy presidente de los Estados Unidos) Barack Obama quien logr&amp;oacute; definirse con una sola palabra: Cambio (Change).&lt;/p&gt;
-
-&lt;p&gt;Una manera efectiva de comunicar tu marca personal es a trav&amp;eacute;s de una &lt;strong&gt;declaraci&amp;oacute;n de misi&amp;oacute;n&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Contrariamente a lo que ocurre en el mundo corporativo, donde la declaraci&amp;oacute;n de misi&amp;oacute;n es por lo general una insulsa colecci&amp;oacute;n de cliches acu&amp;ntilde;ados por alg&amp;uacute;n gur&amp;uacute; de moda, la declaraci&amp;oacute;n de misi&amp;oacute;n puede ser una herramienta muy &amp;uacute;til si se redacta con pocas palabras simples.&lt;/p&gt;
-
-&lt;p&gt;Por ejemplo &#34;lograr que de cada dos alumnos uno vaya a la universidad&#34; es una declaraci&amp;oacute;n de misi&amp;oacute;n mucho m&amp;aacute;s poderosa que &#34;sinergizar esfuerzos para que mediante el uso de tecnolog&amp;iacute;a de punta maximicemos el potencial intr&amp;iacute;nseco del educando&#34;.&lt;/p&gt;
-
-&lt;p&gt;Otra herramienta muy &amp;uacute;til es la llamada &lt;strong&gt;frase de elevador&lt;/strong&gt;, una especie de comercial para tu marca personal que debes poder exponer en alrededor de 15 segundos. Con esta corta frase debes poder presentarte (dar tu nombre); explicar a que te dedicas; cual es el valor de lo que ofreces o que te hace especial y diferente; y sugerir un pr&amp;oacute;ximo paso (que podr&amp;iacute;a ser simplemente la manera de comunicarse contigo).&lt;/p&gt;
-
-&lt;p&gt;Es &amp;uacute;til tambi&amp;eacute;n confeccionar una lista de tres a cinco adjetivos que te definan. &amp;iquest;Qu&amp;eacute; palabras quisieras que vengan autom&amp;aacute;ticamente a la mente de todos aquellos que escuchan tu nombre? Piensa en adjetivos con connotaciones positivas y que establezcan una diferencia importante.&lt;/p&gt;
-
-&lt;h2 id=&#34;m-s-all-del-curriculum-vitae:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;M&amp;aacute;s All&amp;aacute; del Curriculum Vitae&lt;/h2&gt;
-
-&lt;p&gt;Si bien todav&amp;iacute;a es necesario, el curriculum vitae ya no es suficiente. En estas &amp;eacute;pocas, una estrategia de branding personal que no aproveche las poderosas herramientas que nos brinda la Internet est&amp;aacute; condenada al fracaso.&lt;/p&gt;
-
-&lt;p&gt;Hoy, si no est&amp;aacute;s en Google no existes.&lt;/p&gt;
-
-&lt;p&gt;65% de los usuarios de Internet conf&amp;iacute;an en un &lt;strong&gt;motor de b&amp;uacute;squeda&lt;/strong&gt; para conseguir la informaci&amp;oacute;n deseada: &amp;iquest;Qu&amp;eacute; encontrar&amp;aacute;n cuando escriban tu nombre? &amp;iquest;Qu&amp;eacute; encontrar&amp;aacute;n cuando escriban tu especialidad y tu ciudad? &amp;iquest;Te encontrar&amp;aacute;n, o encontrar&amp;aacute;n a tus competidores?&lt;/p&gt;
-
-&lt;p&gt;Si bien hay muchas maneras de influenciar &amp;eacute;ticamente los resultados de un motor de b&amp;uacute;squeda, una de las m&amp;aacute;s comunes es registrar tu dominio y crear una crear una p&amp;aacute;gina web sencilla. Tambi&amp;eacute;n es muy efectivo llenar perfiles en las principales redes sociales, y llenar un perfil en Google. Estos perfiles tienden a ser muy bien catalogados por los motores de b&amp;uacute;squeda.&lt;/p&gt;
-
-&lt;h2 id=&#34;el-poder-de-los-blogs-y-las-redes-sociales:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;El Poder de los Blogs y las Redes Sociales&lt;/h2&gt;
-
-&lt;p&gt;Los blogs y las redes sociales (los llamados social media) han roto las barreras de entrada que nos separaban de nuestro mercado objetivo. Estas herramientas (muchas de ellas gratuitas o de bajo costo) han permitido que quienes &amp;eacute;ramos antes simples espectadores ahora podamos tomar control del escenario.&lt;/p&gt;
-
-&lt;p&gt;Los medios tradicionales como los diarios, la televisi&amp;oacute;n y la radio ya no son la &amp;uacute;nica manera en que podemos consumir y diseminar informaci&amp;oacute;n.&lt;/p&gt;
-
-&lt;p&gt;La publicidad tradicional atraviesa por una grave crisis de credibilidad, y con justa raz&amp;oacute;n. Nada m&amp;aacute;s cabe plantearse la pregunta: Qu&amp;eacute; tiene m&amp;aacute;s peso: lo que t&amp;uacute; digas de t&amp;iacute; mismo, o lo que otros digan de ti?&lt;/p&gt;
-
-&lt;p&gt;La respuesta es obvia, y explica por que cada vez menos gente depende de la publicidad para tomar una decisi&amp;oacute;n de compra y cada vez m&amp;aacute;s en recomendaciones de amigos, potenciadas de exponencialmente por las redes sociales.&lt;/p&gt;
-
-&lt;p&gt;Gracias a los &lt;strong&gt;blogs&lt;/strong&gt; ahora contamos con una plataforma de alcance global e instant&amp;aacute;neo para expresar y difundir nuestras ideas, as&amp;iacute; como tambi&amp;eacute;n interactuar con quienes nos visitan. Un blog es quiz&amp;aacute;s la mejor herramienta disponible para comunicar nuestra marca personal.&lt;/p&gt;
-
-&lt;p&gt;Redes como LinkedIn permiten relacionarnos con otros profesionales y construir nuestra red de contactos de una manera f&amp;aacute;cil y r&amp;aacute;pida. Por medio de LinkedIn podemos acceder a oportunidades que de otra manera no se nos hubiesen presentado.&lt;/p&gt;
-
-&lt;p&gt;A trav&amp;eacute;s de YouTube podemos tener un canal propio para difundir nuestras ideas, presentaciones, entrevistas y comentarios.  Slideshare nos permite compartir nuestras presentaciones con nuestra audiencia.&lt;/p&gt;
-
-&lt;p&gt;Otras herramientas importantes para comunicar tu marca personal son Twitter, para compartir enlaces y opiniones breves, y Facebook, para compartir comentarios, fotograf&amp;iacute;as, videos y aplicaciones, o para construir una p&amp;aacute;gina para nuestra empresa, producto o servicio.&lt;/p&gt;
-
-&lt;p&gt;Las posibilidades que nos brinda la Internet para construir y comunicar nuestra marca personal est&amp;aacute;n limitadas s&amp;oacute;lo por nuestra imaginaci&amp;oacute;n y por el tiempo y esfuerzo que deseemos invertirle.&lt;/p&gt;
-
-&lt;h2 id=&#34;tu-personalidad-la-cereza-de-la-torta:1e5203f9d6f3f6af0248e56ec6ce10e8&#34;&gt;Tu Personalidad: La Cereza de la Torta&lt;/h2&gt;
-
-&lt;p&gt;Una de las primeras preguntas que surge cuando uno resalta la importancia de crear nuestra marca personal y participar activamente en las redes sociales es: &amp;iquest;Para qu&amp;eacute;? &amp;iquest;A qui&amp;eacute;n le importa mi opini&amp;oacute;n, lo que me gusta, o lo que estoy haciendo?&lt;/p&gt;
-
-&lt;p&gt;Pues, a todos.&lt;/p&gt;
-
-&lt;p&gt;Vivimos en una &amp;eacute;poca en que &lt;strong&gt;los atributos t&amp;eacute;cnicos, si bien siguen siendo importantes, ya no son suficientes para diferenciarnos&lt;/strong&gt;. Probablemente hayan, s&amp;oacute;lo en tu ciudad, miles de profesionales (dentistas, abogados, contadores, etc.) t&amp;eacute;cnicamente capacitados para hacer su trabajo bien.&lt;/p&gt;
-
-&lt;p&gt;Esta abundancia de opciones nos da la prerrogativa de trabajar s&amp;oacute;lo con personas que compartan nuestros valores, nuestras aficiones, nuestras prioridades y nuestra manera de ver las cosas (personas que, como se dice comunmente, &#34;nos caigan bien&#34;).&lt;/p&gt;
-
-&lt;p&gt;Nuestra personalidad y nuestras experiencias personales son la saz&amp;oacute;n que le da al plato de nuestra marca personal su sabor &amp;uacute;nico y caracter&amp;iacute;stico.&lt;/p&gt;
-
-&lt;p&gt;El exceso de formalidad, y la separaci&amp;oacute;n de la vida profesional de la personal son cosa del pasado. Lo que la gente quiere saber para trabajar contigo es quien eres realmente, y cuales son tus historias.&lt;/p&gt;
 </description>
     </item>
     
