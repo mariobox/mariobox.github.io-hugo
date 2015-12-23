@@ -41,13 +41,13 @@
 
 &lt;pre&gt;&lt;code&gt;git clone /path/to/repository&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Clones (makes a working copy) of a repository you want to have in your computer. If the repository is in a repository host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the repository will typically have a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Clones (makes a working copy) of an existing repository. If the repository is in a host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the path to repository will typically be a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;pre&gt;&lt;code&gt;git status -s&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Shows you the status of files in current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
+&lt;p&gt;Shows you the status of files in the current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;M: the file has been modified&lt;/li&gt;
@@ -58,7 +58,9 @@
 
 &lt;hr /&gt;
 
-&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;, or
+&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git add --all&lt;/code&gt;&lt;/pre&gt;
 
@@ -80,7 +82,7 @@
 
 &lt;pre&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local repository and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
 </description>
     </item>
     
