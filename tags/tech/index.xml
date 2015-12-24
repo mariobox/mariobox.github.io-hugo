@@ -74,16 +74,20 @@
 &lt;p&gt;Open post1.md with your favorite text editor and you will see three fields already pre-written in the top section of the file, called &amp;ldquo;front matter&amp;rdquo; (between the +++ marks). By default, Hugo includes:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Description&lt;/li&gt;
+&lt;li&gt;Title&lt;/li&gt;
 &lt;li&gt;Date and&lt;/li&gt;
 &lt;li&gt;Draft&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;You can add more parameters later. For example, you may want to add a Title (if not, Hugo will &amp;ldquo;guess&amp;rdquo; the title from the file name).&lt;/p&gt;
+&lt;p&gt;You can add more parameters later (like Categories or Tags).&lt;/p&gt;
 
-&lt;p&gt;Update the Description field and write some content below the second +++ line (leave one or two lines blank at the beginning).&lt;/p&gt;
+&lt;p&gt;Hugo will match the title of your post with your post file name, so if you want to call it something different just replace the text between quotes in the Title field in the front matter.&lt;/p&gt;
 
-&lt;p&gt;If you want your post to go live change &lt;pre&gt;&lt;code&gt;draft = true&lt;/pre&gt;&lt;/code&gt; for &lt;pre&gt;&lt;code&gt;draft = false&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;Now you can write some content below the second +++ line (leave one or two lines blank at the beginning).&lt;/p&gt;
+
+&lt;p&gt;If you want your post to go live remember to change &lt;pre&gt;&lt;code&gt;draft = true&lt;/pre&gt;&lt;/code&gt; for &lt;pre&gt;&lt;code&gt;draft = false&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;If you keep it as draft your post will not show on your site.&lt;/p&gt;
 
 &lt;p&gt;Create another post called post2.md following a similar process.&lt;/p&gt;
 
