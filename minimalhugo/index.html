@@ -57,14 +57,14 @@
 <div class="date">
 
 <p>
-December 23, 2015 - 696 Words
+December 23, 2015 - 747 Words
 </p>
 
 </div>
 
 
 
-<p>These are the instructions to create a minimal, functional Hugo site. For more information read the <a href="http://gohugo.io/overview/introduction/">Hugo Documentation</a></p>
+<p>These are the instructions to create a minimal, functional Hugo site. For more information read the <a href="http://gohugo.io/overview/introduction/">Hugo Documentation</a>.</p>
 
 <h4 id="download-hugo:ed927200c6ae8a82148fa4c8d182d7fd">Download Hugo</h4>
 
@@ -72,27 +72,27 @@ December 23, 2015 - 696 Words
 
 <hr />
 
-<h4 id="install-hugo-in-a-work-folder-like-c-users-project:ed927200c6ae8a82148fa4c8d182d7fd">Install hugo in a work folder like C:\Users\Project</h4>
+<h4 id="copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd">Copy hugo.exe on a working folder</h4>
 
-<p>Go to your terminal and from your root go to your /Project folder:</p>
+<p>Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing</p>
 
-<pre><code>cd Project</code></pre>
-
-<hr />
-
-<h4 id="create-a-new-hugo-site-in-a-subfolder-of-project-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd">Create a new Hugo site in a subfolder of Project called /projecthugo:</h4>
-
-<pre><code>hugo new site ~/Project/projecthugo/</code></pre>
+<pre><code>cd projects</code></pre>
 
 <hr />
 
-<h4 id="go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd">Go to your Hugo site folder:</h4>
+<h4 id="create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd">Create a new Hugo site in a subfolder of /projects called /projecthugo</h4>
+
+<pre><code>hugo new site ~/projects/projecthugo/</code></pre>
+
+<hr />
+
+<h4 id="go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd">Go to your Hugo site folder</h4>
 
 <pre><code>cd projecthugo</code></pre>
 
 <hr />
 
-<h4 id="list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd">List the contents of the /projecthugo folder:</h4>
+<h4 id="list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd">List the contents of the /projecthugo folder</h4>
 
 <pre><code>ls</code></pre>
 
@@ -102,7 +102,7 @@ December 23, 2015 - 696 Words
 
 <hr />
 
-<h4 id="installing-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd">Installing Hugo in your path.</h4>
+<h4 id="install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd">Install Hugo in your path.</h4>
 
 <p>Copy the hugo.exe into your /projecthugo folder.</p>
 
@@ -130,19 +130,15 @@ December 23, 2015 - 696 Words
 
 <p>Update the Description field and write some content below the second +++ line (leave one or two lines blank at the beginning).</p>
 
-<p>If you want your post to go live change <pre><code>draft = true</pre></code></p>
-
-<p>for</p>
-
-<pre><code>draft = false</code></pre>
+<p>If you want your post to go live change <pre><code>draft = true</pre></code> for <pre><code>draft = false</code></pre></p>
 
 <p>Create another post called post2.md following a similar process.</p>
 
 <hr />
 
-<h3 id="create-a-couple-of-main-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd">Create a couple of main pages that are not posts</h3>
+<h3 id="create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd">Create a couple of pages that are not posts</h3>
 
-<p>These are pages like <strong>about</strong> or <strong>contact</strong></p>
+<p>These would be pages like <strong>about</strong> or <strong>contact</strong>.</p>
 
 <pre><code>hugo new about.md</code></pre>
 
@@ -167,9 +163,9 @@ December 23, 2015 - 696 Words
 
 <li><p>Single is for your individual content (e.g. posts or pages)</p></li>
 
-<li><p>List is to create a list of posts.</p></li>
+<li><p>List is for a list of posts.</p></li>
 
-<li><p>Summary and li are views that will be used in your List template, depending if you just want a list of posts titles or a summary of each post in addition to the title.</p></li>
+<li><p>Summary and li are views that will be used in your list template, depending if you just want a list of posts titles or a summary of each post in addition to the title.</p></li>
 </ul>
 
 <p>The Hugo documentation provides instructions on what code to use in each of them.</p>
@@ -183,7 +179,7 @@ December 23, 2015 - 696 Words
 <p>These are good for the common areas of your site. Go ahead and create:</p>
 
 <ul>
-<li>header.html (includes a link to the style sheet and the site&rsquo;s navigation)</li>
+<li>header.html (must include a link to the style sheet and the site&rsquo;s navigation)</li>
 <li>footer.html (for copyright or similar info)</li>
 </ul>
 
@@ -199,7 +195,7 @@ December 23, 2015 - 696 Words
 
 <h4 id="create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd">Create an index.html template</h4>
 
-<p>This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.</p>
+<p>This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html</p>
 
 <hr />
 
@@ -207,7 +203,9 @@ December 23, 2015 - 696 Words
 
 <p>Don&rsquo;t forget to link to the style sheet from the header.html partial template:</p>
 
-<pre><code>< link rel="stylesheet" type="text/css" href="/css/style.css" ></code></pre>
+<pre><code>link rel="stylesheet" type="text/css" href="/css/style.css"</code></pre>
+
+<p>You need to include the above code between &lt;&gt;.</p>
 
 <hr />
 
@@ -239,7 +237,7 @@ December 23, 2015 - 696 Words
 
 <pre><code>hugo</code></pre>
 
-<p>You are now ready to upload or git push your site to your web hosting service.</p>
+<p>You are now ready to upload or git push your site to your web hosting service. Your site files will be in a folder called /public.</p>
 
 <hr />
 

@@ -17,7 +17,7 @@
       <guid>http://www.mariosanchez.org/minimalhugo</guid>
       <description>
 
-&lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
@@ -25,27 +25,27 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-a-work-folder-like-c-users-project:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install hugo in a work folder like C:\Users\Project&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
-&lt;p&gt;Go to your terminal and from your root go to your /Project folder:&lt;/p&gt;
+&lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cd Project&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-project-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of Project called /projecthugo:&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site ~/Project/projecthugo/&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;cd projects&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder:&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder:&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -55,7 +55,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;installing-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Installing Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -83,19 +83,15 @@
 
 &lt;p&gt;Update the Description field and write some content below the second +++ line (leave one or two lines blank at the beginning).&lt;/p&gt;
 
-&lt;p&gt;If you want your post to go live change &lt;pre&gt;&lt;code&gt;draft = true&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;for&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;draft = false&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you want your post to go live change &lt;pre&gt;&lt;code&gt;draft = true&lt;/pre&gt;&lt;/code&gt; for &lt;pre&gt;&lt;code&gt;draft = false&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 
 &lt;p&gt;Create another post called post2.md following a similar process.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-main-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of main pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
-&lt;p&gt;These are pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new about.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -120,9 +116,9 @@
 
 &lt;li&gt;&lt;p&gt;Single is for your individual content (e.g. posts or pages)&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;List is to create a list of posts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;List is for a list of posts.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Summary and li are views that will be used in your List template, depending if you just want a list of posts titles or a summary of each post in addition to the title.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Summary and li are views that will be used in your list template, depending if you just want a list of posts titles or a summary of each post in addition to the title.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The Hugo documentation provides instructions on what code to use in each of them.&lt;/p&gt;
@@ -136,7 +132,7 @@
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;header.html (includes a link to the style sheet and the site&amp;rsquo;s navigation)&lt;/li&gt;
+&lt;li&gt;header.html (must include a link to the style sheet and the site&amp;rsquo;s navigation)&lt;/li&gt;
 &lt;li&gt;footer.html (for copyright or similar info)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -152,7 +148,7 @@
 
 &lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
-&lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.&lt;/p&gt;
+&lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -160,7 +156,9 @@
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&lt; link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://www.mariosanchez.org/css/style.css&#34; &gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://www.mariosanchez.org/css/style.css&#34;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You need to include the above code between &amp;lt;&amp;gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -192,7 +190,7 @@
 
 &lt;pre&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You are now ready to upload or git push your site to your web hosting service.&lt;/p&gt;
+&lt;p&gt;You are now ready to upload or git push your site to your web hosting service. Your site files will be in a folder called /public.&lt;/p&gt;
 
 &lt;hr /&gt;
 
