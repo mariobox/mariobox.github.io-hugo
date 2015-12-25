@@ -6,8 +6,30 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Dec 2015 10:34:28 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My $100 Office</title>
+      <link>http://www.mariosanchez.org/100office/</link>
+      <pubDate>Fri, 25 Dec 2015 10:34:28 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/100office/</guid>
+      <description>&lt;p&gt;I needed a quiet space at home where I could sit down and tweak the code of my site, and otherwise tinker with some web development tools I want to learn. Since my second bedroom had some empty space and a window with a nice view of the garden, it was the perfect place to try to fit a small workstation.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t want to spend a lot of money but I still wanted my new writing setup to look good, so my logical first stop was Ikea&amp;rsquo;s website. I found a $35 desk and a $15 chair that I liked and perfectly fit the space available, so I drove to the nearest store and picked them up.&lt;/p&gt;
+
+&lt;p&gt;I also wanted to give the space some character, so I selected twelve pictures I had taken on my &lt;a href=&#34;../photos/&#34;&gt;trips&lt;/a&gt; and ordered 8x10 prints (I got them for less than $20 in Snapfish).  I also got some cheap but stylish frames from Walmart ($11 for a set of six, so $22 total).&lt;/p&gt;
+
+&lt;p&gt;Finally, I added a lamp that I recycled from somewhere else for free.&lt;/p&gt;
+
+&lt;p&gt;Last weekend I installed everything and this is how it now looks:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src = &#34;../images/workstation.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;I am extremely happy with this new setup. I now have a place to write and code comfortably, that looks good and cost me less than $100.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How To Create a Minimal Hugo Site</title>
@@ -1044,32 +1066,6 @@ are great!).&lt;/p&gt;
 &lt;h3 id=&#34;rule-10-swim-upstream:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 10: Swim upstream&lt;/h3&gt;
 
 &lt;p&gt;Go the other way. Ignore the conventional wisdom. If everybody else is doing it one way, there&amp;#8217;s a good chance you can find your niche by going in exactly the opposite direction. But be prepared for a lot of folks to wave you down and tell you you&amp;#8217;re headed the wrong way. I guess in all my years, what I heard more often than anything was: a town of less than 50,000 population cannot support a discount store for very long.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://www.mariosanchez.org/gmail</link>
-      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/gmail</guid>
-      <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Go to any domain registrar (like Godaddy or Namecheap) and register the domain name you want to use.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Then, in your control panel you should be able to find the &lt;strong&gt;Email Forwarding&lt;/strong&gt; feature.  This is where you will create your new &lt;em&gt;you@yourname.com&lt;/em&gt; email address and forward it to &lt;em&gt;yourname@gmail.com&lt;/em&gt;. Note: if you&amp;rsquo;re using Godaddy, &lt;a href=&#34;http://help.godaddy.com/article/1725&#34;&gt;this page&lt;/a&gt; will give you more details on how to do this.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;After you&amp;rsquo;ve done that, log on to Gmail, click on &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;Accounts&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Another Email Address&lt;/strong&gt;, and add &lt;em&gt;you@yourname.com&lt;/em&gt; to the list.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click NEXT, and Google will now send you a message to &lt;em&gt;you@yourname.com&lt;/em&gt; so you can verify it&amp;rsquo;s yours. Here&amp;rsquo;s the trick: since you already set up email forwarding in step 2 you will receive this email at &lt;em&gt;yourname@gmail.com&lt;/em&gt; ;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click on the verification link and then go back to Gmail&amp;rsquo;s &lt;strong&gt;Accounts&lt;/strong&gt; tab in the &lt;strong&gt;Settings&lt;/strong&gt; menu. Your new, branded email address should already be listed there. Click on the link that says &amp;ldquo;make default&amp;rdquo; next to it, and check the radio button next to &amp;ldquo;always reply from my default address&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. You should now be ready to use Gmail with your own branded email address. If you want more details, you can visit Gmail&amp;rsquo;s custom domain &lt;a href=&#34;http://mail.google.com/support/bin/answer.py?hl=en&amp;amp;amp;ctx=mail&amp;amp;amp;answer=22370&#34;&gt;help page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
