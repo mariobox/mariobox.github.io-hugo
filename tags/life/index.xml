@@ -11,10 +11,10 @@
     
     <item>
       <title>My $100 Office</title>
-      <link>http://www.mariosanchez.org/100office/</link>
+      <link>http://www.mariosanchez.org/post/100office/</link>
       <pubDate>Fri, 25 Dec 2015 10:34:28 -0500</pubDate>
       
-      <guid>http://www.mariosanchez.org/100office/</guid>
+      <guid>http://www.mariosanchez.org/post/100office/</guid>
       <description>&lt;p&gt;I needed a quiet space at home where I could sit down and tweak the code of my site, and otherwise tinker with some web development tools I want to learn. Since my second bedroom had some empty space and a window with a nice view of the garden, it was the perfect place to try to fit a small workstation.&lt;/p&gt;
 
 &lt;p&gt;I didn&amp;rsquo;t want to spend a lot of money but I still wanted my new writing setup to look good, so my logical first stop was Ikea&amp;rsquo;s website. I found a $35 desk and a $15 chair that I liked and perfectly fit the space available, so I drove to the nearest store and picked them up.&lt;/p&gt;
@@ -25,7 +25,7 @@
 
 &lt;p&gt;Last weekend I installed everything and this is how it now looks:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src = &#34;../images/workstation.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src = &#34;/images/workstation.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;I am extremely happy with this new setup. I now have a place to write and code comfortably, that looks good and cost me less than $100.&lt;/p&gt;
 </description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/mornings</link>
+      <link>http://www.mariosanchez.org/post/mornings/</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mornings</guid>
+      <guid>http://www.mariosanchez.org/post/mornings/</guid>
       <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
 
 &lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
@@ -59,45 +59,11 @@ are great!).&lt;/p&gt;
     </item>
     
     <item>
-      <title>What I&#39;m Doing Now</title>
-      <link>http://www.mariosanchez.org/now</link>
-      <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/now</guid>
-      <description>&lt;p&gt;This is how I spend my time these days:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I start my day with a 30-45 minute stretching routine followed by a healthy breakfast.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I go to work every day, where I develop power tools that make people work faster, easier and more effectively.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I am constantly simplifying my life and my surroundings, with a &lt;a href=&#34;http://www.mariosanchez.org/mini&#34;&gt;practical minimalism&lt;/a&gt; frame of mind.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I monitor and manage my investments, focusing on undervalued stocks and real estate.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m always &lt;a href=&#34;../reading/&#34;&gt;reading&lt;/a&gt; something.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m learning to use the &lt;a href=&#34;http://gohugo.io&#34;&gt;static site generator&lt;/a&gt; that powers this site.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m planning trips for the next few months. Possible destinations: Portland, Raleigh, Peru, Greece, Iceland.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I keep in touch and spend time with my family.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I rarely miss a game of my favorite soccer team, Argentine side &lt;a href=&#34;http://farm5.staticflickr.com/4055/4448440498_5d731b2102_z.jpg&#34;&gt;River Plate&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This page was inspired by the awesome &lt;a href=&#34;http://www.sivers.org/nowff&#34;&gt;Derek Sivers&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Last Updated: November 23, 2015&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Building Blocks of Success</title>
-      <link>http://www.mariosanchez.org/success/</link>
+      <link>http://www.mariosanchez.org/post/success/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/success/</guid>
+      <guid>http://www.mariosanchez.org/post/success/</guid>
       <description>
 
 &lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
@@ -195,10 +161,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/mini</link>
+      <link>http://www.mariosanchez.org/post/mini/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mini</guid>
+      <guid>http://www.mariosanchez.org/post/mini/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
 
 &lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  &lt;mark&gt;Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way&lt;/mark&gt;.&lt;/p&gt;
@@ -213,10 +179,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Smoking Room</title>
-      <link>http://www.mariosanchez.org/smoking-room</link>
+      <link>http://www.mariosanchez.org/post/smoking-room/</link>
       <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/smoking-room</guid>
+      <guid>http://www.mariosanchez.org/post/smoking-room/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m finally back in Shanghai and about to enter my hotel room. I swipe my key card over the sensor, open the door, and immediately sense a strange smell. I walk in a few steps, take a deep breath and think: &amp;ldquo;somebody has been smoking in this room&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Perhaps it&amp;rsquo;s just me&amp;rdquo;, I question myself, as I drop my suitcase and walk toward the opposite side of the room: &amp;ldquo;No&amp;hellip; still cigarette smell&amp;rdquo;, I think. Then I glance at the nightstand and, aha! the proof: an ashtray, and, neatly resting on its edges, a matchbox. They have given me a freaking smoking room.&lt;/p&gt;

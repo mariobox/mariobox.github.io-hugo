@@ -11,10 +11,10 @@
     
     <item>
       <title>How To Create a Minimal Hugo Site</title>
-      <link>http://www.mariosanchez.org/minimalhugo</link>
+      <link>http://www.mariosanchez.org/post/minimalhugo/</link>
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/minimalhugo</guid>
+      <guid>http://www.mariosanchez.org/post/minimalhugo/</guid>
       <description>
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
@@ -210,10 +210,10 @@
     
     <item>
       <title>Git Cheat Sheet</title>
-      <link>http://www.mariosanchez.org/gcs</link>
+      <link>http://www.mariosanchez.org/post/gcs/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/gcs</guid>
+      <guid>http://www.mariosanchez.org/post/gcs/</guid>
       <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -287,10 +287,10 @@
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/ssg</link>
+      <link>http://www.mariosanchez.org/post/ssg/</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/ssg</guid>
+      <guid>http://www.mariosanchez.org/post/ssg/</guid>
       <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
@@ -323,10 +323,10 @@
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/digital-presence</link>
+      <link>http://www.mariosanchez.org/post/digital-presence/</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/digital-presence</guid>
+      <guid>http://www.mariosanchez.org/post/digital-presence/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -385,10 +385,10 @@
     
     <item>
       <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://www.mariosanchez.org/gmail</link>
+      <link>http://www.mariosanchez.org/post/gmail/</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/gmail</guid>
+      <guid>http://www.mariosanchez.org/post/gmail/</guid>
       <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;

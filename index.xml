@@ -11,10 +11,10 @@
     
     <item>
       <title>My $100 Office</title>
-      <link>http://www.mariosanchez.org/100office/</link>
+      <link>http://www.mariosanchez.org/post/100office/</link>
       <pubDate>Fri, 25 Dec 2015 10:34:28 -0500</pubDate>
       
-      <guid>http://www.mariosanchez.org/100office/</guid>
+      <guid>http://www.mariosanchez.org/post/100office/</guid>
       <description>&lt;p&gt;I needed a quiet space at home where I could sit down and tweak the code of my site, and otherwise tinker with some web development tools I want to learn. Since my second bedroom had some empty space and a window with a nice view of the garden, it was the perfect place to try to fit a small workstation.&lt;/p&gt;
 
 &lt;p&gt;I didn&amp;rsquo;t want to spend a lot of money but I still wanted my new writing setup to look good, so my logical first stop was Ikea&amp;rsquo;s website. I found a $35 desk and a $15 chair that I liked and perfectly fit the space available, so I drove to the nearest store and picked them up.&lt;/p&gt;
@@ -25,7 +25,7 @@
 
 &lt;p&gt;Last weekend I installed everything and this is how it now looks:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src = &#34;../images/workstation.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src = &#34;/images/workstation.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;I am extremely happy with this new setup. I now have a place to write and code comfortably, that looks good and cost me less than $100.&lt;/p&gt;
 </description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>How To Create a Minimal Hugo Site</title>
-      <link>http://www.mariosanchez.org/minimalhugo</link>
+      <link>http://www.mariosanchez.org/post/minimalhugo/</link>
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/minimalhugo</guid>
+      <guid>http://www.mariosanchez.org/post/minimalhugo/</guid>
       <description>
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
@@ -232,10 +232,10 @@
     
     <item>
       <title>Git Cheat Sheet</title>
-      <link>http://www.mariosanchez.org/gcs</link>
+      <link>http://www.mariosanchez.org/post/gcs/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/gcs</guid>
+      <guid>http://www.mariosanchez.org/post/gcs/</guid>
       <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -516,10 +516,10 @@ We like to think of innovation as striking us in a stunning eureka moment, where
     
     <item>
       <title>The 6S Discipline</title>
-      <link>http://www.mariosanchez.org/6s</link>
+      <link>http://www.mariosanchez.org/post/6s/</link>
       <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/6s</guid>
+      <guid>http://www.mariosanchez.org/post/6s/</guid>
       <description>
 
 &lt;p&gt;A few weeks ago, the company moved us to a new office. When we walked into our shiny, new cubicles we found a single sheet of paper laid out on top of our recently installed, empty desks describing something called &amp;ldquo;The 6S Discipline&amp;rdquo;.&lt;/p&gt;
@@ -598,10 +598,10 @@ We like to think of innovation as striking us in a stunning eureka moment, where
     
     <item>
       <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/mornings</link>
+      <link>http://www.mariosanchez.org/post/mornings/</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mornings</guid>
+      <guid>http://www.mariosanchez.org/post/mornings/</guid>
       <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
 
 &lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
@@ -625,10 +625,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>What I&#39;m Doing Now</title>
-      <link>http://www.mariosanchez.org/now</link>
+      <link>http://www.mariosanchez.org/now/</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/now</guid>
+      <guid>http://www.mariosanchez.org/now/</guid>
       <description>&lt;p&gt;This is how I spend my time these days:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -640,9 +640,9 @@ are great!).&lt;/p&gt;
 
 &lt;li&gt;&lt;p&gt;I monitor and manage my investments, focusing on undervalued stocks and real estate.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m always &lt;a href=&#34;../reading/&#34;&gt;reading&lt;/a&gt; something.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I&amp;rsquo;m always &lt;a href=&#34;http://www.mariosanchez.org/book/&#34;&gt;reading&lt;/a&gt; something.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m learning to use the &lt;a href=&#34;http://gohugo.io&#34;&gt;static site generator&lt;/a&gt; that powers this site.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I&amp;rsquo;m learning to use the &lt;a href=&#34;http://gohugo.io&#34;&gt;static site generator&lt;/a&gt; that powers this site and using it to learn &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;I&amp;rsquo;m planning trips for the next few months. Possible destinations: Portland, Raleigh, Peru, Greece, Iceland.&lt;/p&gt;&lt;/li&gt;
 
@@ -653,7 +653,7 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;This page was inspired by the awesome &lt;a href=&#34;http://www.sivers.org/nowff&#34;&gt;Derek Sivers&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Last Updated: November 23, 2015&lt;/p&gt;
+&lt;p&gt;Last Updated: December 28, 2015&lt;/p&gt;
 </description>
     </item>
     
@@ -676,62 +676,6 @@ are great!).&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://amzn.to/22gNCMi&#34;&gt;Amazon Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://heathbrothers.com/books/made-to-stick/&#34;&gt;Official Book Site&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Photo Gallery</title>
-      <link>http://www.mariosanchez.org/testpic/</link>
-      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/testpic/</guid>
-      <description>&lt;div class=&#34;contain&#34;&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;p class=&#34;small&#34;&gt;&lt;a href=&#34;./bogota/&#34;&gt;TEST PIC&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;contain&#34;&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;p&gt;Test Pic&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;three col&#34;&gt;
-&lt;img src=&#34;http://www.mariosanchez.org/images/mypictr_165x165.jpg&#34;&gt;
-&lt;figcaption&gt;Test Pic&lt;/figcaption&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -788,48 +732,6 @@ are great!).&lt;/p&gt;
     </item>
     
     <item>
-      <title>Brooklyn and Manhattan</title>
-      <link>http://www.mariosanchez.org/brooklyn/</link>
-      <pubDate>Sun, 02 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/brooklyn/</guid>
-      <description>&lt;p&gt;Long weekend in Brooklyn and NYC.&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/313d4025ac2c305d162c6fc8ae8df682/tumblr_nsgmwt1apO1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Brooklyn Bridge&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/da5ba0993afcabb5098fc8b5dfb600c4/tumblr_nsgmwt1apO1qz7ur9o2_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Espresso&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/3d3630dbe7a9f29efc22c8df7d9194c5/tumblr_nsgmwt1apO1qz7ur9o3_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Brooklyn street from cab&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/7b46f84697ce48f89969c6e5abad0287/tumblr_nsgmwt1apO1qz7ur9o4_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Brooklyn: gentrification&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/3d542c0ebf50f67c3f1e4507881caf53/tumblr_nsgmwt1apO1qz7ur9o5_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;At Brooklyn Bridge Park&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/07b250a069870d4db30a7a18bbfa91f9/tumblr_nsgmwt1apO1qz7ur9o6_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Brooklyn Heights&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/8a0a76889f971a7961183f10a76973f8/tumblr_nsgmwt1apO1qz7ur9o7_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Prospect Park&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/f2e1f4550eec5bdff891121f90a88165/tumblr_nsgmwt1apO1qz7ur9o9_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Crossing Brooklyn Bridge on foot&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/193b3ee79e54a6acc6b2be85b6dd33ee/tumblr_nsgmwt1apO1qz7ur9o10_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Manhattan Bridge&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/b3d3fff1a1857c1b03b3f6eec6ceb325/tumblr_nsgmwt1apO1qz7ur9o8_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Downtown Manhattan from Brooklyn Bridge Park&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/102fee3542e5ff746f7adf20b37d3dca/tumblr_nsgn7woPjG1qz7ur9o1_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Brooklyn townhouse patio&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/eff810525ed73a102d86541fbfb7cafa/tumblr_nsgn7woPjG1qz7ur9o2_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Stroll along the Hudson&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://36.media.tumblr.com/ed7ad076b679709a07f8f211f2ae7871/tumblr_nsgn7woPjG1qz7ur9o3_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;St. Patrick&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://40.media.tumblr.com/0d70e43baf977a7437797c8b63d9b797/tumblr_nsgn7woPjG1qz7ur9o4_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Washington Square Farmers Market&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/02ed50e66b1e18f518740b604ef32a06/tumblr_nsgn7woPjG1qz7ur9o6_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;Urban garden in Brooklyn&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://41.media.tumblr.com/60e4519f13e8aa22fb768c1a1fd21dfe/tumblr_nsgn7woPjG1qz7ur9o5_1280.jpg&#34; class=&#34;profile&#34;&gt;&lt;br /&gt;712 Degraw St., our home for the long weekend.&lt;/p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Rework</title>
       <link>http://www.mariosanchez.org/rework/</link>
       <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
@@ -865,6 +767,133 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.linkedin.com/in/mariobox&#34;&gt;LinkedIn&lt;/a&gt; |
 &lt;a href=&#34;http://www.instagram.com/mariosc305&#34;&gt;Instagram&lt;/a&gt; | &lt;a href=&#34;http://www.twitter.com/mariobox&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;http://www.github.com/mariobox&#34;&gt;Github&lt;/a&gt; | &lt;a href=&#34;http://www.teamtreehouse.com/mariosanchezcarrion&#34;&gt;Treehouse&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using The Best Tools</title>
+      <link>http://www.mariosanchez.org/post/best-tools/</link>
+      <pubDate>Sat, 20 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/best-tools/</guid>
+      <description>&lt;p&gt;When I was growing up in Peru back in the 80&amp;rsquo;s I used to play tennis every weekend. I was never very good at it, but I loved to have the coolest rackets and shoes. Back then that meant either a &lt;a href=&#34;http://www.80s-tennis.com/pages/maxply-fort_80-ad.html&#34;&gt;Dunlop Maxply&lt;/a&gt; or a &lt;a href=&#34;http://racquetmuseum.com/2014/01/23/wilson-jack-kramer-autograph/&#34;&gt;Wilson Jack Kramer&lt;/a&gt; racket, and a pair of &lt;a href=&#34;https://en.wikipedia.org/wiki/Adidas_Stan_Smith&#34;&gt;Adidas Stan Smith&lt;/a&gt; tennis shoes. Needless to say, none of those tools made me be a better player. They were just status symbols.&lt;/p&gt;
+
+&lt;p&gt;There is a right time for buying yourself great tools, but it is usually not when you are just a beginner or a dabbler. &lt;mark&gt;At the early stages of any endevour, focused and disciplined practice will get you further than using the latest gadgets&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Rather than asking &amp;ldquo;what blogging platform should I use?&amp;rdquo; develop the habit of writing often and see if it is something you want to pursue.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rather than buying a Moleskin notebook to practice drawing mind maps, use any notebook for a while and see if it is something that helps you think more creatively or organize your thoughts better.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Instead of buying a Mac Book Pro to try your hand at some basic HTML or CSS, get an old laptop and see if it is something that you want to spend time learning first.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve proven your commitment to an activity or craft, by all means get yourself the best tools: you deserve them now.&lt;/p&gt;
+
+&lt;p&gt;At this stage, the best tools will not only give you an edge but will motivate you to keep improving, and will help you view yourself as what you really are: a professional who takes pride in what you do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Building Blocks of Success</title>
+      <link>http://www.mariosanchez.org/post/success/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/success/</guid>
+      <description>
+
+&lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m getting into the habit of reviewing this list frequently and asking: what are you doing today to nurture and strengthen each of these building blocks?&lt;/p&gt;
+
+&lt;p&gt;Here they are:&lt;/p&gt;
+
+&lt;h3 id=&#34;people:aacdfef422bea8f6180e1d1e68804581&#34;&gt;People&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Family&lt;/li&gt;
+&lt;li&gt;Friends&lt;/li&gt;
+&lt;li&gt;Business Contacts&lt;/li&gt;
+&lt;li&gt;Mentors&lt;/li&gt;
+&lt;li&gt;Heroes/Role Models&lt;/li&gt;
+&lt;li&gt;Peers&lt;/li&gt;
+&lt;li&gt;Advisors&lt;/li&gt;
+&lt;li&gt;Students&lt;/li&gt;
+&lt;li&gt;Clients&lt;/li&gt;
+&lt;li&gt;Service Providers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;resources:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cash&lt;/li&gt;
+&lt;li&gt;Stocks/Bonds/Mutual Funds&lt;/li&gt;
+&lt;li&gt;Stock Options&lt;/li&gt;
+&lt;li&gt;401K/IRAs Retirement Accounts&lt;/li&gt;
+&lt;li&gt;Real Estate&lt;/li&gt;
+&lt;li&gt;Vehicles&lt;/li&gt;
+&lt;li&gt;Computer&lt;/li&gt;
+&lt;li&gt;Tablet&lt;/li&gt;
+&lt;li&gt;Phone&lt;/li&gt;
+&lt;li&gt;Other Professional Equipment&lt;/li&gt;
+&lt;li&gt;Lines of Credit&lt;/li&gt;
+&lt;li&gt;Credit Cards&lt;/li&gt;
+&lt;li&gt;Digital Assets (domain, website, profiles)&lt;/li&gt;
+&lt;li&gt;Corporations&lt;/li&gt;
+&lt;li&gt;Processes/Systems&lt;/li&gt;
+&lt;li&gt;Patents&lt;/li&gt;
+&lt;li&gt;Royalties&lt;/li&gt;
+&lt;li&gt;Brands&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;self:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Self&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Values&lt;/li&gt;
+&lt;li&gt;Skills&lt;/li&gt;
+&lt;li&gt;Health&lt;/li&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;Style/Image&lt;/li&gt;
+&lt;li&gt;Habits&lt;/li&gt;
+&lt;li&gt;Traditions&lt;/li&gt;
+&lt;li&gt;Goals and Objectives&lt;/li&gt;
+&lt;li&gt;Personal Branding&lt;/li&gt;
+&lt;li&gt;Management Style&lt;/li&gt;
+&lt;li&gt;Personality Profile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;credentials:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Credentials&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Degrees&lt;/li&gt;
+&lt;li&gt;Resume&lt;/li&gt;
+&lt;li&gt;Testimonials&lt;/li&gt;
+&lt;li&gt;Letters of Recommendation&lt;/li&gt;
+&lt;li&gt;Portfolio&lt;/li&gt;
+&lt;li&gt;Credit Score&lt;/li&gt;
+&lt;li&gt;Business Licenses&lt;/li&gt;
+&lt;li&gt;Passports&lt;/li&gt;
+&lt;li&gt;Visas&lt;/li&gt;
+&lt;li&gt;Driver License&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;memberships:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Memberships&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alumni Associations&lt;/li&gt;
+&lt;li&gt;Student Associations&lt;/li&gt;
+&lt;li&gt;Political Affiliations&lt;/li&gt;
+&lt;li&gt;Religious Organizations&lt;/li&gt;
+&lt;li&gt;Community Organizations&lt;/li&gt;
+&lt;li&gt;Mastermind Groups&lt;/li&gt;
+&lt;li&gt;Professional Organizations&lt;/li&gt;
+&lt;li&gt;Charities&lt;/li&gt;
+&lt;li&gt;Boards&lt;/li&gt;
+&lt;li&gt;Frequent Flyer Programs&lt;/li&gt;
+&lt;li&gt;Clubs&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

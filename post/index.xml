@@ -11,10 +11,10 @@
     
     <item>
       <title>My $100 Office</title>
-      <link>http://www.mariosanchez.org/100office/</link>
+      <link>http://www.mariosanchez.org/post/100office/</link>
       <pubDate>Fri, 25 Dec 2015 10:34:28 -0500</pubDate>
       
-      <guid>http://www.mariosanchez.org/100office/</guid>
+      <guid>http://www.mariosanchez.org/post/100office/</guid>
       <description>&lt;p&gt;I needed a quiet space at home where I could sit down and tweak the code of my site, and otherwise tinker with some web development tools I want to learn. Since my second bedroom had some empty space and a window with a nice view of the garden, it was the perfect place to try to fit a small workstation.&lt;/p&gt;
 
 &lt;p&gt;I didn&amp;rsquo;t want to spend a lot of money but I still wanted my new writing setup to look good, so my logical first stop was Ikea&amp;rsquo;s website. I found a $35 desk and a $15 chair that I liked and perfectly fit the space available, so I drove to the nearest store and picked them up.&lt;/p&gt;
@@ -25,7 +25,7 @@
 
 &lt;p&gt;Last weekend I installed everything and this is how it now looks:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src = &#34;../images/workstation.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src = &#34;/images/workstation.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;I am extremely happy with this new setup. I now have a place to write and code comfortably, that looks good and cost me less than $100.&lt;/p&gt;
 </description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>How To Create a Minimal Hugo Site</title>
-      <link>http://www.mariosanchez.org/minimalhugo</link>
+      <link>http://www.mariosanchez.org/post/minimalhugo/</link>
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/minimalhugo</guid>
+      <guid>http://www.mariosanchez.org/post/minimalhugo/</guid>
       <description>
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
@@ -232,10 +232,10 @@
     
     <item>
       <title>Git Cheat Sheet</title>
-      <link>http://www.mariosanchez.org/gcs</link>
+      <link>http://www.mariosanchez.org/post/gcs/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/gcs</guid>
+      <guid>http://www.mariosanchez.org/post/gcs/</guid>
       <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -309,10 +309,10 @@
     
     <item>
       <title>The 6S Discipline</title>
-      <link>http://www.mariosanchez.org/6s</link>
+      <link>http://www.mariosanchez.org/post/6s/</link>
       <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/6s</guid>
+      <guid>http://www.mariosanchez.org/post/6s/</guid>
       <description>
 
 &lt;p&gt;A few weeks ago, the company moved us to a new office. When we walked into our shiny, new cubicles we found a single sheet of paper laid out on top of our recently installed, empty desks describing something called &amp;ldquo;The 6S Discipline&amp;rdquo;.&lt;/p&gt;
@@ -375,10 +375,10 @@
     
     <item>
       <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/mornings</link>
+      <link>http://www.mariosanchez.org/post/mornings/</link>
       <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mornings</guid>
+      <guid>http://www.mariosanchez.org/post/mornings/</guid>
       <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
 
 &lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
@@ -401,45 +401,11 @@ are great!).&lt;/p&gt;
     </item>
     
     <item>
-      <title>What I&#39;m Doing Now</title>
-      <link>http://www.mariosanchez.org/now</link>
-      <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/now</guid>
-      <description>&lt;p&gt;This is how I spend my time these days:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I start my day with a 30-45 minute stretching routine followed by a healthy breakfast.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I go to work every day, where I develop power tools that make people work faster, easier and more effectively.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I am constantly simplifying my life and my surroundings, with a &lt;a href=&#34;http://www.mariosanchez.org/mini&#34;&gt;practical minimalism&lt;/a&gt; frame of mind.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I monitor and manage my investments, focusing on undervalued stocks and real estate.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m always &lt;a href=&#34;../reading/&#34;&gt;reading&lt;/a&gt; something.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m learning to use the &lt;a href=&#34;http://gohugo.io&#34;&gt;static site generator&lt;/a&gt; that powers this site.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I&amp;rsquo;m planning trips for the next few months. Possible destinations: Portland, Raleigh, Peru, Greece, Iceland.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I keep in touch and spend time with my family.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I rarely miss a game of my favorite soccer team, Argentine side &lt;a href=&#34;http://farm5.staticflickr.com/4055/4448440498_5d731b2102_z.jpg&#34;&gt;River Plate&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This page was inspired by the awesome &lt;a href=&#34;http://www.sivers.org/nowff&#34;&gt;Derek Sivers&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Last Updated: November 23, 2015&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Using The Best Tools</title>
-      <link>http://www.mariosanchez.org/best-tools</link>
+      <link>http://www.mariosanchez.org/post/best-tools/</link>
       <pubDate>Sat, 20 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/best-tools</guid>
+      <guid>http://www.mariosanchez.org/post/best-tools/</guid>
       <description>&lt;p&gt;When I was growing up in Peru back in the 80&amp;rsquo;s I used to play tennis every weekend. I was never very good at it, but I loved to have the coolest rackets and shoes. Back then that meant either a &lt;a href=&#34;http://www.80s-tennis.com/pages/maxply-fort_80-ad.html&#34;&gt;Dunlop Maxply&lt;/a&gt; or a &lt;a href=&#34;http://racquetmuseum.com/2014/01/23/wilson-jack-kramer-autograph/&#34;&gt;Wilson Jack Kramer&lt;/a&gt; racket, and a pair of &lt;a href=&#34;https://en.wikipedia.org/wiki/Adidas_Stan_Smith&#34;&gt;Adidas Stan Smith&lt;/a&gt; tennis shoes. Needless to say, none of those tools made me be a better player. They were just status symbols.&lt;/p&gt;
 
 &lt;p&gt;There is a right time for buying yourself great tools, but it is usually not when you are just a beginner or a dabbler. &lt;mark&gt;At the early stages of any endevour, focused and disciplined practice will get you further than using the latest gadgets&lt;/mark&gt;.&lt;/p&gt;
@@ -462,10 +428,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Building Blocks of Success</title>
-      <link>http://www.mariosanchez.org/success/</link>
+      <link>http://www.mariosanchez.org/post/success/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/success/</guid>
+      <guid>http://www.mariosanchez.org/post/success/</guid>
       <description>
 
 &lt;p&gt;I am a big fan of checklists, and some time ago I developed this list of what I believe are the building blocks of success. They are divided in five big buckets: &lt;strong&gt;People&lt;/strong&gt;, &lt;strong&gt;Resources&lt;/strong&gt;, &lt;strong&gt;Self&lt;/strong&gt;, &lt;strong&gt;Credentials&lt;/strong&gt;, and &lt;strong&gt;Memberships&lt;/strong&gt;. There could be others, but this is a good starting point.&lt;/p&gt;
@@ -563,10 +529,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/ssg</link>
+      <link>http://www.mariosanchez.org/post/ssg/</link>
       <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/ssg</guid>
+      <guid>http://www.mariosanchez.org/post/ssg/</guid>
       <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
 
 &lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
@@ -599,10 +565,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/digital-presence</link>
+      <link>http://www.mariosanchez.org/post/digital-presence/</link>
       <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/digital-presence</guid>
+      <guid>http://www.mariosanchez.org/post/digital-presence/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
@@ -661,10 +627,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Unsolicited Financial Advice</title>
-      <link>http://www.mariosanchez.org/money-tips</link>
+      <link>http://www.mariosanchez.org/post/money-tips/</link>
       <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/money-tips</guid>
+      <guid>http://www.mariosanchez.org/post/money-tips/</guid>
       <description>&lt;p&gt;In this short post I will try to summarize what I would do to start building wealth if I were just starting out. Your circumstances may be different, so proceed with caution and don&amp;rsquo;t take this as gospel.&lt;/p&gt;
 
 &lt;p&gt;Here we go:&lt;/p&gt;
@@ -691,10 +657,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/mini</link>
+      <link>http://www.mariosanchez.org/post/mini/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/mini</guid>
+      <guid>http://www.mariosanchez.org/post/mini/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
 
 &lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  &lt;mark&gt;Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way&lt;/mark&gt;.&lt;/p&gt;
@@ -708,53 +674,11 @@ are great!).&lt;/p&gt;
     </item>
     
     <item>
-      <title>Work The System - Book Review</title>
-      <link>http://www.mariosanchez.org/wts</link>
-      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/wts</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/images/wts.jpg&#34; class=&#34;book&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;I decided to read &lt;a href=&#34;http://amzn.to/1zpyqRi&#34;&gt;Work The System&lt;/a&gt; when it was highly recommended by two respected business thinkers that I follow online: &lt;a href=&#34;http://www.joshkaufman.net&#34;&gt;Josh Kaufman&lt;/a&gt; and &lt;a href=&#34;http://www.sebastianmarshall.com&#34;&gt;Sebastian Marshall&lt;/a&gt;.  Also, because I&amp;rsquo;ve been very busy lately and a deep understanding of systems, standardization and automation will bring more control, less stress, and more time for value-adding activities like thinking, strategizing, and keeping healthy.&lt;/p&gt;
-
-&lt;p&gt;The book didn&amp;rsquo;t disappoint, and left me with plenty of actionable steps.&lt;/p&gt;
-
-&lt;p&gt;I hereby summarize the main tenets of the book:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The systems of the world work perfectly 99.9% of the time:&lt;/strong&gt; Everyday systems like air travel or electricity delivery almost never fail. We&amp;rsquo;ve become so used to it that we have come to expect it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Businesses are machines:&lt;/strong&gt; Like their mechanical counterparts, businesses have moving parts that operate in a linear 1-2-3 fashion. If a business sub-system is not working properly, we can isolate it, fix it and put everything back together, just like we would with a physical machine.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Large corporations operate with systems.  Small businesses improvise:&lt;/strong&gt; The reason multi-billion dollar companies grow and expand is the relentless implementation of systems. For small business owners, though, systems implementation is low in the scale of priorities. Those who are able to take the leap and embrace systems thinking will be orders of magnitude more successful than those who don&amp;rsquo;t.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;We are all project engineers. Our job is to create, fix and maintain systems:&lt;/strong&gt; This may come as a paradigm shift for most of us. By rethinking the way we work and redefining our role to project engineer (designing and repairing systems for a living) our productivity (and our sanity, I may add) will improve exponentially.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;98% perfection:&lt;/strong&gt;  Borrowed from Pareto&amp;rsquo;s 80-20 rule, the author convincingly argues that 98% good is as well as perfect, since the remaining 2% would take too much time and effort for the benefit it would bring.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Errors of omission:&lt;/strong&gt; Failures are not usually the consequence of overt mistakes but simply that somebody neglected or forgot something.  This is perhaps one of the most powerful arguments in favor of systems: if a process is thoroughly documented and followed, the chances of things going wrong will decrease.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Quiet Courage:&lt;/strong&gt; Taking a cue from &lt;a href=&#34;http://www.stevenpressfield.com/&#34;&gt;Steven Pressfield&lt;/a&gt;&amp;rsquo;s books, the author urges us to beat the resistance by sticking to the plan no matter what, even when we don&amp;rsquo;t feel like it.  He calls this quality &amp;ldquo;quiet courage&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Point of Sale Thinking:&lt;/strong&gt; An analogy to describe the  habit of doing things at once, by either doing them ourselves or delegating them. As in POS systems, where different business sub-systems are updated instantly the moment a sale is recorded, our habit of doing things at once will make a positive difference on our business in the long run.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Singles and Doubles. Not Home Runs:&lt;/strong&gt; Superb results are not the consequence of genius or bursts of inspiration, but of small, deliberate and consistent incremental improvements.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All these concepts lead us to the most important part of the book: the introduction of the three essential documents. They are: the &lt;strong&gt;Strategic Objective&lt;/strong&gt;, the &lt;strong&gt;Operating Principles&lt;/strong&gt; and the &lt;strong&gt;Operating Procedures&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;The last of these three life changing tools, the Operating Procedures, are what make the day to day of a business go flawlessly. They&amp;rsquo;re the detailed written instructions on how the different tasks and activities are to be performed.&lt;/p&gt;
-
-&lt;p&gt;The Strategic Objective states what you aim for (your vision and long term goals), while the Operating Principles serve as a guideline for decision making.&lt;/p&gt;
-
-&lt;p&gt;To help us internalize the concept, the author draws an interesting parallel between the three documents and the Declaration of Independence (the Strategic Objective), the Constitution (the Operating Principles) and the laws (the Operating Procedures).&lt;/p&gt;
-
-&lt;p&gt;What makes this book remarkable, aside from the usefulness of its content, is the deep personal connection between the author and the concepts he lays out. Sam Carpenter credits the systems mindset for rescuing him from near burnout and 80-hour workweeks, and leading him to a more relaxed, productive life.&lt;/p&gt;
-
-&lt;p&gt;The book is also very well structured, half textbook/half biography, turning what would otherwise be a dry, tedious subject into an engaging read.&lt;/p&gt;
-
-&lt;p&gt;Highly recommended.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>How To Build a Brand</title>
-      <link>http://www.mariosanchez.org/brand</link>
+      <link>http://www.mariosanchez.org/post/brand/</link>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/brand</guid>
+      <guid>http://www.mariosanchez.org/post/brand/</guid>
       <description>
 
 &lt;p&gt;In the paragraphs below I am outlining a basic roadmap you can follow to build your small business brand. You will still have to put out a lot of work, but it will help you clarify the process and ask better questions along the way.&lt;/p&gt;
@@ -1019,10 +943,10 @@ are great!).&lt;/p&gt;
     
     <item>
       <title>Sam&#39;s Rules for Building a Business</title>
-      <link>http://www.mariosanchez.org/sams-rules</link>
+      <link>http://www.mariosanchez.org/post/sams-rules/</link>
       <pubDate>Tue, 03 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/sams-rules</guid>
+      <guid>http://www.mariosanchez.org/post/sams-rules/</guid>
       <description>
 
 &lt;p&gt;A few years ago, during a trip to Bentonville, Arkansas, I had the chance to visit Walmart&amp;#8217;s first store (originally called Walton&amp;#8217;s 5-10), and picked up a leaflet containing Sam Walton&amp;#8217;s 10 rules for building a successful business. Pearls of wisdom, straight from the man who built the world&amp;#8217;s most successful retailer out of nothing. Since I haven&amp;rsquo;t been able to find a link to it on the Internet, I am transcribing them below (all of them are great, but I especially like #7, #9 and #10):&lt;/p&gt;
@@ -1066,6 +990,60 @@ are great!).&lt;/p&gt;
 &lt;h3 id=&#34;rule-10-swim-upstream:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 10: Swim upstream&lt;/h3&gt;
 
 &lt;p&gt;Go the other way. Ignore the conventional wisdom. If everybody else is doing it one way, there&amp;#8217;s a good chance you can find your niche by going in exactly the opposite direction. But be prepared for a lot of folks to wave you down and tell you you&amp;#8217;re headed the wrong way. I guess in all my years, what I heard more often than anything was: a town of less than 50,000 population cannot support a discount store for very long.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Use Gmail With Your Own Domain</title>
+      <link>http://www.mariosanchez.org/post/gmail/</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/gmail/</guid>
+      <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Go to any domain registrar (like Godaddy or Namecheap) and register the domain name you want to use.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, in your control panel you should be able to find the &lt;strong&gt;Email Forwarding&lt;/strong&gt; feature.  This is where you will create your new &lt;em&gt;you@yourname.com&lt;/em&gt; email address and forward it to &lt;em&gt;yourname@gmail.com&lt;/em&gt;. Note: if you&amp;rsquo;re using Godaddy, &lt;a href=&#34;http://help.godaddy.com/article/1725&#34;&gt;this page&lt;/a&gt; will give you more details on how to do this.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After you&amp;rsquo;ve done that, log on to Gmail, click on &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;Accounts&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Another Email Address&lt;/strong&gt;, and add &lt;em&gt;you@yourname.com&lt;/em&gt; to the list.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click NEXT, and Google will now send you a message to &lt;em&gt;you@yourname.com&lt;/em&gt; so you can verify it&amp;rsquo;s yours. Here&amp;rsquo;s the trick: since you already set up email forwarding in step 2 you will receive this email at &lt;em&gt;yourname@gmail.com&lt;/em&gt; ;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on the verification link and then go back to Gmail&amp;rsquo;s &lt;strong&gt;Accounts&lt;/strong&gt; tab in the &lt;strong&gt;Settings&lt;/strong&gt; menu. Your new, branded email address should already be listed there. Click on the link that says &amp;ldquo;make default&amp;rdquo; next to it, and check the radio button next to &amp;ldquo;always reply from my default address&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. You should now be ready to use Gmail with your own branded email address. If you want more details, you can visit Gmail&amp;rsquo;s custom domain &lt;a href=&#34;http://mail.google.com/support/bin/answer.py?hl=en&amp;amp;amp;ctx=mail&amp;amp;amp;answer=22370&#34;&gt;help page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Smoking Room</title>
+      <link>http://www.mariosanchez.org/post/smoking-room/</link>
+      <pubDate>Tue, 23 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/smoking-room/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m finally back in Shanghai and about to enter my hotel room. I swipe my key card over the sensor, open the door, and immediately sense a strange smell. I walk in a few steps, take a deep breath and think: &amp;ldquo;somebody has been smoking in this room&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Perhaps it&amp;rsquo;s just me&amp;rdquo;, I question myself, as I drop my suitcase and walk toward the opposite side of the room: &amp;ldquo;No&amp;hellip; still cigarette smell&amp;rdquo;, I think. Then I glance at the nightstand and, aha! the proof: an ashtray, and, neatly resting on its edges, a matchbox. They have given me a freaking smoking room.&lt;/p&gt;
+
+&lt;p&gt;I take the elevator downstairs. I spot the guy who checked me in (a tall and slim kid in his twenties, perhaps from South East Asia, but definitely not Chinese), walk toward him and throw my key card on the counter: &amp;ldquo;You gave me a smoking room!&amp;rdquo; I yell. &amp;ldquo;I&amp;rsquo;m sorry sir&amp;rdquo;, he replies, typing furiously as he tries to find me another room, &amp;ldquo;I thought you asked for a smoking room&amp;rdquo;. &amp;ldquo;No, I didn&amp;rsquo;t&amp;rdquo;, I  answer back. &amp;ldquo;Sorry about that, sir&amp;rdquo; he politely apologizes, as he hands me my new key card.&lt;/p&gt;
+
+&lt;p&gt;I take the elevator, find my new room and open the door. I walk in, take a deep breath and: perfect! no cigarette smell. I close the door behind me and throw open the curtains to reveal a spectacular view of the nearby park and skyline. Seconds later, as I stand by the window taking in the view, I suddenly ask myself:&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;When did I turn into such an asshole?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Perhaps the guy downstairs really did understand that I wanted a smoking room. After all, this is a hotel and employees have to deal with many different types of confusing accents. Or perhaps it was me who didn&amp;rsquo;t understand correctly. But, most importantly, this kid could have been me 25 years ago, new in a foreign country, trying my best to get ahead, having to deal with customers all day from behind a counter.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s when I decided to go back and apologize.&lt;/p&gt;
+
+&lt;p&gt;I take the elevator back down and stand in line, since the lobby is now packed with people waiting to check in. After a couple of minutes I hear a voice next to me: &amp;ldquo;is your new room OK, sir?&amp;rdquo;. The kid had spotted me standing in line and had come out to check on me. &amp;ldquo;The room? oh, yes, the room, the room is just great&amp;rdquo;, I tell him, still surprised to see him there. &amp;ldquo;Listen&amp;rdquo;, I keep telling him, &amp;ldquo;sorry that I yelled at you before, and thank you for being so diligent in taking care of the problem&amp;rdquo;. Then I shake his hand as he replies: &amp;ldquo;no problem, no problem, I&amp;rsquo;m glad everything turned out OK, sir&amp;rdquo;, before going back to his station.&lt;/p&gt;
+
+&lt;p&gt;It is said that as years go by we get more impatient. I wonder, though, if impatient is the right word, or if what we really become is more selfish and entitled. Could it be possible that years of accumulating possessions and fancy titles can make us forget where we come from, and turn us into insufferable jerks ready to go off when our wine is not at the right temperature, the food we just picked up for dinner messes up our new car smell or a young couple with active young children sits too close to us on a plane?&lt;/p&gt;
+
+&lt;p&gt;I hope not, but even in those cases when it seems it has, we can&amp;rsquo;t change the past just by wishing we had acted differently. What we can do, though, is to remember all those times when those we mistreated reacted with more grace and elegance than us and pay it forward.&lt;/p&gt;
 </description>
     </item>
     
