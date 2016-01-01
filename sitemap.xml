@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://www.mariosanchez.org/</loc>
-    <lastmod>2015-12-25T10:34:28-05:00</lastmod>
+    <lastmod>2015-12-31T15:38:02-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.mariosanchez.org/book/ayw/</loc>
+    <lastmod>2015-12-31T15:38:02-05:00</lastmod>
   </url>
   
   <url>
@@ -150,6 +155,10 @@
   <url>
     <loc>http://www.mariosanchez.org/post/marca-personal/</loc>
     <lastmod>2012-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.mariosanchez.org/ayw/</loc>
   </url>
   
 </urlset>
