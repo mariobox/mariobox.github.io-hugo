@@ -158,6 +158,11 @@
   </url>
   
   <url>
+    <loc>http://www.mariosanchez.org/book/pmba/</loc>
+    <lastmod>2013-06-03T17:47:53-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.mariosanchez.org/post/marca-personal/</loc>
     <lastmod>2012-09-25T00:00:00+00:00</lastmod>
   </url>
@@ -165,10 +170,6 @@
   <url>
     <loc>http://www.mariosanchez.org/book/ikigai/</loc>
     <lastmod>2012-01-01T17:33:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.mariosanchez.org/ayw/</loc>
   </url>
   
 </urlset>
