@@ -6,8 +6,42 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jan 2016 12:53:56 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Technology and the Future of Education</title>
+      <link>http://www.mariosanchez.org/post/onlineed/</link>
+      <pubDate>Sat, 23 Jan 2016 12:53:56 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/onlineed/</guid>
+      <description>
+
+&lt;p&gt;Following one of &lt;a href=&#34;http://www.mariosanchez.org/post/3words16/&#34;&gt;my themes for 2016&lt;/a&gt; I recently started learning Javascript. Rather than using a book I signed up to Treehouse, an online platform that specializes in teaching how to code.  After using the site for a few days I am now able to better understand how technology can help solve the problem of the skyrocketing cost of today&amp;rsquo;s higher education:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-scale:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;1. Scale&lt;/h3&gt;
+
+&lt;p&gt;The economies of scale achieved through technology have dramatically reduced the cost of education delivery. While courses in bricks-and-mortar schools can cost thousands of dollars, you can take unlimited classes online for less than $50 a month. Think of the savings this represents over the four years of a typical college education. If colleges and universities are investing in real estate instead of technology they&amp;rsquo;re making a big mistake.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-lesson-delivery:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;2. Lesson Delivery&lt;/h3&gt;
+
+&lt;p&gt;While some people will always prefer face to face lessons, the advantages of video are hard to ignore. For one, cost: why pay somebody to deliver the same lesson over and over again, when you can just capture it on video, once?  Today&amp;rsquo;s educational videos are highly optimized pieces of content, where everything: from the instructor&amp;rsquo;s tone of voice, to the words chosen to explain the concepts, to the infographics used as teaching aids, and even the backround decor, have been thoroughly tested to provide the most effective learning experience. A video can also reach millions, not just the number of students that fit in a typical classroom. You can also rewind a video at your leisure, watch it as many times as you want, when you want, wherever you may be.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-socialization-and-interaction:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;3. Socialization and Interaction&lt;/h3&gt;
+
+&lt;p&gt;Proponents of traditional education may argue that campus life enables students to interact, socialize and make connections.  The same, however, can be achieved through online education. While the interaction may not always be face to face, online tools like forums, social networks, and email let us be in contact with peers, ask questions, and give and get help. Students can also research their local scene for meetups where like-minded people can get together to discuss any topic, exchange ideas, and socialize.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-pace-and-rewards:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;4. Pace and Rewards&lt;/h3&gt;
+
+&lt;p&gt;Online schools are pioneers of the &lt;em&gt;gamification&lt;/em&gt; of education. They break down subjects into bite-sized lessons and give out points when a student completes them. Successfully passing a course or track earns them a badge. These achievements are then listed in the student&amp;rsquo;s profile, for bragging rights and motivation. Online teaching platforms are succeeding in making education fun, by providing a learning environment that resonates with digital natives, used to instant gratification and fast feedback loops. Traditional institutions, on the other hand, mostly follow the rigid set of rythms, timelines and processes of the industrial age.&lt;/p&gt;
+
+&lt;h3 id=&#34;5-skills-versus-credentials:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;5. Skills versus Credentials&lt;/h3&gt;
+
+&lt;p&gt;Providing a credential is one of the few considerations where traditional education may still come out ahead. I believe, however, that as the cost of traditional education gets higher and less people are willing to mortgage their lives in exchange for a diploma, more employers will have to adapt and get with the times. I also envision the talent pool getting bigger and competition stronger, which will devalue credentials in favor of skills and experience. Those who hone their skills working on intersting projects will be more valuable than those who just hide behind a piece of paper.&lt;/p&gt;
+
+&lt;p&gt;While I may be overemphasizing the virtues of online education based on my recent (and limited) experience, it is undeniable that traditional education is being &lt;a href=&#34;http://www.economist.com/news/briefing/21605899-staid-higher-education-business-about-experience-welcome-earthquake-digital&#34;&gt;disrupted&lt;/a&gt;, and that technology and the Internet will become the preferred media for &lt;a href=&#34;https://en.wikipedia.org/wiki/Massive_open_online_course&#34;&gt;education delivery in the future&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My 3 Words for 2016</title>
@@ -23,7 +57,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -31,7 +65,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -41,7 +75,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -993,71 +1027,45 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;A few years ago, during a trip to Bentonville, Arkansas, I had the chance to visit Walmart&amp;#8217;s first store (originally called Walton&amp;#8217;s 5-10), and picked up a leaflet containing Sam Walton&amp;#8217;s 10 rules for building a successful business. Pearls of wisdom, straight from the man who built the world&amp;#8217;s most successful retailer out of nothing. Since I haven&amp;rsquo;t been able to find a link to it on the Internet, I am transcribing them below (all of them are great, but I especially like #7, #9 and #10):&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-1-commit-to-your-business&#34;&gt;Rule 1: Commit to your business&lt;/h3&gt;
+&lt;h3 id=&#34;rule-1-commit-to-your-business:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 1: Commit to your business&lt;/h3&gt;
 
 &lt;p&gt;Believe in it more than anybody else. I think I overcame every single one of my personal shortcomings by the sheer passion I brought to my work. I don&amp;#8217;t know if you&amp;#8217;re born with this kind of passion, or if you can learn it. But I do know you need it. If you love your work, you&amp;#8217;ll be out there every day trying to do it the best you possibly can, and pretty soon everybody around will catch the passion from you &amp;mdash; like a fever.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-2-share-your-profits-with-all-your-associates-and-treat-them-as-partners&#34;&gt;Rule 2: Share your profits with all your associates, and treat them as partners&lt;/h3&gt;
+&lt;h3 id=&#34;rule-2-share-your-profits-with-all-your-associates-and-treat-them-as-partners:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 2: Share your profits with all your associates, and treat them as partners&lt;/h3&gt;
 
 &lt;p&gt;In turn, they will treat you as a partner, and together you will all perform beyond your wildest expectations. Remain a corporation and retain control if you like, but behave as a servant leader in your partnership. Encourage your associates to hold a stake in the company. Offer discounted stock, and grant them stock for their retirement. It&amp;#8217;s the single best thing we ever did.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-3-motivate-your-partners&#34;&gt;Rule 3: Motivate your partners&lt;/h3&gt;
+&lt;h3 id=&#34;rule-3-motivate-your-partners:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 3: Motivate your partners&lt;/h3&gt;
 
 &lt;p&gt;Money and ownership alone aren&amp;#8217;t enough. Constantly, day by day, think of new and more interesting ways to motivate and challenge your partners. Set high goals, encourage competition, and then keep score. Make bets with outrageous payoffs. If things get stale, cross-pollinate; have managers switch jobs with one another to stay challenged. Keep everybody guessing as to what your next trick is going to be. Don&amp;#8217;t become too predictable.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-4-communicate-everything-you-possibly-can-to-your-partners&#34;&gt;Rule 4: Communicate everything you possibly can to your partners&lt;/h3&gt;
+&lt;h3 id=&#34;rule-4-communicate-everything-you-possibly-can-to-your-partners:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 4: Communicate everything you possibly can to your partners&lt;/h3&gt;
 
 &lt;p&gt;The more they know, the more they&amp;#8217;ll understand. The more they understand, the more they&amp;#8217;ll care. Once they care, there&amp;#8217;s no stopping them. If you don&amp;#8217;t trust your associates to know what&amp;#8217;s going on, they&amp;#8217;ll know you really don&amp;#8217;t consider them partners. Information is power, and the gain you get from empowering your associates more than offsets the risk of informing your competitors.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-5-appreciate-everything-your-associates-do-for-the-business&#34;&gt;Rule 5: Appreciate everything your associates do for the business&lt;/h3&gt;
+&lt;h3 id=&#34;rule-5-appreciate-everything-your-associates-do-for-the-business:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 5: Appreciate everything your associates do for the business&lt;/h3&gt;
 
 &lt;p&gt;A paycheck and a stock option will buy one kind of loyalty. But all of us like to be told how much somebody appreciates what we do for them. We like to hear it often, and especially when we have done something we&amp;#8217;re really proud of. Nothing else can quite substitute for a few well-chosen, well-timed, sincere words of praise. They&amp;#8217;re absolutely free &amp;mdash; and worth a fortune.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-6-celebrate-your-success&#34;&gt;Rule 6: Celebrate your success&lt;/h3&gt;
+&lt;h3 id=&#34;rule-6-celebrate-your-success:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 6: Celebrate your success&lt;/h3&gt;
 
 &lt;p&gt;Find some humor in your failures. Don&amp;#8217;t take yourself so seriously. Loosen up, and everybody around you will loosen up. Have fun. Show enthusiasm &amp;mdash; always. When all else fails, put on a costume and sing a silly song. Then make everybody else sing with you. Don&amp;#8217;t do a hula on Wall Street. It&amp;#8217;s been done. Think up your own stunt. All of this is more important, and more fun, than you think, and it really fools competition. &amp;#8220;Why should we take those cornballs at Wal-Mart seriously?&amp;#8221;&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-7-listen-to-everyone-in-your-company-and-figure-out-ways-to-get-them-talking&#34;&gt;Rule 7: Listen to everyone in your company and figure out ways to get them talking&lt;/h3&gt;
+&lt;h3 id=&#34;rule-7-listen-to-everyone-in-your-company-and-figure-out-ways-to-get-them-talking:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 7: Listen to everyone in your company and figure out ways to get them talking&lt;/h3&gt;
 
 &lt;p&gt;The folks on the front lines &amp;mdash; the ones who actually talk to the customer &amp;mdash; are the only ones who really know what&amp;#8217;s going on out there. You&amp;#8217;d better find out what they know. This really is what total quality is all about. To push responsibility down in your organization, and to force good ideas to bubble up within it, you must listen to what your associates are trying to tell you.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-8-exceed-your-customer-8217-s-expectations&#34;&gt;Rule 8: Exceed your customer&amp;#8217;s expectations&lt;/h3&gt;
+&lt;h3 id=&#34;rule-8-exceed-your-customer-8217-s-expectations:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 8: Exceed your customer&amp;#8217;s expectations&lt;/h3&gt;
 
 &lt;p&gt;If you do, they&amp;#8217;ll come back over and over. Give them what they want &amp;mdash; and a little more. Let them know you appreciate them. Make good on all your mistakes, and don&amp;#8217;t make excuses &amp;mdash; apologize. Stand behind everything you do. The two most important words I ever wrote were on that first Wal-Mart sign: &amp;#8220;Satisfaction Guaranteed.&amp;#8221; They&amp;#8217;re still up there, and they have made all the difference.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-9-control-your-expenses-better-than-your-competition&#34;&gt;Rule 9: Control your expenses better than your competition&lt;/h3&gt;
+&lt;h3 id=&#34;rule-9-control-your-expenses-better-than-your-competition:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 9: Control your expenses better than your competition&lt;/h3&gt;
 
 &lt;p&gt;This is where you can always find the competitive advantage. For twenty-five years running &amp;mdash; long before Wal-Mart was known as the nation&amp;#8217;s largest retailer &amp;mdash; we&amp;#8217;ve ranked No. 1 in our industry for the lowest ratio of expenses to sales. You can make a lot of different mistakes and still recover if you run an efficient operation. Or you can be brilliant and still go out of business if you&amp;#8217;re too inefficient.&lt;/p&gt;
 
-&lt;h3 id=&#34;rule-10-swim-upstream&#34;&gt;Rule 10: Swim upstream&lt;/h3&gt;
+&lt;h3 id=&#34;rule-10-swim-upstream:5cd272a68276fbd4f74ed5050ec995e5&#34;&gt;Rule 10: Swim upstream&lt;/h3&gt;
 
 &lt;p&gt;Go the other way. Ignore the conventional wisdom. If everybody else is doing it one way, there&amp;#8217;s a good chance you can find your niche by going in exactly the opposite direction. But be prepared for a lot of folks to wave you down and tell you you&amp;#8217;re headed the wrong way. I guess in all my years, what I heard more often than anything was: a town of less than 50,000 population cannot support a discount store for very long.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://www.mariosanchez.org/post/gmail/</link>
-      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/gmail/</guid>
-      <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Go to any domain registrar (like Godaddy or Namecheap) and register the domain name you want to use.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Then, in your control panel you should be able to find the &lt;strong&gt;Email Forwarding&lt;/strong&gt; feature.  This is where you will create your new &lt;em&gt;you@yourname.com&lt;/em&gt; email address and forward it to &lt;em&gt;yourname@gmail.com&lt;/em&gt;. Note: if you&amp;rsquo;re using Godaddy, &lt;a href=&#34;http://help.godaddy.com/article/1725&#34;&gt;this page&lt;/a&gt; will give you more details on how to do this.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;After you&amp;rsquo;ve done that, log on to Gmail, click on &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;Accounts&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Another Email Address&lt;/strong&gt;, and add &lt;em&gt;you@yourname.com&lt;/em&gt; to the list.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click NEXT, and Google will now send you a message to &lt;em&gt;you@yourname.com&lt;/em&gt; so you can verify it&amp;rsquo;s yours. Here&amp;rsquo;s the trick: since you already set up email forwarding in step 2 you will receive this email at &lt;em&gt;yourname@gmail.com&lt;/em&gt; ;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click on the verification link and then go back to Gmail&amp;rsquo;s &lt;strong&gt;Accounts&lt;/strong&gt; tab in the &lt;strong&gt;Settings&lt;/strong&gt; menu. Your new, branded email address should already be listed there. Click on the link that says &amp;ldquo;make default&amp;rdquo; next to it, and check the radio button next to &amp;ldquo;always reply from my default address&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. You should now be ready to use Gmail with your own branded email address. If you want more details, you can visit Gmail&amp;rsquo;s custom domain &lt;a href=&#34;http://mail.google.com/support/bin/answer.py?hl=en&amp;amp;amp;ctx=mail&amp;amp;amp;answer=22370&#34;&gt;help page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
