@@ -6,8 +6,31 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2016 17:04:27 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 13:14:04 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting Your Message Across With Stories</title>
+      <link>http://www.mariosanchez.org/post/stories/</link>
+      <pubDate>Sun, 28 Feb 2016 13:14:04 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/stories/</guid>
+      <description>&lt;p&gt;Trying to sell an idea generally involves one of these two basic approaches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To use information and logic (features and benefits) or,&lt;/li&gt;
+&lt;li&gt;To use a story.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using a deeply personal story that the audience can relate to, though, is much more effective than just laying down reasons why others should do what we&amp;rsquo;re asking them to.&lt;/p&gt;
+
+&lt;p&gt;I was reminded of this after reading &lt;a href=&#34;https://t.co/jgnKL82kfU&#34;&gt;this powerful article&lt;/a&gt;. Basically it talks about a well-known personal finance concept that has been repeated time and time again by self-proclaimed personal finance experts: the need to build an emergency fund to cover six months (or so) of living expenses.&lt;/p&gt;
+
+&lt;p&gt;Contrary to the typical personal finance article, though, the post I just linked to uses a vivid and powerful story that will resonate with whoever reads it in a completely different way.&lt;/p&gt;
+
+&lt;p&gt;To know what I&amp;rsquo;m talking about you may need to read the article (It&amp;rsquo;s a relatively short, 6 minute read). You will not only brush up on an important personal finance concept, but also learn a thing or two about effective communication through stories.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>January Review: Learning Javascript</title>
@@ -86,7 +109,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -94,7 +117,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -104,7 +127,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -146,13 +169,13 @@
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -160,19 +183,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -182,7 +205,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -194,7 +217,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -220,7 +243,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -234,7 +257,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -258,7 +281,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -277,13 +300,13 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -293,19 +316,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -315,7 +338,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -775,274 +798,6 @@ are great!).&lt;/p&gt;
 &lt;p&gt;A good way to make minimalism a daily practice is to get into the habit of constantly asking ourselves this question: &amp;ldquo;What is this doing here?&amp;rdquo; If it&amp;rsquo;s not adding value or bringing us joy, get rid of it. Throw it away or give it to someone who may need it/like it/want it. Here&amp;rsquo;s the key, though: whatever we decide to do we must decide quickly, or the resistance (laziness, procrastination, the just-in-case syndrome) will take over.&lt;/p&gt;
 
 &lt;p&gt;Keep it up until this daily practice becomes a habit, and you&amp;rsquo;ll be surprised by how eliminating physical clutter contributes to getting rid of mental clutter too. I&amp;rsquo;ve noticed that since I&amp;rsquo;m doing this I&amp;rsquo;m able to think more clearly, and have an easier time getting organized and getting things done.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Build a Brand</title>
-      <link>http://www.mariosanchez.org/post/brand/</link>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/brand/</guid>
-      <description>
-
-&lt;p&gt;In the paragraphs below I am outlining a basic roadmap you can follow to build your small business brand. You will still have to put out a lot of work, but it will help you clarify the process and ask better questions along the way.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-does-a-brand-do:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;What Does a Brand Do?&lt;/h2&gt;
-
-&lt;p&gt;There are as many definitions of brand as there are branding experts. However, there is probably just one thing you need to remember: a brand helps us say something about ourselves.&lt;/p&gt;
-
-&lt;p&gt;Take, for example, people who drive Toyota Prius. What do you think they&amp;rsquo;re trying to communicate? Would it be, perhaps, that they care about the environment? The role of the brand (Prius) is to help them tell that story.&lt;/p&gt;
-
-&lt;p&gt;We crave association with brands that help us tell the story we want to tell.&lt;/p&gt;
-
-&lt;h2 id=&#34;your-product:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Product&lt;/h2&gt;
-
-&lt;p&gt;Ideally, your product needs to be something you need or use. This will give you the ability to see things from your customers&amp;rsquo; perspective. It is no coincidence that so many entrepreneurs find success after creating a product they themselves need.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t actively use or need the product you sell, then make sure that at least you&amp;rsquo;re deeply interested in it, so that you won&amp;rsquo;t mind researching, learning and doing what it takes to become an expert as you go along.&lt;/p&gt;
-
-&lt;h2 id=&#34;your-target-market:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Target Market&lt;/h2&gt;
-
-&lt;p&gt;You need to find customers who need the product you&amp;rsquo;re offering. You do this by segmenting the market. In the end, you should be able to pinpoint a market niche that you can serve and dominate.&lt;/p&gt;
-
-&lt;p&gt;There are many ways to segment the market: by geography, by demographics, by psychographics, by behavior, etc. Without getting too technical, we will just list as many ways to segment the market as we can think of, so you can select the combination that best works for you:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Place of residence (country, state, region, city, neighbourhood, postal code)&lt;/li&gt;
-&lt;li&gt;Gender&lt;/li&gt;
-&lt;li&gt;Age&lt;/li&gt;
-&lt;li&gt;Income&lt;/li&gt;
-&lt;li&gt;Occupation&lt;/li&gt;
-&lt;li&gt;Ethnicity&lt;/li&gt;
-&lt;li&gt;Nationality&lt;/li&gt;
-&lt;li&gt;Social class&lt;/li&gt;
-&lt;li&gt;Education&lt;/li&gt;
-&lt;li&gt;Marital status&lt;/li&gt;
-&lt;li&gt;Household size&lt;/li&gt;
-&lt;li&gt;Life cycle stage&lt;/li&gt;
-&lt;li&gt;Political Affiliation&lt;/li&gt;
-&lt;li&gt;Values&lt;/li&gt;
-&lt;li&gt;Religious preference&lt;/li&gt;
-&lt;li&gt;Activities&lt;/li&gt;
-&lt;li&gt;Entertainment preferences&lt;/li&gt;
-&lt;li&gt;Interests/hobbies&lt;/li&gt;
-&lt;li&gt;Opinions&lt;/li&gt;
-&lt;li&gt;Attitudes&lt;/li&gt;
-&lt;li&gt;Travel patterns&lt;/li&gt;
-&lt;li&gt;Purchasing habits&lt;/li&gt;
-&lt;li&gt;Price sensitivity&lt;/li&gt;
-&lt;li&gt;Purchase likelihood&lt;/li&gt;
-&lt;li&gt;Usage frequency&lt;/li&gt;
-&lt;li&gt;Purchase process&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For example, you may decide to target young dads, between 30 and 40 years old, making between $80K and $150K a year, who have a graduate degree, live in South Florida, play tennis over the weekend, don&amp;rsquo;t have much discretionary time and want to take their game to the next level.&lt;/p&gt;
-
-&lt;p&gt;As an exercise, can you break down the categories above even further?&lt;/p&gt;
-
-&lt;h2 id=&#34;your-competition:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Competition&lt;/h2&gt;
-
-&lt;p&gt;So far you have a product and a target customer. Things are definitely moving in the right direction, but there&amp;rsquo;s one more thing you need to consider:&lt;/p&gt;
-
-&lt;p&gt;What if somebody is already in that space?&lt;/p&gt;
-
-&lt;p&gt;Competition is not necessarily a bad thing: it means there is a market for what you want to sell. At the same time it means that you need to find a way to differentiate yourself.&lt;/p&gt;
-
-&lt;p&gt;What can you bring to the table that your competitors can&amp;rsquo;t?&lt;/p&gt;
-
-&lt;p&gt;There are three ways you can differentiate yourself: offer more than your competition, offer less, and have a point of view.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s look at these three options.&lt;/p&gt;
-
-&lt;h2 id=&#34;differentiator-1-offering-more:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #1: Offering More&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Quality&lt;/li&gt;
-&lt;li&gt;Price&lt;/li&gt;
-&lt;li&gt;Availability&lt;/li&gt;
-&lt;li&gt;Variety&lt;/li&gt;
-&lt;li&gt;Fun Factor&lt;/li&gt;
-&lt;li&gt;Financing&lt;/li&gt;
-&lt;li&gt;Delivery&lt;/li&gt;
-&lt;li&gt;Convenience&lt;/li&gt;
-&lt;li&gt;After Sale Service&lt;/li&gt;
-&lt;li&gt;Personality&lt;/li&gt;
-&lt;li&gt;Design&lt;/li&gt;
-&lt;li&gt;Distribution.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These are just some of the areas you can analyze. Can you think of others?&lt;/p&gt;
-
-&lt;h2 id=&#34;differentiator-2-offering-less:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #2: Offering Less&lt;/h2&gt;
-
-&lt;p&gt;The default approach to differentiation is usually to pile up more features to outdo the competition. However, more features don&amp;rsquo;t necessarily mean a better product. Introducing features to one-up the competition can lead to feature creep. Products become confusing and brands lose their identity in the long run.&lt;/p&gt;
-
-&lt;p&gt;Customers like clarity. Just focus on a few important features and don&amp;rsquo;t be afraid to eliminate the rest. Simplicity can be the most powerful competitive advantage.&lt;/p&gt;
-
-&lt;p&gt;Keep iterating until you&amp;rsquo;ve found your unique point of differentiation.&lt;/p&gt;
-
-&lt;h2 id=&#34;differentiator-3-your-pov-point-of-view:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #3: Your POV (Point of View)&lt;/h2&gt;
-
-&lt;p&gt;Features and benefits don&amp;rsquo;t create powerful USPs (unique selling propositions) any more.&lt;/p&gt;
-
-&lt;p&gt;What differentiates a brand in today&amp;rsquo;s competitive environment is its &lt;strong&gt;Point of View&lt;/strong&gt;. This is clearly explained in &lt;a href=&#34;http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action.html&#34;&gt;Simon Sinek&amp;rsquo;s Golden Circles theory&lt;/a&gt;, which he introduced in one of the most viewed TED talks of all time. The gist of his presentation is this: &lt;strong&gt;People don&amp;rsquo;t buy what you do: they buy WHY you do it&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;The WHY is your Point of View.&lt;/p&gt;
-
-&lt;h2 id=&#34;is-it-profitable:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Is it Profitable?&lt;/h2&gt;
-
-&lt;p&gt;By now you should already have a clearly differentiated position, but since to get there you may have had to further narrow your target market, you need to determine if that market is still big enough to make a profit. To know for sure you may need to run some market tests and pilot runs. If they show promise then you have found your brand.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, testing a market is now easier than ever thanks to Internet platforms like eBay, Amazon, Craigslist, Etsy, eLance, to name some of the most well known ones.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As you may have noticed reading so far, building a brand is not easy. It is not a linear process. There is no exact sequence of steps: most of the time you will need to work on different variables (your product, your competition, your customers) at the same time, and make frequent reassessments.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s why the process requires more than just sitting in front of a computer. You may need to lay down charts, note cards or props on a large table, stick color Post-It notes on a wall or make heavy use of a whiteboard.&lt;/p&gt;
-
-&lt;p&gt;You may also want to involve other people: business associates, suppliers, potential customers, consultants and mentors (people who can give you feedback).&lt;/p&gt;
-
-&lt;p&gt;When building your brand remember the words of Abraham Lincoln: &amp;lsquo;Give me six hours to chop down a tree and I will spend the first four sharpening the axe.&amp;rsquo; It is better to spend more time getting your brand right before you launch than attempt to change course when your brand is already out there.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;communicating-your-brand:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Communicating Your Brand&lt;/h2&gt;
-
-&lt;p&gt;You have already defined your brand. Now you need to communicate what your brand is all about. To do so, you need to develop and articulate a few important concepts that we&amp;rsquo;ll explain in the next few paragraphs.&lt;/p&gt;
-
-&lt;h2 id=&#34;vision:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Vision&lt;/h2&gt;
-
-&lt;p&gt;Vision is where you want to take your brand. It is your chief aim. It is an ideal place in the future where you would like your brand to be. It is the way you ultimately want your brand to be perceived.&lt;/p&gt;
-
-&lt;h2 id=&#34;mission:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Mission&lt;/h2&gt;
-
-&lt;p&gt;Mission is what you do every day. It is your brand&amp;rsquo;s purpose besides making money.&lt;/p&gt;
-
-&lt;p&gt;An effective mission statement has to be customer-centric. Words like &amp;lsquo;maximize shareholder value&amp;rsquo; or &amp;lsquo;constant profitable growth&amp;rsquo; don&amp;rsquo;t belong on a mission statement. They are financial objectives. They are important, certainly, but they should come as a &lt;em&gt;consequence&lt;/em&gt; of having (and executing on) a customer-centered mission .&lt;/p&gt;
-
-&lt;p&gt;Your mission needs to be articulated as simply and as clearly as possible, so that &lt;em&gt;everybody&lt;/em&gt; can understand it. Paraphrasing Albert Einstein, if you can&amp;rsquo;t explain it to a six year old it is not clear enough.&lt;/p&gt;
-
-&lt;p&gt;A good example of a clear mission statement is Walmart&amp;rsquo;s: &amp;lsquo;To save you money so you can live better.&amp;rsquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;slogan:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Slogan&lt;/h2&gt;
-
-&lt;p&gt;A slogan is a short sentence that distills either your mission or you brand&amp;rsquo;s most important differentiation point. Since your slogan will be used in your marketing and promotional campaigns it has to be worded in terms that your target customer will understand.&lt;/p&gt;
-
-&lt;h2 id=&#34;name:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Name&lt;/h2&gt;
-
-&lt;p&gt;Your brand name is your most important brand signal. Choose a name that communicates something about your brand and shows some personality (and by all means, stay away from acronyms).&lt;/p&gt;
-
-&lt;p&gt;For example, the HVLP Fan Company, a Kentucky-based fan manufacturer, saw sales and brand awareness soar after they changed their name to &lt;a href=&#34;http://www.bigassfans.com&#34;&gt;Big Ass Fans&lt;/a&gt;, a nod to customers who kept referring to the company&amp;rsquo;s large industrial units as &amp;lsquo;big ass&amp;rsquo; fans.&lt;/p&gt;
-
-&lt;p&gt;Perhaps you don&amp;rsquo;t have to get that quirky, but being original certainly helps.&lt;/p&gt;
-
-&lt;h2 id=&#34;logo:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Logo&lt;/h2&gt;
-
-&lt;p&gt;A logo does not &amp;lsquo;make&amp;rsquo; your brand. A logo is a symbol that represents your brand. A good logo takes something that customers associate with your brand and distills it in the simplest graphic form possible.&lt;/p&gt;
-
-&lt;p&gt;An example of a good logo is National Geograhic&amp;rsquo;s. It is just a simple yellow rectangle that evoques the yellow frame around the printed magazine&amp;rsquo;s impactful cover images (one of the most remembered and loved features of the National Geographic brand.)&lt;/p&gt;
-
-&lt;p&gt;When you design your logo aim for that same degree of simplicity. Think about how can your logo make a meaningful connection to your brand, and how you can make it as simple as possible.&lt;/p&gt;
-
-&lt;p&gt;Another important consideration, too: the simpler the logo, the better it will render in different surfaces and materials. This is especially important in marketing and promotional vehicles.&lt;/p&gt;
-
-&lt;h2 id=&#34;packaging:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Packaging&lt;/h2&gt;
-
-&lt;p&gt;When you have a limited marketing budget, you may want to leverage your packaging to double up as marketing material. If you have a physical product, invest in the best, most professional package you can afford. A good package can make all the difference at the point of sale, where customers ultimately make their buying decision.&lt;/p&gt;
-
-&lt;h2 id=&#34;price:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Price&lt;/h2&gt;
-
-&lt;p&gt;Price is a proxy for value. Bear in mind that not everybody has time for lengthy features and benefits comparisons, so price will be used as good indicator.&lt;/p&gt;
-
-&lt;p&gt;When setting your price it is better to aim higher, while at the same time making sure that your brand delivers much more value than the premium you&amp;rsquo;re charging.&lt;/p&gt;
-
-&lt;p&gt;Pricing is a complex subject so you may want to read up more about it (I find &lt;a href=&#34;http://www.seobook.com/getting-your-pricing-right&#34;&gt;this guide&lt;/a&gt; to be an excellent introduction to the subject of pricing, in case you want to dig deeper).&lt;/p&gt;
-
-&lt;h2 id=&#34;domain-name:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Domain Name&lt;/h2&gt;
-
-&lt;p&gt;Your domain name (also referred to as your web address or URL) needs to be chosen at the same time as your brand name. This is important because most good domains are taken and your brand name &lt;em&gt;must&lt;/em&gt; be part of your domain name.&lt;/p&gt;
-
-&lt;p&gt;If possible, register a domain with a .com extension. If your company is a non-profit you can use a .org extension. If you don&amp;rsquo;t find a good domain with those extensions there are other ones that have become popular like .co and .io (however, they might be more expensive).&lt;/p&gt;
-
-&lt;p&gt;To help you with search engines you may also want to include in your domain name the kind of product or service you offer (for example: CollinsPlumbing.com instead of just Collins.com). A word of caution, though: you need to think long term because if you plan to introduce other products or services in the future you don&amp;rsquo;t want to limit yourself.&lt;/p&gt;
-
-&lt;p&gt;Your aim should be to find a domain name that includes your brand name, is descriptive enough, and not too long.&lt;/p&gt;
-
-&lt;h2 id=&#34;website:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Website&lt;/h2&gt;
-
-&lt;p&gt;If you needed to choose one, and only one marketing vehicle for your small business brand it would be a website.&lt;/p&gt;
-
-&lt;p&gt;A good website can accomplish many things for you: it can be an information hub, a customer service vehicle, a marketing tool, a way to engage in conversations with your customers, a starting point to building a mailing list, and even a distribution channel.&lt;/p&gt;
-
-&lt;p&gt;Make sure that your site renders correctly in different browsers and resolutions (especially in tablets and mobile phones, since every day more people use them).&lt;/p&gt;
-
-&lt;p&gt;To make your site display correctly in any device it needs to be built using a technique called &lt;em&gt;responsive web design&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Basically, sites that are built with responsive web design automatically recognize what kind of device is being used to access them, and display the site version that best fits the resolution of that particular device.&lt;/p&gt;
-
-&lt;p&gt;Make sure that the person who designs your website knows about responsive web design.&lt;/p&gt;
-
-&lt;h2 id=&#34;blog:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Blog&lt;/h2&gt;
-
-&lt;p&gt;Adding a blog to your site is a good way to show your expertise and build trust.&lt;/p&gt;
-
-&lt;p&gt;You need to host your blog in your own domain or sub-domain. Otherwise, you will be at the mercy of whoever owns the platform.&lt;/p&gt;
-
-&lt;p&gt;Rather than setting your blog at the root of your domain &lt;em&gt;yoursite.com&lt;/em&gt; it is good practice to deploy it in a sub-domain, like &lt;em&gt;blog.yourdomain.com&lt;/em&gt; or a folder, like &lt;em&gt;yourdomain.com/blog&lt;/em&gt;. The reason why a blog shouldn&amp;rsquo;t be deployed at the root is because the root must be reserved for the main page of your site, which should give a comprehensive view of your brand, your company, your products and services.&lt;/p&gt;
-
-&lt;p&gt;A good blogging platform option is &lt;a href=&#34;http://www.wordpress.org&#34;&gt;Wordpress.org&lt;/a&gt;, since it lets you use your own domain AND host the software with the web host of your choice (you can find a good tutorial on how to install a Wordpress blog &lt;a href=&#34;http://www.theminimalists.com/how-to-set-up-a-wordpress-blog/&#34;&gt;here&lt;/a&gt; ).&lt;/p&gt;
-
-&lt;p&gt;Other popular platforms, like Tumblr for example, will let you use your own domain, but your blog will be hosted at Tumblr&amp;rsquo;s web servers, not your web host, which is not an ideal set-up for a serious business blog.&lt;/p&gt;
-
-&lt;p&gt;A word of caution, though. Don&amp;rsquo;t expect your blog to be a sales tool. Although it will help you sell more, a blog is primarily a trust-building mechanism.&lt;/p&gt;
-
-&lt;h2 id=&#34;email-newsletter:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Email Newsletter&lt;/h2&gt;
-
-&lt;p&gt;A regular email newsletter, sent to readers who have opted in and want to receive it, is one of the most powerful marketing tools you can use. After all, most people read their email every day.&lt;/p&gt;
-
-&lt;p&gt;Unlike social media, email is still very personal. When somebody opts into your mailing list and gives you their email address it&amp;rsquo;s like you&amp;rsquo;re being invited to that person&amp;rsquo;s home. You must correspond to that trust by delivering extremely high quality content and making your readers feel like they&amp;rsquo;re part of an exclusive club.&lt;/p&gt;
-
-&lt;p&gt;You can create and manage a newsletter through services like &lt;a href=&#34;http://mailchimp.com&#34;&gt;Mailchimp&lt;/a&gt;, or if you prefer a more simple, minimalistic option you can use &lt;a href=&#34;http://www.tinyletter.com&#34;&gt;Tinyletter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;leveraging-your-brand:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Leveraging Your Brand&lt;/h2&gt;
-
-&lt;p&gt;Your brand must mean something extremely clear to a very targeted group of people before you can consider taking it to the next level.&lt;/p&gt;
-
-&lt;p&gt;This means you need to resist the temptation of doing too many things with your brand too soon, like defining your target market too broadly under the misled assumption that not doing so may cause you to &amp;lsquo;lose business&amp;rsquo;. More often than not, the opposite is true: if you aim at everything and everybody you won&amp;rsquo;t mean anything to anybody, and you will dilute or even destroy your brand.&lt;/p&gt;
-
-&lt;p&gt;Start with something very targeted and then, once you have consolidated your position, think about what else you can offer.&lt;/p&gt;
-
-&lt;h2 id=&#34;creating-products-for-your-customers:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Creating Products for Your Customers&lt;/h2&gt;
-
-&lt;p&gt;Your best customers for your new offerings will be your existing customers. Once you become successful with your brand you will have the privilege of finding products for your customers instead of having to find customers for your products.&lt;/p&gt;
-
-&lt;h2 id=&#34;line-extensions:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Line Extensions&lt;/h2&gt;
-
-&lt;p&gt;It is a good idea to create different products at different price levels, since not everybody will be able to afford your best, most expensive products. You may want to start new customers off with a relatively low cost option so that they can get familiar with your brand, and then move them up to more sophisticated products.&lt;/p&gt;
-
-&lt;p&gt;I recommend focusing on three different price levels: Good, Better, and Best. By limiting choice to a few, well differentiated options, you eliminate confusion and make the purchasing decision easier. Think of how Spanish wine makers market their wine: they adhere to just three standard denominations based on the quality of the grapes and the timeframe of the aging process: Crianza (Good), Reserva (Better) and Gran Reserva (Best). Simple, and it works.&lt;/p&gt;
-
-&lt;h2 id=&#34;brand-partnerships:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Brand Partnerships&lt;/h2&gt;
-
-&lt;p&gt;Partnerships are a great brand building technique especially when your brand is new. By associating your brand to another one in a non-competitive sector you will essentially leverage that brand&amp;rsquo;s attributes in your favor.&lt;/p&gt;
-
-&lt;p&gt;Think how car manufacturers partner with luxury brands to create premium versions of their models. Recently, for example, Fiat partnered with Italian luxury goods brand Gucci to offer a version of its successful Fiat 500 in Gucci trim, making it easier to tie their car to the concept of Italian style.&lt;/p&gt;
-
-&lt;h2 id=&#34;brand-extensions:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Brand Extensions&lt;/h2&gt;
-
-&lt;p&gt;Brand extensions happen when you take your brand into new product categories. For brand extensions to be successful there must be some kind of synergy between the core category and the new one.&lt;/p&gt;
-
-&lt;p&gt;For example, it&amp;rsquo;s not much of a stretch for a brand like BMW to go from cars to motorcycles. That brand extension feels natural and credible. Another good brand extension could be a brand of pasta that branches out into pasta sauces.&lt;/p&gt;
-
-&lt;h2 id=&#34;licensing:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Licensing&lt;/h2&gt;
-
-&lt;p&gt;Licensing is probably the most powerful way to leverage your brand. It occurs when you aim your brand at entirely new businesses and distribution channels.&lt;/p&gt;
-
-&lt;p&gt;For example, a clothing manufacturer with good penetration in department stores may license a brand like Jeep to develop a line of rugged outdoor clothes. Jeep, in exchange, will receive a royalty and access to a completely different distribution channel, without essentially doing anything and with very low risk.&lt;/p&gt;
-
-&lt;p&gt;Licensing will only work, though, when your brand is already well established in the marketplace, and when what it stands for is already widely and easily understood.&lt;/p&gt;
 </description>
     </item>
     
