@@ -169,13 +169,13 @@
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -183,19 +183,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -205,7 +205,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -217,7 +217,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -243,7 +243,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -257,7 +257,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -281,7 +281,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -300,13 +300,13 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -316,19 +316,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -338,7 +338,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -703,11 +703,11 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;When I talk about a having a digital presence, though, I&amp;rsquo;m not talking about being a tenant in Zuck&amp;rsquo;s massive apartment complex, but rather of building and owning our own digital home: a website that we can deploy using our own domain, custom-designed and tweaked to our liking.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-early-days&#34;&gt;The Early Days&lt;/h3&gt;
+&lt;h3 id=&#34;the-early-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Early Days&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ve had a digital presence through self-deployed websites (mainly as a hobby) since the early 2000&amp;rsquo;s. I started off by learning some basic HTML tags and hastily coding a website that I used to publish notes-to-self about search engine optimization, a topic I was deeply interested in back then. Then, Web 2.0 came along.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-wordpress-days&#34;&gt;The Wordpress Days&lt;/h3&gt;
+&lt;h3 id=&#34;the-wordpress-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Wordpress Days&lt;/h3&gt;
 
 &lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
 
@@ -715,13 +715,13 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
 
-&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
+&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
 
 &lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
 
 &lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: a hand-coded HTML site with no programming involved requires that you create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not such a big deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
+&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
 
 &lt;p&gt;A &lt;a href=&#34;../ssg/&#34;&gt;static site generator&lt;/a&gt; is basically a program that takes your content, merges it with predefined templates and style sheets, and generates a site made of just HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages automatically when you make changes to the common elements of the site (navigation menu, footer, or sidebar).&lt;/p&gt;
 
@@ -729,7 +729,7 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;The first static site generator I used was &lt;a href=&#34;http://www.jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;. After a few months, though, I started to find Jekyll somehow limiting (it&amp;rsquo;s a fairly old SSG), so I gave &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; a try and have been using it ever since. I am extremely happy with Hugo: it is fast, intuitive, and just needs one executable file to run (no complicated dependencies).&lt;/p&gt;
 
-&lt;h3 id=&#34;the-tools-of-the-trade&#34;&gt;The Tools of the Trade&lt;/h3&gt;
+&lt;h3 id=&#34;the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Tools of the Trade&lt;/h3&gt;
 
 &lt;p&gt;In order to run my site using a static site generator I had to learn a few things:&lt;/p&gt;
 
