@@ -6,8 +6,32 @@
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2016 17:04:27 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 30 Apr 2016 18:00:39 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Ubuntu in an Old Laptop</title>
+      <link>http://www.mariosanchez.org/post/ubuntu/</link>
+      <pubDate>Sat, 30 Apr 2016 18:00:39 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/ubuntu/</guid>
+      <description>&lt;p&gt;When the hard drive of my Toshiba Satellite died suddenly I thought of getting rid of the old laptop, but when I learned that you could buy a refurbished hard drive on ebay for very little money (around $35) I ordered one and installed it.&lt;/p&gt;
+
+&lt;p&gt;The clean, fresh hard drive with no OS gave me the perfect excuse to install a Linux operating system. I had heard good things about &lt;a href=&#34;http://www.ubuntu.com&#34;&gt;Ubuntu&lt;/a&gt;, with its user-friendly interface and non of the clutter that comes with a traditional  Windows installation.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was to use my other computer to &lt;a href=&#34;http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows&#34;&gt;create a Ubuntu bootable USB stick&lt;/a&gt; (the instructions on the link are self-explanatory).&lt;/p&gt;
+
+&lt;p&gt;Then I plugged the Ubuntu USB stick in one of the Toshiba Satellite USB ports and turned on the computer. As soon as the first screen came up I pressed F12 (in some computers you need to press Escape) and I was taken to a menu of choices where I picked the option: &amp;ldquo;Boot from a USB port&amp;rdquo; (go to &lt;a href=&#34;http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc&#34;&gt;this link&lt;/a&gt; for a more comprehensive explanation, since your computer may behave differently).&lt;/p&gt;
+
+&lt;p&gt;Once Ubuntu comes up on the screen, it gives you the option to try it out from the USB port or to install it in your hard drive (I chose the latter). There are other things you can do, like running Ubuntu alonside Windows, but I haven&amp;rsquo;t tried them. There are plenty of tutorials online explaining alternative installations, though, if you want to do something different.&lt;/p&gt;
+
+&lt;p&gt;My new Ubuntu installation works perfectly. It is fast and efficient, and the interface is intuitive enough that anybody can use it. Ubuntu also comes Firefox already installed, and with LibreOffice, an open source office suite  compatible with Microsoft Office. That means you can open and edit files like Word documents, Excel spreadsheets and PowerPoint presentations and share them with other users quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;I am very happy that my old laptop got a new lease of life, and that installing (and using) the free and open source Ubuntu was easy and painless.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/../images/ubuntu.jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>January Review: Learning Javascript</title>

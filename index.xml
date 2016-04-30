@@ -6,8 +6,32 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Feb 2016 13:14:04 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 30 Apr 2016 18:00:39 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing Ubuntu in an Old Laptop</title>
+      <link>http://www.mariosanchez.org/post/ubuntu/</link>
+      <pubDate>Sat, 30 Apr 2016 18:00:39 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/ubuntu/</guid>
+      <description>&lt;p&gt;When the hard drive of my Toshiba Satellite died suddenly I thought of getting rid of the old laptop, but when I learned that you could buy a refurbished hard drive on ebay for very little money (around $35) I ordered one and installed it.&lt;/p&gt;
+
+&lt;p&gt;The clean, fresh hard drive with no OS gave me the perfect excuse to install a Linux operating system. I had heard good things about &lt;a href=&#34;http://www.ubuntu.com&#34;&gt;Ubuntu&lt;/a&gt;, with its user-friendly interface and non of the clutter that comes with a traditional  Windows installation.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was to use my other computer to &lt;a href=&#34;http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows&#34;&gt;create a Ubuntu bootable USB stick&lt;/a&gt; (the instructions on the link are self-explanatory).&lt;/p&gt;
+
+&lt;p&gt;Then I plugged the Ubuntu USB stick in one of the Toshiba Satellite USB ports and turned on the computer. As soon as the first screen came up I pressed F12 (in some computers you need to press Escape) and I was taken to a menu of choices where I picked the option: &amp;ldquo;Boot from a USB port&amp;rdquo; (go to &lt;a href=&#34;http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc&#34;&gt;this link&lt;/a&gt; for a more comprehensive explanation, since your computer may behave differently).&lt;/p&gt;
+
+&lt;p&gt;Once Ubuntu comes up on the screen, it gives you the option to try it out from the USB port or to install it in your hard drive (I chose the latter). There are other things you can do, like running Ubuntu alonside Windows, but I haven&amp;rsquo;t tried them. There are plenty of tutorials online explaining alternative installations, though, if you want to do something different.&lt;/p&gt;
+
+&lt;p&gt;My new Ubuntu installation works perfectly. It is fast and efficient, and the interface is intuitive enough that anybody can use it. Ubuntu also comes Firefox already installed, and with LibreOffice, an open source office suite  compatible with Microsoft Office. That means you can open and edit files like Word documents, Excel spreadsheets and PowerPoint presentations and share them with other users quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;I am very happy that my old laptop got a new lease of life, and that installing (and using) the free and open source Ubuntu was easy and painless.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/../images/ubuntu.jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Your Message Across With Stories</title>
@@ -115,7 +139,7 @@
 
 &lt;p&gt;After reading the book I found out that the author had done a &lt;a href=&#34;https://www.ted.com/talks/susan_cain_the_power_of_introverts?language=en&#34;&gt;TED talk&lt;/a&gt; on the subject. While not a substitute for the book it is worth watching.&lt;/p&gt;
 
-&lt;h4 id=&#34;my-highlights-and-notes:413acb98b45f59b87e6a91c1fc93570d&#34;&gt;My Highlights and Notes&lt;/h4&gt;
+&lt;h4 id=&#34;my-highlights-and-notes&#34;&gt;My Highlights and Notes&lt;/h4&gt;
 
 &lt;p&gt;&amp;ldquo;Our lives are shaped as profoundly by personality as by gender or race.&amp;rdquo;&lt;/p&gt;
 
@@ -1034,7 +1058,7 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 
 &lt;p&gt;If you want to learn more about the 6S philosophy, you can read this &lt;a href=&#34;https://www.vitalentusa.com/learn/An_Introduction_to_6S.pdf&#34;&gt;comprehensive 6S overview&lt;/a&gt; I found searching online. On the other hand, if you just want to grasp the gist of it, here are the 6S principles in short form, just like in the page I found on my desk:&lt;/p&gt;
 
-&lt;h3 id=&#34;sort:42441621e042de90c292d1ae34891e18&#34;&gt;Sort&lt;/h3&gt;
+&lt;h3 id=&#34;sort&#34;&gt;Sort&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sort out necessary and unnecessary items&lt;/li&gt;
@@ -1042,33 +1066,33 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;li&gt;Remove and discard the items not required&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;set-in-order:42441621e042de90c292d1ae34891e18&#34;&gt;Set In Order&lt;/h3&gt;
+&lt;h3 id=&#34;set-in-order&#34;&gt;Set In Order&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Organize the essential materials in the workplace&lt;/li&gt;
 &lt;li&gt;Find &amp;ldquo;a place for everything and keep everything in its place&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;shine:42441621e042de90c292d1ae34891e18&#34;&gt;Shine&lt;/h3&gt;
+&lt;h3 id=&#34;shine&#34;&gt;Shine&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Keep the area clean at all times&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;standardize:42441621e042de90c292d1ae34891e18&#34;&gt;Standardize&lt;/h3&gt;
+&lt;h3 id=&#34;standardize&#34;&gt;Standardize&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the Sort, Set In Order, and Shine Steps&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;sustain:42441621e042de90c292d1ae34891e18&#34;&gt;Sustain&lt;/h3&gt;
+&lt;h3 id=&#34;sustain&#34;&gt;Sustain&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the gain&lt;/li&gt;
 &lt;li&gt;Look for ways to continuously improve your work area&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;safety-first:42441621e042de90c292d1ae34891e18&#34;&gt;Safety First&lt;/h3&gt;
+&lt;h3 id=&#34;safety-first&#34;&gt;Safety First&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Provide an accident-free workplace. Eliminate hazards.&lt;/li&gt;
@@ -1097,33 +1121,6 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;p&gt;Some critics have dismissed Smith&amp;rsquo;s account as oportunistic or naive, but the bottom line is that it sheds a powerful light on some of Wall Street&amp;rsquo;s worse practices.&lt;/p&gt;
 
 &lt;p&gt;Required reading for those who seek to understand corporate politics and how it can advance or hinder a business career.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/post/mornings/</link>
-      <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/mornings/</guid>
-      <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
-
-&lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
-
-&lt;p&gt;But who are these people telling us what to do with our time, our sleep, our exercise and our food? Are they physicians or dietitians? No, they&amp;rsquo;re just personal
-development &amp;ldquo;experts&amp;rdquo; who have found in the latest productivity fad a way to sell books, seminars and expensive coaching sessions.&lt;/p&gt;
-
-&lt;p&gt;So, enough of the one-size-fits-all power morning ritual. The bottom line is that &lt;mark&gt;everybody is different because our &lt;a href=&#34;https://en.wikipedia.org/wiki/Chronobiology&#34;&gt;biological rhythms&lt;/a&gt; are different&lt;/mark&gt;. Forget what the &amp;ldquo;gurus&amp;rdquo; say and just do what works for you.&lt;/p&gt;
-
-&lt;p&gt;What works for me? I need seven to eight hours of sleep, so waking up at 4am is a no-no. Upon waking up, usually at 6:30am or so, I perform a stretching and strengthening routine for my lower back, abdomen and hamstrings, followed by a healthy breakfast (sometimes blueberry yogurt with muesli, sometimes oatmeal with raisins
-and apple, or a sprouted wheat toast with cheddar cheese and a boiled egg, all preceded by a small glass of orange/carrot juice and followed by a large cup of coffee).&lt;/p&gt;
-
-&lt;p&gt;So, do you have a morning ritual?&lt;/p&gt;
-
-&lt;p&gt;For more on the topic, check out this &lt;a href=&#34;https://medium.com/@InVisionApp/what-s-your-morning-ritual-b3ff2fbcc8e5#.o9qgzlwb9&#34;&gt;Medium article&lt;/a&gt;, where several people share how they get their mornings started. It&amp;rsquo;s worth the 4 minute read (plus, the pictures
-are great!).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/5/4019/4658619672_819e8d7414_b.jpg&#34; class=&#34;roundcorners&#34;&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
