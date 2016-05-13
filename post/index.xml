@@ -6,8 +6,79 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2016 21:05:20 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2016 18:00:39 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Basic Git Workflow</title>
+      <link>http://www.mariosanchez.org/post/gitflow/</link>
+      <pubDate>Thu, 12 May 2016 18:00:39 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/gitflow/</guid>
+      <description>
+
+&lt;p&gt;This quick rundown portrays the basic workflow I go through when using &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; to keep track of files. It assumes you have some basic knowledge of Git. If you don&amp;rsquo;t, don&amp;rsquo;t worry, there are plenty of resources online (&lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this is a good starting point&lt;/a&gt;). It also assumes that you are using &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; for your remote repositories.&lt;/p&gt;
+
+&lt;p&gt;Here we go.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-repository-from-scratch:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Creating a repository from scratch&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Open your Terminal and navigate to a folder you want to start tracking (if you don&amp;rsquo;t know how to use the Terminal this &lt;a href=&#34;https://www.codecademy.com/learn/learn-the-command-line&#34;&gt;quick online course&lt;/a&gt; will show you the basics).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;git init&lt;/code&gt; to create a new subdirectory, called .git, where your file changes are going to be tracked.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a new file, let&amp;rsquo;s say: &lt;em&gt;grocery.txt&lt;/em&gt; (a simple text file listing different grocery stores in your neighborhood).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add some grocery store names and save the file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the file to the staging area by doing &lt;code&gt;git add grocery.txt&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit your changes by doing &lt;code&gt;git commit -m &amp;ldquo;MESSAGE HERE&amp;rdquo;&lt;/code&gt;. Don&amp;rsquo;t forget to type your message in between quote marks explaining what you did to the file.  Since this is the first time you commit this file it is OK to just write &amp;ldquo;initial commit&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you want to push your file to a remote repository, you need to create the remote repository first:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to Github and create a new project folder where you&amp;rsquo;re going to place and track &lt;em&gt;grocery.txt&lt;/em&gt;. You can call it &lt;em&gt;new-project&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Look around the screen for the URL of the project folder you just created. It should be something like &lt;code&gt;&lt;a href=&#34;https://www.github.com/youraccount/new-project.git&#34;&gt;https://www.github.com/youraccount/new-project.git&lt;/a&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Copy that URL, go back to your terminal, and type &lt;br /&gt;&lt;code&gt;git add remote origin &lt;a href=&#34;http://www.github.com/youraccount/new-project/.git&#34;&gt;http://www.github.com/youraccount/new-project/.git&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your file to the remote repository with &lt;code&gt;git push origin master&lt;/code&gt; (if at any point Github asks you for your username and password type them in).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you are tracking &lt;em&gt;grocery.txt&lt;/em&gt; both in your local repository (your computer) and a remote repository!&lt;/p&gt;
+
+&lt;p&gt;Now, let&amp;rsquo;s say that the next day you come back to your file and add some more grocery store names. Once you&amp;rsquo;re done, do this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Save the file&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do &lt;code&gt;git add grocery.txt&lt;/code&gt; to add the changes to the staging area, and&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git commit -m &amp;ldquo;add grocery stores&amp;rdquo;&lt;/code&gt; to commit your changes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To upload these changes to the remote repository simply type &lt;code&gt;git push origin master&lt;/code&gt;. Type your username and password when prompted and the changes will be uploaded.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloning-a-remote-repository:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Cloning a remote repository&lt;/h3&gt;
+
+&lt;p&gt;Cloning a remote repository means installing a copy in your local computer. You may want to clone one of your existing remote repositories to do some work on it locally, or you may want to clone a remote repository belonging to somebody else and use it as a template for your own project. In this case, first make sure you have permission from the repository owner.&lt;/p&gt;
+
+&lt;p&gt;This is what you do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Go to Github and follow the instructions to fork the repository to your profile.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you want to call the repository something else, just rename as you want.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, clone the repository to your local computer by going back to the terminal and typing &lt;code&gt;git clone [URL OF THE REPOSITORY]&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve cloned the repository amd done some work on it, the process is the same as when you update a local repository created from scratch: you work on your files, make some changes, add them to the staging area, commit them, and finally push them back to the remote repository with &lt;code&gt;git push origin master&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Before You Sharpen That Axe</title>
@@ -59,34 +130,9 @@
 
 &lt;p&gt;My new Ubuntu installation works perfectly. It is fast and efficient, and the interface is intuitive enough that anybody can use it. Ubuntu also comes Firefox already installed, and with LibreOffice, an open source office suite  compatible with Microsoft Office. That means you can open and edit files like Word documents, Excel spreadsheets and PowerPoint presentations and share them with other users quickly and easily.&lt;/p&gt;
 
-&lt;p&gt;I also tried to run Ubuntu from the USB port in my other computer (the one I use every day), but I run into a problem that I haven&amp;rsquo;t yet been able to solve: Ubuntu doesn&amp;rsquo;t detect any wifi networks. I guess plain old Windows will have to do for my main computer for now.&lt;/p&gt;
-
 &lt;p&gt;Overall, I am very happy that my old laptop got a new lease of life, and that installing (and using) the free and open source Ubuntu on it was easy and painless.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/../images/ubuntu.jpg&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Getting Your Message Across With Stories</title>
-      <link>http://www.mariosanchez.org/post/stories/</link>
-      <pubDate>Sun, 28 Feb 2016 13:14:04 -0500</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/stories/</guid>
-      <description>&lt;p&gt;Trying to sell an idea generally involves one of these two basic approaches:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To use information and logic (features and benefits) or,&lt;/li&gt;
-&lt;li&gt;To use a story.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Using a deeply personal story that the audience can relate to, though, is much more effective than just laying down reasons why others should do what we&amp;rsquo;re asking them to.&lt;/p&gt;
-
-&lt;p&gt;I was reminded of this after reading &lt;a href=&#34;https://t.co/jgnKL82kfU&#34;&gt;this powerful article&lt;/a&gt;. Basically it talks about a well-known personal finance concept that has been repeated time and time again by self-proclaimed personal finance experts: the need to build an emergency fund to cover six months (or so) of living expenses.&lt;/p&gt;
-
-&lt;p&gt;Contrary to the typical personal finance article, though, the post I just linked to uses a vivid and powerful story that will resonate with whoever reads it in a completely different way.&lt;/p&gt;
-
-&lt;p&gt;To know what I&amp;rsquo;m talking about you may need to read the article (It&amp;rsquo;s a relatively short, 6 minute read). You will not only brush up on an important personal finance concept, but also learn a thing or two about effective communication through stories.&lt;/p&gt;
 </description>
     </item>
     
@@ -417,83 +463,6 @@
     </item>
     
     <item>
-      <title>Git Cheat Sheet</title>
-      <link>http://www.mariosanchez.org/post/gcs/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/gcs/</guid>
-      <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
-
-&lt;p&gt;Here we go:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --global user.name &#34;your user name&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --global user.email &#34;your email&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tell Git your usename and email. You only need to do this once.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --list&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Prints a list all the options you have configured Git for, including your user.name and user.email.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Creates a Git repository in the current folder.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone /path/to/repository&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Clones (makes a working copy) of an existing repository. If the repository is in a host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the path to repository will typically be a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git status -s&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Shows you the status of files in the current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M: the file has been modified&lt;/li&gt;
-&lt;li&gt;A: new file that has been added to the staging area&lt;/li&gt;
-&lt;li&gt;MM: file that has been modified, staged, and modified again&lt;/li&gt;
-&lt;li&gt;?: new file not yet tracked&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git add --all&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Adds a file, or all files that have been created or modified to the staging area.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git commit -m &#34;commit message&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Commits (records) your changes to your local Git repository. Remember to write a short message between the quote marks so that others can understand what you did.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pushes (uploads) your changes to your remote repository.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The 6S Discipline</title>
       <link>http://www.mariosanchez.org/post/6s/</link>
       <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
@@ -509,7 +478,7 @@
 
 &lt;p&gt;If you want to learn more about the 6S philosophy, you can read this &lt;a href=&#34;https://www.vitalentusa.com/learn/An_Introduction_to_6S.pdf&#34;&gt;comprehensive 6S overview&lt;/a&gt; I found searching online. On the other hand, if you just want to grasp the gist of it, here are the 6S principles in short form, just like in the page I found on my desk:&lt;/p&gt;
 
-&lt;h3 id=&#34;sort:42441621e042de90c292d1ae34891e18&#34;&gt;Sort&lt;/h3&gt;
+&lt;h3 id=&#34;sort&#34;&gt;Sort&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sort out necessary and unnecessary items&lt;/li&gt;
@@ -517,33 +486,33 @@
 &lt;li&gt;Remove and discard the items not required&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;set-in-order:42441621e042de90c292d1ae34891e18&#34;&gt;Set In Order&lt;/h3&gt;
+&lt;h3 id=&#34;set-in-order&#34;&gt;Set In Order&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Organize the essential materials in the workplace&lt;/li&gt;
 &lt;li&gt;Find &amp;ldquo;a place for everything and keep everything in its place&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;shine:42441621e042de90c292d1ae34891e18&#34;&gt;Shine&lt;/h3&gt;
+&lt;h3 id=&#34;shine&#34;&gt;Shine&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Keep the area clean at all times&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;standardize:42441621e042de90c292d1ae34891e18&#34;&gt;Standardize&lt;/h3&gt;
+&lt;h3 id=&#34;standardize&#34;&gt;Standardize&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the Sort, Set In Order, and Shine Steps&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;sustain:42441621e042de90c292d1ae34891e18&#34;&gt;Sustain&lt;/h3&gt;
+&lt;h3 id=&#34;sustain&#34;&gt;Sustain&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the gain&lt;/li&gt;
 &lt;li&gt;Look for ways to continuously improve your work area&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;safety-first:42441621e042de90c292d1ae34891e18&#34;&gt;Safety First&lt;/h3&gt;
+&lt;h3 id=&#34;safety-first&#34;&gt;Safety First&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Provide an accident-free workplace. Eliminate hazards.&lt;/li&gt;
@@ -714,100 +683,318 @@ are great!).&lt;/p&gt;
     </item>
     
     <item>
-      <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/post/ssg/</link>
-      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
+      <title>Unsolicited Financial Advice</title>
+      <link>http://www.mariosanchez.org/post/money-tips/</link>
+      <pubDate>Tue, 03 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/post/ssg/</guid>
-      <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
+      <guid>http://www.mariosanchez.org/post/money-tips/</guid>
+      <description>&lt;p&gt;In this short post I will try to summarize what I would do to start building wealth if I were just starting out. Your circumstances may be different, so proceed with caution and don&amp;rsquo;t take this as gospel.&lt;/p&gt;
 
-&lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;Here we go:&lt;/p&gt;
 
-&lt;p&gt;The source files are the raw material, so to speak, and the SSG is the machine that processes it. Once the static site generator performs its magic, a website made entirely out of HTML, CSS and Javascript is created.&lt;/p&gt;
+&lt;p&gt;First, if your employer offers a 401K plan with a match, I would contribute up to the maximum amount matched.  Some companies match your contribution dollar for dollar. Others match 50%. Either way, that&amp;rsquo;s an instant 100% or 50% return on your money. You won&amp;rsquo;t get that kind of return anywhere else (that I know). Plus, your money will grow tax free until you&amp;rsquo;re allowed to withdraw it.&lt;/p&gt;
 
-&lt;p&gt;In summary, you can&amp;rsquo;t just deploy the source files and expect the website to render in your browser. You have to run them through the SSG first.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve maximized your 401K match, the next step is to eliminate all credit card debt. Credit card interest is a rip-off (20% or more per year in most cases). I don&amp;rsquo;t know of any safe investment that pays that much.  Paying off your credit card debt is like getting a double digit return on your money. Once your balance is paid off, make it a habit to pay your credit card bill in full every month.&lt;/p&gt;
 
-&lt;p&gt;There are &lt;a href=&#34;http://www.staticsitegenerators.net&#34;&gt;hundreds&lt;/a&gt; of SSGs to choose from. Depending on the static site generator you choose, you may need to download other programs (or dependencies), like Python or Ruby, that are necessary for the SSG to work.&lt;/p&gt;
+&lt;p&gt;After your credit card debt has been obliterated, it&amp;rsquo;s time to build an emergency fund. An emergency fund is designed to protect you against unexpected events like the loss of a job, car and home repairs, medical bills, etc. You should budget at least a full year of living expenses, plus a couple thousand dollars for car repairs and another couple thousand for home repairs. Also, add any other expense you anticipate in the next 12 to 24 months: a trip, a wedding, a course, etc.  Once you take everything into account, your emergency fund may need to be several tens of thousands of dollars strong. Granted, it&amp;rsquo;s not easy to save that much, but doing so will give you piece of mind to engage in other types of investment.&lt;/p&gt;
 
-&lt;p&gt;Now, back to the source files. There are two kinds of source files: content files and templates. The content files are your blog posts and pages, which can be written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. The templates determine the way your content is displayed, and are written in a combination of HTML and the programming language your SSG is written on.&lt;/p&gt;
+&lt;p&gt;Once your emergency stash has been funded, it&amp;rsquo;s time to look at your 401K plan again. Go ahead and invest up to the maximum allowed beyond your company match. Even though you&amp;rsquo;re not getting a match your money will still grow tax free. The only drawback is that it will be tied up for a long time, but since you&amp;rsquo;ve already built an emergency fund you shouldn&amp;rsquo;t be concerned.&lt;/p&gt;
 
-&lt;p&gt;Templates are great because they enable the SSG to automatically update all common elements of your site (headers, footers and menus), generate a post list, and add any new post to that list.&lt;/p&gt;
+&lt;p&gt;If you still have money left, open a Roth IRA, which works like a 401K that you can open yourself, without going through your employer. Since a Roth IRA is funded with after tax dollars, not only will your contributions grow tax free, but you will also be able to withdraw your money tax free once you reach the required age.&lt;/p&gt;
 
-&lt;p&gt;Once you run the SSG, it places the static site&amp;rsquo;s files in a special folder. Depending on the SSG you are using, this special folder may be called /_site or /public or something else.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve done everything so far and still have money left, you can now open a brokerage account. Your brokerage account is a place to park your money until you decide to invest it. By opening a brokerage account with any of the reputable discount brokerage firms, you will be able to buy and sell stocks and mutual funds online or by phone.&lt;/p&gt;
 
-&lt;p&gt;Additionally, you can command your SSG to &amp;ldquo;serve&amp;rdquo; the site in your local environment (that would be your computer or laptop). To see the result, you need to open your browser and type &amp;ldquo;localhost:xxxx&amp;rdquo;, where &amp;ldquo;xxxx&amp;rdquo; is a four digit number determined by the SSG you are using.&lt;/p&gt;
+&lt;p&gt;My personal preference is to start with index funds (funds that mimic the performance of a market index like the S&amp;amp;P500), since they have the lowest fees and usually better returns than funds managed by so called experts. Then, I would purchase stocks of good, solid companies during market dips or when the stock is cheap. I prefer to hold my investments for the long run, instead of trying to time the market by constantly buying and selling.&lt;/p&gt;
 
-&lt;p&gt;Everything we&amp;rsquo;ve talked about so far takes place in your computer or laptop. After that, you need to deploy your site to the web by uploading your static files to a web host like Amazon, Dropbox, Github Pages or other (each of them will give you detailed instructions on how to do it).&lt;/p&gt;
+&lt;p&gt;With this set up, plus good money habits, you should be well on your way to a comfortable financial position.&lt;/p&gt;
 
-&lt;p&gt;If you are deep into digital self-reliance, you may choose to deploy your site to a VPS (virtual private server). You will first need to install the SSG (plus the programs that enable it) on your VPS. You can then upload the source files, run the SSG, and if you&amp;rsquo;ve done everything right your newly created static site should then be live on the web.&lt;/p&gt;
-
-&lt;p&gt;In order to use a SSG you will need to learn, at a bare minimum, the basics of HTML and CSS, a few key Linux-style commands, how to write in Markdown, and have access to a Linux-style terminal emulator.&lt;/p&gt;
-
-&lt;p&gt;For this site, I am currently using a SSG called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. It is lightning fast and doesn&amp;rsquo;t require you to download any program other than the Hugo executable. Since I&amp;rsquo;m working in a Windows box, I use a terminal emulator called &lt;a href=&#34;https://msysgit.github.io/&#34;&gt;Git Bash&lt;/a&gt;. I am deploying the resulting static files in &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; using &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; for version control and to push (upload) my site to Github Page&amp;rsquo;s server.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Read &lt;a href=&#34;http://davidwalsh.name/introduction-static-site-generators&#34;&gt;this article&lt;/a&gt; for a more comprehensive explanation of how static site generators work.&lt;/p&gt;
+&lt;p&gt;Remember that these are just a few tips, and that there are plenty of good books in the personal finance space that you can read. Two that I recommend are: &lt;a href=&#34;http://amzn.to/1EzmBcC&#34;&gt;The Millionaire Next Door&lt;/a&gt;, by William D. Danko, to start developing good money habits, and &lt;a href=&#34;http://amzn.to/0761147489&#34;&gt;I Will Teach You To Be Rich&lt;/a&gt;, by Ramit Sethi, for actionable tips on setting up your financial accounts and designing the right systems to manage your money.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/post/digital-presence/</link>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <title>Practical Minimalism</title>
+      <link>http://www.mariosanchez.org/post/mini/</link>
+      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.mariosanchez.org/post/digital-presence/</guid>
+      <guid>http://www.mariosanchez.org/post/mini/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
+
+&lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  &lt;mark&gt;Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way&lt;/mark&gt;.&lt;/p&gt;
+
+&lt;p&gt;Minimalism starts by understanding that everything we surround ourselves with either adds value to our life or is just taking space. Things add value by being useful or by bringing us joy. Everything we let into our lives has to earn it&amp;rsquo;s place.&lt;/p&gt;
+
+&lt;p&gt;A good way to make minimalism a daily practice is to get into the habit of constantly asking ourselves this question: &amp;ldquo;What is this doing here?&amp;rdquo; If it&amp;rsquo;s not adding value or bringing us joy, get rid of it. Throw it away or give it to someone who may need it/like it/want it. Here&amp;rsquo;s the key, though: whatever we decide to do we must decide quickly, or the resistance (laziness, procrastination, the just-in-case syndrome) will take over.&lt;/p&gt;
+
+&lt;p&gt;Keep it up until this daily practice becomes a habit, and you&amp;rsquo;ll be surprised by how eliminating physical clutter contributes to getting rid of mental clutter too. I&amp;rsquo;ve noticed that since I&amp;rsquo;m doing this I&amp;rsquo;m able to think more clearly, and have an easier time getting organized and getting things done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Build a Brand</title>
+      <link>http://www.mariosanchez.org/post/brand/</link>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/brand/</guid>
       <description>
 
-&lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
+&lt;p&gt;In the paragraphs below I am outlining a basic roadmap you can follow to build your small business brand. You will still have to put out a lot of work, but it will help you clarify the process and ask better questions along the way.&lt;/p&gt;
 
-&lt;p&gt;When I talk about a having a digital presence, though, I&amp;rsquo;m not talking about being a tenant in Zuck&amp;rsquo;s massive apartment complex, but rather of building and owning our own digital home: a website that we can deploy using our own domain, custom-designed and tweaked to our liking.&lt;/p&gt;
+&lt;h2 id=&#34;what-does-a-brand-do:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;What Does a Brand Do?&lt;/h2&gt;
 
-&lt;h3 id=&#34;the-early-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Early Days&lt;/h3&gt;
+&lt;p&gt;There are as many definitions of brand as there are branding experts. However, there is probably just one thing you need to remember: a brand helps us say something about ourselves.&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve had a digital presence through self-deployed websites (mainly as a hobby) since the early 2000&amp;rsquo;s. I started off by learning some basic HTML tags and hastily coding a website that I used to publish notes-to-self about search engine optimization, a topic I was deeply interested in back then. Then, Web 2.0 came along.&lt;/p&gt;
+&lt;p&gt;Take, for example, people who drive Toyota Prius. What do you think they&amp;rsquo;re trying to communicate? Would it be, perhaps, that they care about the environment? The role of the brand (Prius) is to help them tell that story.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-wordpress-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Wordpress Days&lt;/h3&gt;
+&lt;p&gt;We crave association with brands that help us tell the story we want to tell.&lt;/p&gt;
 
-&lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
+&lt;h2 id=&#34;your-product:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Product&lt;/h2&gt;
 
-&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when I discovered &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt;. Good things don&amp;rsquo;t last forever, though, and a short time later Posterous sold out to Twitter and closed down. I had to take my posts and move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
+&lt;p&gt;Ideally, your product needs to be something you need or use. This will give you the ability to see things from your customers&amp;rsquo; perspective. It is no coincidence that so many entrepreneurs find success after creating a product they themselves need.&lt;/p&gt;
 
-&lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t actively use or need the product you sell, then make sure that at least you&amp;rsquo;re deeply interested in it, so that you won&amp;rsquo;t mind researching, learning and doing what it takes to become an expert as you go along.&lt;/p&gt;
 
-&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
+&lt;h2 id=&#34;your-target-market:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Target Market&lt;/h2&gt;
 
-&lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
+&lt;p&gt;You need to find customers who need the product you&amp;rsquo;re offering. You do this by segmenting the market. In the end, you should be able to pinpoint a market niche that you can serve and dominate.&lt;/p&gt;
 
-&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: a hand-coded HTML site with no programming involved requires that you create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not such a big deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
-
-&lt;p&gt;A &lt;a href=&#34;../ssg/&#34;&gt;static site generator&lt;/a&gt; is basically a program that takes your content, merges it with predefined templates and style sheets, and generates a site made of just HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages automatically when you make changes to the common elements of the site (navigation menu, footer, or sidebar).&lt;/p&gt;
-
-&lt;p&gt;While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.&lt;/p&gt;
-
-&lt;p&gt;The first static site generator I used was &lt;a href=&#34;http://www.jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;. After a few months, though, I started to find Jekyll somehow limiting (it&amp;rsquo;s a fairly old SSG), so I gave &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; a try and have been using it ever since. I am extremely happy with Hugo: it is fast, intuitive, and just needs one executable file to run (no complicated dependencies).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Tools of the Trade&lt;/h3&gt;
-
-&lt;p&gt;In order to run my site using a static site generator I had to learn a few things:&lt;/p&gt;
+&lt;p&gt;There are many ways to segment the market: by geography, by demographics, by psychographics, by behavior, etc. Without getting too technical, we will just list as many ways to segment the market as we can think of, so you can select the combination that best works for you:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write blog posts and content in general (easy);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML is fairly easy; CSS is a little harder);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; to record changes to the site and communicate with my web hosting server (hard to wrap your head around the concept, but not that difficult once you &amp;ldquo;get it&amp;rdquo;); and&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cli.learncodethehardway.org/bash_cheat_sheet.pdf&#34;&gt;Linux-style command line essentials&lt;/a&gt; to install the required software and to move quickly around my hard drive folders (easy).&lt;/li&gt;
+&lt;li&gt;Place of residence (country, state, region, city, neighbourhood, postal code)&lt;/li&gt;
+&lt;li&gt;Gender&lt;/li&gt;
+&lt;li&gt;Age&lt;/li&gt;
+&lt;li&gt;Income&lt;/li&gt;
+&lt;li&gt;Occupation&lt;/li&gt;
+&lt;li&gt;Ethnicity&lt;/li&gt;
+&lt;li&gt;Nationality&lt;/li&gt;
+&lt;li&gt;Social class&lt;/li&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;Marital status&lt;/li&gt;
+&lt;li&gt;Household size&lt;/li&gt;
+&lt;li&gt;Life cycle stage&lt;/li&gt;
+&lt;li&gt;Political Affiliation&lt;/li&gt;
+&lt;li&gt;Values&lt;/li&gt;
+&lt;li&gt;Religious preference&lt;/li&gt;
+&lt;li&gt;Activities&lt;/li&gt;
+&lt;li&gt;Entertainment preferences&lt;/li&gt;
+&lt;li&gt;Interests/hobbies&lt;/li&gt;
+&lt;li&gt;Opinions&lt;/li&gt;
+&lt;li&gt;Attitudes&lt;/li&gt;
+&lt;li&gt;Travel patterns&lt;/li&gt;
+&lt;li&gt;Purchasing habits&lt;/li&gt;
+&lt;li&gt;Price sensitivity&lt;/li&gt;
+&lt;li&gt;Purchase likelihood&lt;/li&gt;
+&lt;li&gt;Usage frequency&lt;/li&gt;
+&lt;li&gt;Purchase process&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Aside from that, I had to download the following programs:&lt;/p&gt;
+&lt;p&gt;For example, you may decide to target young dads, between 30 and 40 years old, making between $80K and $150K a year, who have a graduate degree, live in South Florida, play tennis over the weekend, don&amp;rsquo;t have much discretionary time and want to take their game to the next level.&lt;/p&gt;
+
+&lt;p&gt;As an exercise, can you break down the categories above even further?&lt;/p&gt;
+
+&lt;h2 id=&#34;your-competition:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Your Competition&lt;/h2&gt;
+
+&lt;p&gt;So far you have a product and a target customer. Things are definitely moving in the right direction, but there&amp;rsquo;s one more thing you need to consider:&lt;/p&gt;
+
+&lt;p&gt;What if somebody is already in that space?&lt;/p&gt;
+
+&lt;p&gt;Competition is not necessarily a bad thing: it means there is a market for what you want to sell. At the same time it means that you need to find a way to differentiate yourself.&lt;/p&gt;
+
+&lt;p&gt;What can you bring to the table that your competitors can&amp;rsquo;t?&lt;/p&gt;
+
+&lt;p&gt;There are three ways you can differentiate yourself: offer more than your competition, offer less, and have a point of view.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at these three options.&lt;/p&gt;
+
+&lt;h2 id=&#34;differentiator-1-offering-more:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #1: Offering More&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; to version control my site and access a command line emmulator called Git Bash; and&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; executable.&lt;/li&gt;
+&lt;li&gt;Quality&lt;/li&gt;
+&lt;li&gt;Price&lt;/li&gt;
+&lt;li&gt;Availability&lt;/li&gt;
+&lt;li&gt;Variety&lt;/li&gt;
+&lt;li&gt;Fun Factor&lt;/li&gt;
+&lt;li&gt;Financing&lt;/li&gt;
+&lt;li&gt;Delivery&lt;/li&gt;
+&lt;li&gt;Convenience&lt;/li&gt;
+&lt;li&gt;After Sale Service&lt;/li&gt;
+&lt;li&gt;Personality&lt;/li&gt;
+&lt;li&gt;Design&lt;/li&gt;
+&lt;li&gt;Distribution.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Finally, I opened an account with &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to create the &lt;a href=&#34;https://github.com/mariobox/mariobox.github.io&#34;&gt;site&amp;rsquo;s remote repository&lt;/a&gt; where I version-control the site&amp;rsquo;s source files, and another repository to version and host the site&amp;rsquo;s public files (those that get served to the web by Github pages to render the site in the browser).&lt;/p&gt;
+&lt;p&gt;These are just some of the areas you can analyze. Can you think of others?&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m extremely happy with this set-up, and for the time being it is all I need: a simple way to generate, update and deploy a minimalistic personal website at $0 cost.&lt;/p&gt;
+&lt;h2 id=&#34;differentiator-2-offering-less:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #2: Offering Less&lt;/h2&gt;
+
+&lt;p&gt;The default approach to differentiation is usually to pile up more features to outdo the competition. However, more features don&amp;rsquo;t necessarily mean a better product. Introducing features to one-up the competition can lead to feature creep. Products become confusing and brands lose their identity in the long run.&lt;/p&gt;
+
+&lt;p&gt;Customers like clarity. Just focus on a few important features and don&amp;rsquo;t be afraid to eliminate the rest. Simplicity can be the most powerful competitive advantage.&lt;/p&gt;
+
+&lt;p&gt;Keep iterating until you&amp;rsquo;ve found your unique point of differentiation.&lt;/p&gt;
+
+&lt;h2 id=&#34;differentiator-3-your-pov-point-of-view:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Differentiator #3: Your POV (Point of View)&lt;/h2&gt;
+
+&lt;p&gt;Features and benefits don&amp;rsquo;t create powerful USPs (unique selling propositions) any more.&lt;/p&gt;
+
+&lt;p&gt;What differentiates a brand in today&amp;rsquo;s competitive environment is its &lt;strong&gt;Point of View&lt;/strong&gt;. This is clearly explained in &lt;a href=&#34;http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action.html&#34;&gt;Simon Sinek&amp;rsquo;s Golden Circles theory&lt;/a&gt;, which he introduced in one of the most viewed TED talks of all time. The gist of his presentation is this: &lt;strong&gt;People don&amp;rsquo;t buy what you do: they buy WHY you do it&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The WHY is your Point of View.&lt;/p&gt;
+
+&lt;h2 id=&#34;is-it-profitable:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Is it Profitable?&lt;/h2&gt;
+
+&lt;p&gt;By now you should already have a clearly differentiated position, but since to get there you may have had to further narrow your target market, you need to determine if that market is still big enough to make a profit. To know for sure you may need to run some market tests and pilot runs. If they show promise then you have found your brand.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, testing a market is now easier than ever thanks to Internet platforms like eBay, Amazon, Craigslist, Etsy, eLance, to name some of the most well known ones.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As you may have noticed reading so far, building a brand is not easy. It is not a linear process. There is no exact sequence of steps: most of the time you will need to work on different variables (your product, your competition, your customers) at the same time, and make frequent reassessments.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s why the process requires more than just sitting in front of a computer. You may need to lay down charts, note cards or props on a large table, stick color Post-It notes on a wall or make heavy use of a whiteboard.&lt;/p&gt;
+
+&lt;p&gt;You may also want to involve other people: business associates, suppliers, potential customers, consultants and mentors (people who can give you feedback).&lt;/p&gt;
+
+&lt;p&gt;When building your brand remember the words of Abraham Lincoln: &amp;lsquo;Give me six hours to chop down a tree and I will spend the first four sharpening the axe.&amp;rsquo; It is better to spend more time getting your brand right before you launch than attempt to change course when your brand is already out there.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;communicating-your-brand:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Communicating Your Brand&lt;/h2&gt;
+
+&lt;p&gt;You have already defined your brand. Now you need to communicate what your brand is all about. To do so, you need to develop and articulate a few important concepts that we&amp;rsquo;ll explain in the next few paragraphs.&lt;/p&gt;
+
+&lt;h2 id=&#34;vision:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Vision&lt;/h2&gt;
+
+&lt;p&gt;Vision is where you want to take your brand. It is your chief aim. It is an ideal place in the future where you would like your brand to be. It is the way you ultimately want your brand to be perceived.&lt;/p&gt;
+
+&lt;h2 id=&#34;mission:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Mission&lt;/h2&gt;
+
+&lt;p&gt;Mission is what you do every day. It is your brand&amp;rsquo;s purpose besides making money.&lt;/p&gt;
+
+&lt;p&gt;An effective mission statement has to be customer-centric. Words like &amp;lsquo;maximize shareholder value&amp;rsquo; or &amp;lsquo;constant profitable growth&amp;rsquo; don&amp;rsquo;t belong on a mission statement. They are financial objectives. They are important, certainly, but they should come as a &lt;em&gt;consequence&lt;/em&gt; of having (and executing on) a customer-centered mission .&lt;/p&gt;
+
+&lt;p&gt;Your mission needs to be articulated as simply and as clearly as possible, so that &lt;em&gt;everybody&lt;/em&gt; can understand it. Paraphrasing Albert Einstein, if you can&amp;rsquo;t explain it to a six year old it is not clear enough.&lt;/p&gt;
+
+&lt;p&gt;A good example of a clear mission statement is Walmart&amp;rsquo;s: &amp;lsquo;To save you money so you can live better.&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;slogan:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Slogan&lt;/h2&gt;
+
+&lt;p&gt;A slogan is a short sentence that distills either your mission or you brand&amp;rsquo;s most important differentiation point. Since your slogan will be used in your marketing and promotional campaigns it has to be worded in terms that your target customer will understand.&lt;/p&gt;
+
+&lt;h2 id=&#34;name:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Name&lt;/h2&gt;
+
+&lt;p&gt;Your brand name is your most important brand signal. Choose a name that communicates something about your brand and shows some personality (and by all means, stay away from acronyms).&lt;/p&gt;
+
+&lt;p&gt;For example, the HVLP Fan Company, a Kentucky-based fan manufacturer, saw sales and brand awareness soar after they changed their name to &lt;a href=&#34;http://www.bigassfans.com&#34;&gt;Big Ass Fans&lt;/a&gt;, a nod to customers who kept referring to the company&amp;rsquo;s large industrial units as &amp;lsquo;big ass&amp;rsquo; fans.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you don&amp;rsquo;t have to get that quirky, but being original certainly helps.&lt;/p&gt;
+
+&lt;h2 id=&#34;logo:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Logo&lt;/h2&gt;
+
+&lt;p&gt;A logo does not &amp;lsquo;make&amp;rsquo; your brand. A logo is a symbol that represents your brand. A good logo takes something that customers associate with your brand and distills it in the simplest graphic form possible.&lt;/p&gt;
+
+&lt;p&gt;An example of a good logo is National Geograhic&amp;rsquo;s. It is just a simple yellow rectangle that evoques the yellow frame around the printed magazine&amp;rsquo;s impactful cover images (one of the most remembered and loved features of the National Geographic brand.)&lt;/p&gt;
+
+&lt;p&gt;When you design your logo aim for that same degree of simplicity. Think about how can your logo make a meaningful connection to your brand, and how you can make it as simple as possible.&lt;/p&gt;
+
+&lt;p&gt;Another important consideration, too: the simpler the logo, the better it will render in different surfaces and materials. This is especially important in marketing and promotional vehicles.&lt;/p&gt;
+
+&lt;h2 id=&#34;packaging:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Packaging&lt;/h2&gt;
+
+&lt;p&gt;When you have a limited marketing budget, you may want to leverage your packaging to double up as marketing material. If you have a physical product, invest in the best, most professional package you can afford. A good package can make all the difference at the point of sale, where customers ultimately make their buying decision.&lt;/p&gt;
+
+&lt;h2 id=&#34;price:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Price&lt;/h2&gt;
+
+&lt;p&gt;Price is a proxy for value. Bear in mind that not everybody has time for lengthy features and benefits comparisons, so price will be used as good indicator.&lt;/p&gt;
+
+&lt;p&gt;When setting your price it is better to aim higher, while at the same time making sure that your brand delivers much more value than the premium you&amp;rsquo;re charging.&lt;/p&gt;
+
+&lt;p&gt;Pricing is a complex subject so you may want to read up more about it (I find &lt;a href=&#34;http://www.seobook.com/getting-your-pricing-right&#34;&gt;this guide&lt;/a&gt; to be an excellent introduction to the subject of pricing, in case you want to dig deeper).&lt;/p&gt;
+
+&lt;h2 id=&#34;domain-name:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Domain Name&lt;/h2&gt;
+
+&lt;p&gt;Your domain name (also referred to as your web address or URL) needs to be chosen at the same time as your brand name. This is important because most good domains are taken and your brand name &lt;em&gt;must&lt;/em&gt; be part of your domain name.&lt;/p&gt;
+
+&lt;p&gt;If possible, register a domain with a .com extension. If your company is a non-profit you can use a .org extension. If you don&amp;rsquo;t find a good domain with those extensions there are other ones that have become popular like .co and .io (however, they might be more expensive).&lt;/p&gt;
+
+&lt;p&gt;To help you with search engines you may also want to include in your domain name the kind of product or service you offer (for example: CollinsPlumbing.com instead of just Collins.com). A word of caution, though: you need to think long term because if you plan to introduce other products or services in the future you don&amp;rsquo;t want to limit yourself.&lt;/p&gt;
+
+&lt;p&gt;Your aim should be to find a domain name that includes your brand name, is descriptive enough, and not too long.&lt;/p&gt;
+
+&lt;h2 id=&#34;website:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Website&lt;/h2&gt;
+
+&lt;p&gt;If you needed to choose one, and only one marketing vehicle for your small business brand it would be a website.&lt;/p&gt;
+
+&lt;p&gt;A good website can accomplish many things for you: it can be an information hub, a customer service vehicle, a marketing tool, a way to engage in conversations with your customers, a starting point to building a mailing list, and even a distribution channel.&lt;/p&gt;
+
+&lt;p&gt;Make sure that your site renders correctly in different browsers and resolutions (especially in tablets and mobile phones, since every day more people use them).&lt;/p&gt;
+
+&lt;p&gt;To make your site display correctly in any device it needs to be built using a technique called &lt;em&gt;responsive web design&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Basically, sites that are built with responsive web design automatically recognize what kind of device is being used to access them, and display the site version that best fits the resolution of that particular device.&lt;/p&gt;
+
+&lt;p&gt;Make sure that the person who designs your website knows about responsive web design.&lt;/p&gt;
+
+&lt;h2 id=&#34;blog:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Blog&lt;/h2&gt;
+
+&lt;p&gt;Adding a blog to your site is a good way to show your expertise and build trust.&lt;/p&gt;
+
+&lt;p&gt;You need to host your blog in your own domain or sub-domain. Otherwise, you will be at the mercy of whoever owns the platform.&lt;/p&gt;
+
+&lt;p&gt;Rather than setting your blog at the root of your domain &lt;em&gt;yoursite.com&lt;/em&gt; it is good practice to deploy it in a sub-domain, like &lt;em&gt;blog.yourdomain.com&lt;/em&gt; or a folder, like &lt;em&gt;yourdomain.com/blog&lt;/em&gt;. The reason why a blog shouldn&amp;rsquo;t be deployed at the root is because the root must be reserved for the main page of your site, which should give a comprehensive view of your brand, your company, your products and services.&lt;/p&gt;
+
+&lt;p&gt;A good blogging platform option is &lt;a href=&#34;http://www.wordpress.org&#34;&gt;Wordpress.org&lt;/a&gt;, since it lets you use your own domain AND host the software with the web host of your choice (you can find a good tutorial on how to install a Wordpress blog &lt;a href=&#34;http://www.theminimalists.com/how-to-set-up-a-wordpress-blog/&#34;&gt;here&lt;/a&gt; ).&lt;/p&gt;
+
+&lt;p&gt;Other popular platforms, like Tumblr for example, will let you use your own domain, but your blog will be hosted at Tumblr&amp;rsquo;s web servers, not your web host, which is not an ideal set-up for a serious business blog.&lt;/p&gt;
+
+&lt;p&gt;A word of caution, though. Don&amp;rsquo;t expect your blog to be a sales tool. Although it will help you sell more, a blog is primarily a trust-building mechanism.&lt;/p&gt;
+
+&lt;h2 id=&#34;email-newsletter:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Email Newsletter&lt;/h2&gt;
+
+&lt;p&gt;A regular email newsletter, sent to readers who have opted in and want to receive it, is one of the most powerful marketing tools you can use. After all, most people read their email every day.&lt;/p&gt;
+
+&lt;p&gt;Unlike social media, email is still very personal. When somebody opts into your mailing list and gives you their email address it&amp;rsquo;s like you&amp;rsquo;re being invited to that person&amp;rsquo;s home. You must correspond to that trust by delivering extremely high quality content and making your readers feel like they&amp;rsquo;re part of an exclusive club.&lt;/p&gt;
+
+&lt;p&gt;You can create and manage a newsletter through services like &lt;a href=&#34;http://mailchimp.com&#34;&gt;Mailchimp&lt;/a&gt;, or if you prefer a more simple, minimalistic option you can use &lt;a href=&#34;http://www.tinyletter.com&#34;&gt;Tinyletter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;leveraging-your-brand:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Leveraging Your Brand&lt;/h2&gt;
+
+&lt;p&gt;Your brand must mean something extremely clear to a very targeted group of people before you can consider taking it to the next level.&lt;/p&gt;
+
+&lt;p&gt;This means you need to resist the temptation of doing too many things with your brand too soon, like defining your target market too broadly under the misled assumption that not doing so may cause you to &amp;lsquo;lose business&amp;rsquo;. More often than not, the opposite is true: if you aim at everything and everybody you won&amp;rsquo;t mean anything to anybody, and you will dilute or even destroy your brand.&lt;/p&gt;
+
+&lt;p&gt;Start with something very targeted and then, once you have consolidated your position, think about what else you can offer.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-products-for-your-customers:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Creating Products for Your Customers&lt;/h2&gt;
+
+&lt;p&gt;Your best customers for your new offerings will be your existing customers. Once you become successful with your brand you will have the privilege of finding products for your customers instead of having to find customers for your products.&lt;/p&gt;
+
+&lt;h2 id=&#34;line-extensions:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Line Extensions&lt;/h2&gt;
+
+&lt;p&gt;It is a good idea to create different products at different price levels, since not everybody will be able to afford your best, most expensive products. You may want to start new customers off with a relatively low cost option so that they can get familiar with your brand, and then move them up to more sophisticated products.&lt;/p&gt;
+
+&lt;p&gt;I recommend focusing on three different price levels: Good, Better, and Best. By limiting choice to a few, well differentiated options, you eliminate confusion and make the purchasing decision easier. Think of how Spanish wine makers market their wine: they adhere to just three standard denominations based on the quality of the grapes and the timeframe of the aging process: Crianza (Good), Reserva (Better) and Gran Reserva (Best). Simple, and it works.&lt;/p&gt;
+
+&lt;h2 id=&#34;brand-partnerships:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Brand Partnerships&lt;/h2&gt;
+
+&lt;p&gt;Partnerships are a great brand building technique especially when your brand is new. By associating your brand to another one in a non-competitive sector you will essentially leverage that brand&amp;rsquo;s attributes in your favor.&lt;/p&gt;
+
+&lt;p&gt;Think how car manufacturers partner with luxury brands to create premium versions of their models. Recently, for example, Fiat partnered with Italian luxury goods brand Gucci to offer a version of its successful Fiat 500 in Gucci trim, making it easier to tie their car to the concept of Italian style.&lt;/p&gt;
+
+&lt;h2 id=&#34;brand-extensions:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Brand Extensions&lt;/h2&gt;
+
+&lt;p&gt;Brand extensions happen when you take your brand into new product categories. For brand extensions to be successful there must be some kind of synergy between the core category and the new one.&lt;/p&gt;
+
+&lt;p&gt;For example, it&amp;rsquo;s not much of a stretch for a brand like BMW to go from cars to motorcycles. That brand extension feels natural and credible. Another good brand extension could be a brand of pasta that branches out into pasta sauces.&lt;/p&gt;
+
+&lt;h2 id=&#34;licensing:09d8fdd3fac986096e1c7cce196b77af&#34;&gt;Licensing&lt;/h2&gt;
+
+&lt;p&gt;Licensing is probably the most powerful way to leverage your brand. It occurs when you aim your brand at entirely new businesses and distribution channels.&lt;/p&gt;
+
+&lt;p&gt;For example, a clothing manufacturer with good penetration in department stores may license a brand like Jeep to develop a line of rugged outdoor clothes. Jeep, in exchange, will receive a royalty and access to a completely different distribution channel, without essentially doing anything and with very low risk.&lt;/p&gt;
+
+&lt;p&gt;Licensing will only work, though, when your brand is already well established in the marketplace, and when what it stands for is already widely and easily understood.&lt;/p&gt;
 </description>
     </item>
     

@@ -6,8 +6,79 @@
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Apr 2016 18:00:39 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2016 18:00:39 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Basic Git Workflow</title>
+      <link>http://www.mariosanchez.org/post/gitflow/</link>
+      <pubDate>Thu, 12 May 2016 18:00:39 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/gitflow/</guid>
+      <description>
+
+&lt;p&gt;This quick rundown portrays the basic workflow I go through when using &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; to keep track of files. It assumes you have some basic knowledge of Git. If you don&amp;rsquo;t, don&amp;rsquo;t worry, there are plenty of resources online (&lt;a href=&#34;https://git-scm.com/book/en/v2&#34;&gt;this is a good starting point&lt;/a&gt;). It also assumes that you are using &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; for your remote repositories.&lt;/p&gt;
+
+&lt;p&gt;Here we go.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-repository-from-scratch:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Creating a repository from scratch&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Open your Terminal and navigate to a folder you want to start tracking (if you don&amp;rsquo;t know how to use the Terminal this &lt;a href=&#34;https://www.codecademy.com/learn/learn-the-command-line&#34;&gt;quick online course&lt;/a&gt; will show you the basics).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;git init&lt;/code&gt; to create a new subdirectory, called .git, where your file changes are going to be tracked.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a new file, let&amp;rsquo;s say: &lt;em&gt;grocery.txt&lt;/em&gt; (a simple text file listing different grocery stores in your neighborhood).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add some grocery store names and save the file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the file to the staging area by doing &lt;code&gt;git add grocery.txt&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit your changes by doing &lt;code&gt;git commit -m &amp;ldquo;MESSAGE HERE&amp;rdquo;&lt;/code&gt;. Don&amp;rsquo;t forget to type your message in between quote marks explaining what you did to the file.  Since this is the first time you commit this file it is OK to just write &amp;ldquo;initial commit&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you want to push your file to a remote repository, you need to create the remote repository first:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to Github and create a new project folder where you&amp;rsquo;re going to place and track &lt;em&gt;grocery.txt&lt;/em&gt;. You can call it &lt;em&gt;new-project&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Look around the screen for the URL of the project folder you just created. It should be something like &lt;code&gt;&lt;a href=&#34;https://www.github.com/youraccount/new-project.git&#34;&gt;https://www.github.com/youraccount/new-project.git&lt;/a&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Copy that URL, go back to your terminal, and type &lt;br /&gt;&lt;code&gt;git add remote origin &lt;a href=&#34;http://www.github.com/youraccount/new-project/.git&#34;&gt;http://www.github.com/youraccount/new-project/.git&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Push your file to the remote repository with &lt;code&gt;git push origin master&lt;/code&gt; (if at any point Github asks you for your username and password type them in).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you are tracking &lt;em&gt;grocery.txt&lt;/em&gt; both in your local repository (your computer) and a remote repository!&lt;/p&gt;
+
+&lt;p&gt;Now, let&amp;rsquo;s say that the next day you come back to your file and add some more grocery store names. Once you&amp;rsquo;re done, do this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Save the file&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Do &lt;code&gt;git add grocery.txt&lt;/code&gt; to add the changes to the staging area, and&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git commit -m &amp;ldquo;add grocery stores&amp;rdquo;&lt;/code&gt; to commit your changes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To upload these changes to the remote repository simply type &lt;code&gt;git push origin master&lt;/code&gt;. Type your username and password when prompted and the changes will be uploaded.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloning-a-remote-repository:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Cloning a remote repository&lt;/h3&gt;
+
+&lt;p&gt;Cloning a remote repository means installing a copy in your local computer. You may want to clone one of your existing remote repositories to do some work on it locally, or you may want to clone a remote repository belonging to somebody else and use it as a template for your own project. In this case, first make sure you have permission from the repository owner.&lt;/p&gt;
+
+&lt;p&gt;This is what you do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Go to Github and follow the instructions to fork the repository to your profile.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you want to call the repository something else, just rename as you want.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, clone the repository to your local computer by going back to the terminal and typing &lt;code&gt;git clone [URL OF THE REPOSITORY]&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve cloned the repository amd done some work on it, the process is the same as when you update a local repository created from scratch: you work on your files, make some changes, add them to the staging area, commit them, and finally push them back to the remote repository with &lt;code&gt;git push origin master&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Installing Ubuntu in an Old Laptop</title>
@@ -34,8 +105,6 @@
 &lt;/ol&gt;
 
 &lt;p&gt;My new Ubuntu installation works perfectly. It is fast and efficient, and the interface is intuitive enough that anybody can use it. Ubuntu also comes Firefox already installed, and with LibreOffice, an open source office suite  compatible with Microsoft Office. That means you can open and edit files like Word documents, Excel spreadsheets and PowerPoint presentations and share them with other users quickly and easily.&lt;/p&gt;
-
-&lt;p&gt;I also tried to run Ubuntu from the USB port in my other computer (the one I use every day), but I run into a problem that I haven&amp;rsquo;t yet been able to solve: Ubuntu doesn&amp;rsquo;t detect any wifi networks. I guess plain old Windows will have to do for my main computer for now.&lt;/p&gt;
 
 &lt;p&gt;Overall, I am very happy that my old laptop got a new lease of life, and that installing (and using) the free and open source Ubuntu on it was easy and painless.&lt;/p&gt;
 
@@ -302,207 +371,6 @@
 &lt;p&gt;You can simply clone the repository by running:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/mariobox/MinimalHugoSite.git&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Git Cheat Sheet</title>
-      <link>http://www.mariosanchez.org/post/gcs/</link>
-      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/gcs/</guid>
-      <description>&lt;p&gt;I use Git to keep track of the changes I make to this site. I am not an expert on Git nor am I a programmer so I really won&amp;rsquo;t go into great depths here. The idea of this post is just to summarize for future reference the Git commands I use on a regular basis to keep this site up and running.&lt;/p&gt;
-
-&lt;p&gt;Here we go:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --global user.name &#34;your user name&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --global user.email &#34;your email&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tell Git your usename and email. You only need to do this once.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git config --list&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Prints a list all the options you have configured Git for, including your user.name and user.email.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Creates a Git repository in the current folder.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone /path/to/repository&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Clones (makes a working copy) of an existing repository. If the repository is in a host like &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; the path to repository will typically be a URL like: &lt;a href=&#34;https://github.com/username/username.github.io.git&#34;&gt;https://github.com/username/username.github.io.git&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git status -s&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Shows you the status of files in the current directory, in short notation. You will get one or two characters to the left of the file name:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;M: the file has been modified&lt;/li&gt;
-&lt;li&gt;A: new file that has been added to the staging area&lt;/li&gt;
-&lt;li&gt;MM: file that has been modified, staged, and modified again&lt;/li&gt;
-&lt;li&gt;?: new file not yet tracked&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git add file name&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git add --all&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Adds a file, or all files that have been created or modified to the staging area.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git commit -m &#34;commit message&#34;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Commits (records) your changes to your local Git repository. Remember to write a short message between the quote marks so that others can understand what you did.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pushes (uploads) your changes to your remote repository.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git pull origin master&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve made changes to your remote repository that are not reflected in your local repository, this command will merge (copy) those changes to your local repository. This is very useful when you mess something up in your local and want your files to revert back to the state they were when they were last pushed to your remote.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Understanding Static Site Generators</title>
-      <link>http://www.mariosanchez.org/post/ssg/</link>
-      <pubDate>Fri, 03 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/ssg/</guid>
-      <description>&lt;p&gt;When I started building websites from scratch using plain HTML and CSS one of the hardest concepts for me to grasp was how a static site generator (SSG) worked.&lt;/p&gt;
-
-&lt;p&gt;&lt;mark&gt;When you use a SSG, the HTML/CSS site is the end product. To get there, you need two other components: a) the source files, and b) the SSG itself&lt;/mark&gt;.&lt;/p&gt;
-
-&lt;p&gt;The source files are the raw material, so to speak, and the SSG is the machine that processes it. Once the static site generator performs its magic, a website made entirely out of HTML, CSS and Javascript is created.&lt;/p&gt;
-
-&lt;p&gt;In summary, you can&amp;rsquo;t just deploy the source files and expect the website to render in your browser. You have to run them through the SSG first.&lt;/p&gt;
-
-&lt;p&gt;There are &lt;a href=&#34;http://www.staticsitegenerators.net&#34;&gt;hundreds&lt;/a&gt; of SSGs to choose from. Depending on the static site generator you choose, you may need to download other programs (or dependencies), like Python or Ruby, that are necessary for the SSG to work.&lt;/p&gt;
-
-&lt;p&gt;Now, back to the source files. There are two kinds of source files: content files and templates. The content files are your blog posts and pages, which can be written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;. The templates determine the way your content is displayed, and are written in a combination of HTML and the programming language your SSG is written on.&lt;/p&gt;
-
-&lt;p&gt;Templates are great because they enable the SSG to automatically update all common elements of your site (headers, footers and menus), generate a post list, and add any new post to that list.&lt;/p&gt;
-
-&lt;p&gt;Once you run the SSG, it places the static site&amp;rsquo;s files in a special folder. Depending on the SSG you are using, this special folder may be called /_site or /public or something else.&lt;/p&gt;
-
-&lt;p&gt;Additionally, you can command your SSG to &amp;ldquo;serve&amp;rdquo; the site in your local environment (that would be your computer or laptop). To see the result, you need to open your browser and type &amp;ldquo;localhost:xxxx&amp;rdquo;, where &amp;ldquo;xxxx&amp;rdquo; is a four digit number determined by the SSG you are using.&lt;/p&gt;
-
-&lt;p&gt;Everything we&amp;rsquo;ve talked about so far takes place in your computer or laptop. After that, you need to deploy your site to the web by uploading your static files to a web host like Amazon, Dropbox, Github Pages or other (each of them will give you detailed instructions on how to do it).&lt;/p&gt;
-
-&lt;p&gt;If you are deep into digital self-reliance, you may choose to deploy your site to a VPS (virtual private server). You will first need to install the SSG (plus the programs that enable it) on your VPS. You can then upload the source files, run the SSG, and if you&amp;rsquo;ve done everything right your newly created static site should then be live on the web.&lt;/p&gt;
-
-&lt;p&gt;In order to use a SSG you will need to learn, at a bare minimum, the basics of HTML and CSS, a few key Linux-style commands, how to write in Markdown, and have access to a Linux-style terminal emulator.&lt;/p&gt;
-
-&lt;p&gt;For this site, I am currently using a SSG called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. It is lightning fast and doesn&amp;rsquo;t require you to download any program other than the Hugo executable. Since I&amp;rsquo;m working in a Windows box, I use a terminal emulator called &lt;a href=&#34;https://msysgit.github.io/&#34;&gt;Git Bash&lt;/a&gt;. I am deploying the resulting static files in &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; using &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; for version control and to push (upload) my site to Github Page&amp;rsquo;s server.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Read &lt;a href=&#34;http://davidwalsh.name/introduction-static-site-generators&#34;&gt;this article&lt;/a&gt; for a more comprehensive explanation of how static site generators work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Evolution Of My Digital Presence</title>
-      <link>http://www.mariosanchez.org/post/digital-presence/</link>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/digital-presence/</guid>
-      <description>
-
-&lt;p&gt;I&amp;rsquo;ve always been fascinated by the Internet. The idea of having a publishing platform capable of instantly reaching anybody in the world, with no gatekeepers, for free, is still mind boggling to me. Today, of course, everybody has a digital presence, although for most people that means a profile in one or more of the ubiquitous social networks that have taken the Internet by storm.&lt;/p&gt;
-
-&lt;p&gt;When I talk about a having a digital presence, though, I&amp;rsquo;m not talking about being a tenant in Zuck&amp;rsquo;s massive apartment complex, but rather of building and owning our own digital home: a website that we can deploy using our own domain, custom-designed and tweaked to our liking.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-early-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Early Days&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;ve had a digital presence through self-deployed websites (mainly as a hobby) since the early 2000&amp;rsquo;s. I started off by learning some basic HTML tags and hastily coding a website that I used to publish notes-to-self about search engine optimization, a topic I was deeply interested in back then. Then, Web 2.0 came along.&lt;/p&gt;
-
-&lt;h3 id=&#34;the-wordpress-days:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Wordpress Days&lt;/h3&gt;
-
-&lt;p&gt;Web 2.0 brought us content management systems (CMS) like Wordpress, with their arsenal of plug-ins, customization options and interactive features. I was curious, so around 2008 I created a self-hosted Wordpress blog where I posted short musings about branding.&lt;/p&gt;
-
-&lt;p&gt;It didn&amp;rsquo;t take me long to figure out that Wordpress was overkill for what I really needed: a simple personal blog with no bells and whistles. That&amp;rsquo;s when I discovered &lt;a href=&#34;http://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt;. Good things don&amp;rsquo;t last forever, though, and a short time later Posterous sold out to Twitter and closed down. I had to take my posts and move back to Wordpress, learning a valuable lesson in the process: never host your website in somebody else&amp;rsquo;s platform.&lt;/p&gt;
-
-&lt;p&gt;By that time, however, Wordpress had lost its luster. Its notorious security vulnerabilities meant that I was spending less time writing, and more time weeding out blog comment spam and upgrading to newer versions of the software. Not fun. The straw that broke the camel&amp;rsquo;s back was when someone hacked into my account and started sending mass email spam. I immediately deleted my blog and removed the WP installation from my hosting account.&lt;/p&gt;
-
-&lt;h3 id=&#34;back-to-the-future-static-sites-make-a-comeback:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Back To The Future: Static Sites Make a Comeback&lt;/h3&gt;
-
-&lt;p&gt;A few months after I obliterated my Wordpress site, I ran into a web design tutorial written by &lt;a href=&#34;http://www.evbogue.com&#34;&gt;Ev Bogue&lt;/a&gt; that re-acquainted me with the basics of creating web pages, and introduced me to the newer, much simpler iterations of HTML and CSS: HTML5 and CSS3. I got excited and decided to create a website from scratch, like in the early days. I diligently followed the instructions in the tutorial, tweaked a bit the basic style sheet and framework that Ev suggested, and a few days later my new plain vanilla HTML personal site was up.&lt;/p&gt;
-
-&lt;p&gt;While it felt great to finally have a site I could control, the problems were obvious: a hand-coded HTML site with no programming involved requires that you create and update each page individually. If you ever want to change, say, the footer or the navigation menu, you have to do it in every single page. If your site has only three or four pages it&amp;rsquo;s not such a big deal, but if you start adding posts and your site grows it can become a real issue. There had to be a better way, and that way is to use a &lt;a href=&#34;http://www.mattweldon.com/static-websites-have-made-a-comeback/&#34;&gt;static site generator&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;blogging-like-a-hacker-static-site-generators:97065e0991d562180917b8c3cd63a3c3&#34;&gt;Blogging Like A Hacker: Static Site Generators&lt;/h3&gt;
-
-&lt;p&gt;A &lt;a href=&#34;../ssg/&#34;&gt;static site generator&lt;/a&gt; is basically a program that takes your content, merges it with predefined templates and style sheets, and generates a site made of just HTML files. Depending on how you configure it, the program can create a blog post list for you, add new posts to that list, and update all your pages automatically when you make changes to the common elements of the site (navigation menu, footer, or sidebar).&lt;/p&gt;
-
-&lt;p&gt;While using a static site generator is extremely easy, setting one up can be a royal pain for non-programmers like me. I definitely wanted to go this route, though, so I focused on acquiring the skills and tools to make it happen. The process took some time, some sweat equity, quite a bit of reading and plenty of trial and error, but in the end I succeded.&lt;/p&gt;
-
-&lt;p&gt;The first static site generator I used was &lt;a href=&#34;http://www.jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt;. After a few months, though, I started to find Jekyll somehow limiting (it&amp;rsquo;s a fairly old SSG), so I gave &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; a try and have been using it ever since. I am extremely happy with Hugo: it is fast, intuitive, and just needs one executable file to run (no complicated dependencies).&lt;/p&gt;
-
-&lt;h3 id=&#34;the-tools-of-the-trade:97065e0991d562180917b8c3cd63a3c3&#34;&gt;The Tools of the Trade&lt;/h3&gt;
-
-&lt;p&gt;In order to run my site using a static site generator I had to learn a few things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; to write blog posts and content in general (easy);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.htmlandcssbook.com/&#34;&gt;HTML and CSS&lt;/a&gt; to tweak the look and feel of the site (HTML is fairly easy; CSS is a little harder);&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/book/en/v2&#34;&gt;Git&lt;/a&gt; to record changes to the site and communicate with my web hosting server (hard to wrap your head around the concept, but not that difficult once you &amp;ldquo;get it&amp;rdquo;); and&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cli.learncodethehardway.org/bash_cheat_sheet.pdf&#34;&gt;Linux-style command line essentials&lt;/a&gt; to install the required software and to move quickly around my hard drive folders (easy).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Aside from that, I had to download the following programs:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://git-scm.com/download/win&#34;&gt;Git for Windows&lt;/a&gt; to version control my site and access a command line emmulator called Git Bash; and&lt;/li&gt;
-&lt;li&gt;The &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; executable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Finally, I opened an account with &lt;a href=&#34;http://www.github.com&#34;&gt;Github&lt;/a&gt; to create the &lt;a href=&#34;https://github.com/mariobox/mariobox.github.io&#34;&gt;site&amp;rsquo;s remote repository&lt;/a&gt; where I version-control the site&amp;rsquo;s source files, and another repository to version and host the site&amp;rsquo;s public files (those that get served to the web by Github pages to render the site in the browser).&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m extremely happy with this set-up, and for the time being it is all I need: a simple way to generate, update and deploy a minimalistic personal website at $0 cost.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Use Gmail With Your Own Domain</title>
-      <link>http://www.mariosanchez.org/post/gmail/</link>
-      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/gmail/</guid>
-      <description>&lt;p&gt;Many people, including me, use Gmail as their default email client. With Gmail, you can send email from (and receive email at) your own branded domain. For example, instead of using &lt;em&gt;yourname@gmail.com&lt;/em&gt; you can use &lt;em&gt;you@yourname.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is not hard to set this up. It just takes a few steps that I will describe below:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Go to any domain registrar (like Godaddy or Namecheap) and register the domain name you want to use.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Then, in your control panel you should be able to find the &lt;strong&gt;Email Forwarding&lt;/strong&gt; feature.  This is where you will create your new &lt;em&gt;you@yourname.com&lt;/em&gt; email address and forward it to &lt;em&gt;yourname@gmail.com&lt;/em&gt;. Note: if you&amp;rsquo;re using Godaddy, &lt;a href=&#34;http://help.godaddy.com/article/1725&#34;&gt;this page&lt;/a&gt; will give you more details on how to do this.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;After you&amp;rsquo;ve done that, log on to Gmail, click on &lt;strong&gt;Settings&lt;/strong&gt; &amp;gt; &lt;strong&gt;Accounts&lt;/strong&gt; &amp;gt; &lt;strong&gt;Add Another Email Address&lt;/strong&gt;, and add &lt;em&gt;you@yourname.com&lt;/em&gt; to the list.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click NEXT, and Google will now send you a message to &lt;em&gt;you@yourname.com&lt;/em&gt; so you can verify it&amp;rsquo;s yours. Here&amp;rsquo;s the trick: since you already set up email forwarding in step 2 you will receive this email at &lt;em&gt;yourname@gmail.com&lt;/em&gt; ;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click on the verification link and then go back to Gmail&amp;rsquo;s &lt;strong&gt;Accounts&lt;/strong&gt; tab in the &lt;strong&gt;Settings&lt;/strong&gt; menu. Your new, branded email address should already be listed there. Click on the link that says &amp;ldquo;make default&amp;rdquo; next to it, and check the radio button next to &amp;ldquo;always reply from my default address&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That&amp;rsquo;s it. You should now be ready to use Gmail with your own branded email address. If you want more details, you can visit Gmail&amp;rsquo;s custom domain &lt;a href=&#34;http://mail.google.com/support/bin/answer.py?hl=en&amp;amp;amp;ctx=mail&amp;amp;amp;answer=22370&#34;&gt;help page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
