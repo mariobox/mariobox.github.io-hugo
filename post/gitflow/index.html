@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+<meta name="description" content="Personal website of Mario Sanchez Carrion">  
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<link type="text/plain" rel="author" href="/humans.txt" />
+
+<title>My Basic Git Workflow - mariosanchez.org</title> 
+
+ 
+</head>
+
+<body>
+
+<nav>
+
+
+<div class="contain">
+
+<div class="twelve col">
+
+
+
+
+
+
+<span class="home"><a href="/"><img src="/../images/logo.png" width="400px"></a></span>
+
+<hr />
+
+
+</div>
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+<div class="date">
+
+<p>
+May 12, 2016
+</p>
+
+</div>
+
+<article>
+
+
+<h1>My Basic Git Workflow</h1>
+
+
+
+
+
+
+<p>This quick rundown portrays the basic workflow I go through when using <a href="https://git-scm.com/">Git</a> to keep track of files. It assumes you have some basic knowledge of Git. If you don&rsquo;t, don&rsquo;t worry, there are plenty of resources online (<a href="https://git-scm.com/book/en/v2">this is a good starting point</a>). It also assumes that you are using <a href="http://www.github.com">Github</a> for your remote repositories.</p>
+
+<p>Here we go.</p>
+
+<h3 id="creating-a-repository-from-scratch:a603a77b1f5c5be5405a46ac8ca7dda3">Creating a repository from scratch</h3>
+
+<ul>
+<li><p>Open your Terminal and navigate to a folder you want to start tracking (if you don&rsquo;t know how to use the Terminal this <a href="https://www.codecademy.com/learn/learn-the-command-line">quick online course</a> will show you the basics).</p></li>
+
+<li><p>Type <code>git init</code> to create a new subdirectory, called .git, where your file changes are going to be tracked.</p></li>
+
+<li><p>Create a new file, let&rsquo;s say: <em>grocery.txt</em> (a simple text file listing different grocery stores in your neighborhood).</p></li>
+
+<li><p>Add some grocery store names and save the file.</p></li>
+
+<li><p>Add the file to the staging area by doing <code>git add grocery.txt</code></p></li>
+
+<li><p>Commit your changes by doing <code>git commit -m &ldquo;MESSAGE HERE&rdquo;</code>. Don&rsquo;t forget to type your message in between quote marks explaining what you did to the file.  Since this is the first time you commit this file it is OK to just write &ldquo;initial commit&rdquo;.</p></li>
+
+<li><p>If you want to push your file to a remote repository, you need to create the remote repository first:</p>
+
+<ul>
+<li>Go to Github and create a new project folder where you&rsquo;re going to place and track <em>grocery.txt</em>. You can call it <em>new-project</em>.</li>
+<li>Look around the screen for the URL of the project folder you just created. It should be something like <code><a href="https://www.github.com/youraccount/new-project.git">https://www.github.com/youraccount/new-project.git</a></code><br /></li>
+<li>Copy that URL, go back to your terminal, and type <br /><code>git add remote origin <a href="http://www.github.com/youraccount/new-project/.git">http://www.github.com/youraccount/new-project/.git</a></code></li>
+<li>Push your file to the remote repository with <code>git push origin master</code> (if at any point Github asks you for your username and password type them in).</li>
+</ul></li>
+</ul>
+
+<p>Now you are tracking <em>grocery.txt</em> both in your local repository (your computer) and a remote repository!</p>
+
+<p>Now, let&rsquo;s say that the next day you come back to your file and add some more grocery store names. Once you&rsquo;re done, do this:</p>
+
+<ul>
+<li><p>Save the file</p></li>
+
+<li><p>Do <code>git add grocery.txt</code> to add the changes to the staging area, and</p></li>
+
+<li><p><code>git commit -m &ldquo;add grocery stores&rdquo;</code> to commit your changes.</p></li>
+
+<li><p>To upload these changes to the remote repository simply type <code>git push origin master</code>. Type your username and password when prompted and the changes will be uploaded.</p></li>
+</ul>
+
+<p>That&rsquo;s it.</p>
+
+<h3 id="cloning-a-remote-repository:a603a77b1f5c5be5405a46ac8ca7dda3">Cloning a remote repository</h3>
+
+<p>Cloning a remote repository means installing a copy in your local computer. You may want to clone one of your existing remote repositories to do some work on it locally, or you may want to clone a remote repository belonging to somebody else and use it as a template for your own project. In this case, first make sure you have permission from the repository owner.</p>
+
+<p>This is what you do:</p>
+
+<ul>
+<li><p>Go to Github and follow the instructions to fork the repository to your profile.</p></li>
+
+<li><p>If you want to call the repository something else, just rename as you want.</p></li>
+
+<li><p>Finally, clone the repository to your local computer by going back to the terminal and typing <code>git clone [URL OF THE REPOSITORY]</code>.</p></li>
+</ul>
+
+<p>Once you&rsquo;ve cloned the repository amd done some work on it, the process is the same as when you update a local repository created from scratch: you work on your files, make some changes, add them to the staging area, commit them, and finally push them back to the remote repository with <code>git push origin master</code>.</p>
+
+
+</article>
+
+<br />
+
+<p><strong>Tags:</strong></p> 
+
+
+
+<ul>
+<li id="tags"> <a href="http://www.mariosanchez.org/tags/tech">tech</a> </li>
+</ul>
+
+<br />
+
+<center>
+
+<div>
+	<a href="http://www.mariosanchez.org/post/axe/">Previous</a> | <a href="http://www.mariosanchez.org/post/">Blog</a>
+</div>
+
+</center>
+
+<br />
+
+<footer>
+
+
+
+<div>
+
+<hr />
+
+<div class="contain">
+
+<div class="three col">
+
+<img src="http://www.mariosanchez.org/images/mypictr_165x165.jpg" width="165px" class="roundnew">
+
+</div>
+
+<div class="nine col">
+
+<p><strong>Mario Sanchez Carrion</strong> | <strong>mariosanchez.org</strong><br />
+<a href="tel:305-699-6541">(305) 699-6541</a><br />
+<a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a><br />
+<a href="http://www.linkedin.com/in/mariobox">LinkedIn</a> | <a href="http://www.twitter.com/mariobox">Twitter</a> | <a href="http://github.com/mariobox">Github</a> | <a href="https://teamtreehouse.com/mariosanchezcarrion">Treehouse</a></span>
+</p>
+
+</div>
+</div>
+
+<hr />
+
+<div class="twelve col">
+
+
+
+
+<p class="small">USA 2016 | Made with <a href="http://gohugo.io">Hugo</a> | Deployed with <a href="https://github.com/mariobox/mariosanchez.org">Github</a> | Current <a href="../../colophon/">Stack</a></p>
+
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59988651-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
+
+
+
+</div>
+
+</footer>
+
