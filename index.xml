@@ -10,20 +10,20 @@
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Juxtapose: Javascript Before-and-After Visual Tool</title>
+      <title>Juxtapose: JavaScript Before-and-After Visual Tool</title>
       <link>http://www.mariosanchez.org/post/juxtapose/</link>
       <pubDate>Sat, 14 May 2016 22:50:30 -0400</pubDate>
       
       <guid>http://www.mariosanchez.org/post/juxtapose/</guid>
-      <description>&lt;p&gt;As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by &lt;a href=&#34;http://knightlab.northwestern.edu/&#34;&gt;Northwestern University Knight Lab&lt;/a&gt; using Javascript.&lt;/p&gt;
+      <description>&lt;p&gt;As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by &lt;a href=&#34;http://knightlab.northwestern.edu/&#34;&gt;Northwestern University Knight Lab&lt;/a&gt; using JavaScript.&lt;/p&gt;
 
-&lt;p&gt;Juxtapose lets you highlight the &lt;em&gt;before-and-after&lt;/em&gt; aspect of your story using a visually compelling slider graphic (you can &lt;a href=&#34;https://juxtapose.knightlab.com/&#34;&gt;make one on the app&amp;rsquo;s website&lt;/a&gt; and then just cut and embed a snippet of code on your site).&lt;/p&gt;
+&lt;p&gt;Juxtapose lets you highlight the &lt;em&gt;before-and-after&lt;/em&gt; aspect of your stories using a visually compelling slider graphic (you can &lt;a href=&#34;https://juxtapose.knightlab.com/&#34;&gt;make one on the app&amp;rsquo;s website&lt;/a&gt; and then just cut and embed a snippet of code on your site).&lt;/p&gt;
 
-&lt;p&gt;I tried it myself using two selfies I took during last World Cup&amp;rsquo;s Final, wearing the jerseys of the two finalists (lame example, I know, but think of the possibilities if you&amp;rsquo;re covering a more serious subject!)&lt;/p&gt;
+&lt;p&gt;I tried it myself using two selfies I took during the last World Cup, wearing the jerseys of the two finalists (lame example, I know, but think of the possibilities if you&amp;rsquo;re covering a more serious subject!)&lt;/p&gt;
 
 &lt;iframe frameborder=&#34;0&#34; class=&#34;juxtapose&#34; width=&#34;40%&#34; height=&#34;450&#34; src=&#34;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b440cd8c-1a4a-11e6-a524-0e7075bba956&#34;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;If you want to check out Juxtapose&amp;rsquo;s source code it is hosted on &lt;a href=&#34;https://github.com/NUKnightLab/juxtapose&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to check out the Juxtapose source code it is hosted on &lt;a href=&#34;https://github.com/NUKnightLab/juxtapose&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -208,7 +208,7 @@
 
 &lt;p&gt;After reading the book I found out that the author had done a &lt;a href=&#34;https://www.ted.com/talks/susan_cain_the_power_of_introverts?language=en&#34;&gt;TED talk&lt;/a&gt; on the subject. While not a substitute for the book it is worth watching.&lt;/p&gt;
 
-&lt;h4 id=&#34;my-highlights-and-notes&#34;&gt;My Highlights and Notes&lt;/h4&gt;
+&lt;h4 id=&#34;my-highlights-and-notes:413acb98b45f59b87e6a91c1fc93570d&#34;&gt;My Highlights and Notes&lt;/h4&gt;
 
 &lt;p&gt;&amp;ldquo;Our lives are shaped as profoundly by personality as by gender or race.&amp;rdquo;&lt;/p&gt;
 
@@ -438,7 +438,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -446,7 +446,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -456,7 +456,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -1050,7 +1050,7 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 
 &lt;p&gt;If you want to learn more about the 6S philosophy, you can read this &lt;a href=&#34;https://www.vitalentusa.com/learn/An_Introduction_to_6S.pdf&#34;&gt;comprehensive 6S overview&lt;/a&gt; I found searching online. On the other hand, if you just want to grasp the gist of it, here are the 6S principles in short form, just like in the page I found on my desk:&lt;/p&gt;
 
-&lt;h3 id=&#34;sort:42441621e042de90c292d1ae34891e18&#34;&gt;Sort&lt;/h3&gt;
+&lt;h3 id=&#34;sort&#34;&gt;Sort&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sort out necessary and unnecessary items&lt;/li&gt;
@@ -1058,33 +1058,33 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;li&gt;Remove and discard the items not required&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;set-in-order:42441621e042de90c292d1ae34891e18&#34;&gt;Set In Order&lt;/h3&gt;
+&lt;h3 id=&#34;set-in-order&#34;&gt;Set In Order&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Organize the essential materials in the workplace&lt;/li&gt;
 &lt;li&gt;Find &amp;ldquo;a place for everything and keep everything in its place&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;shine:42441621e042de90c292d1ae34891e18&#34;&gt;Shine&lt;/h3&gt;
+&lt;h3 id=&#34;shine&#34;&gt;Shine&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Keep the area clean at all times&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;standardize:42441621e042de90c292d1ae34891e18&#34;&gt;Standardize&lt;/h3&gt;
+&lt;h3 id=&#34;standardize&#34;&gt;Standardize&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the Sort, Set In Order, and Shine Steps&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;sustain:42441621e042de90c292d1ae34891e18&#34;&gt;Sustain&lt;/h3&gt;
+&lt;h3 id=&#34;sustain&#34;&gt;Sustain&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the gain&lt;/li&gt;
 &lt;li&gt;Look for ways to continuously improve your work area&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;safety-first:42441621e042de90c292d1ae34891e18&#34;&gt;Safety First&lt;/h3&gt;
+&lt;h3 id=&#34;safety-first&#34;&gt;Safety First&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Provide an accident-free workplace. Eliminate hazards.&lt;/li&gt;

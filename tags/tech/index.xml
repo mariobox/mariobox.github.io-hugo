@@ -10,20 +10,20 @@
     <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Juxtapose: Javascript Before-and-After Visual Tool</title>
+      <title>Juxtapose: JavaScript Before-and-After Visual Tool</title>
       <link>http://www.mariosanchez.org/post/juxtapose/</link>
       <pubDate>Sat, 14 May 2016 22:50:30 -0400</pubDate>
       
       <guid>http://www.mariosanchez.org/post/juxtapose/</guid>
-      <description>&lt;p&gt;As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by &lt;a href=&#34;http://knightlab.northwestern.edu/&#34;&gt;Northwestern University Knight Lab&lt;/a&gt; using Javascript.&lt;/p&gt;
+      <description>&lt;p&gt;As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by &lt;a href=&#34;http://knightlab.northwestern.edu/&#34;&gt;Northwestern University Knight Lab&lt;/a&gt; using JavaScript.&lt;/p&gt;
 
-&lt;p&gt;Juxtapose lets you highlight the &lt;em&gt;before-and-after&lt;/em&gt; aspect of your story using a visually compelling slider graphic (you can &lt;a href=&#34;https://juxtapose.knightlab.com/&#34;&gt;make one on the app&amp;rsquo;s website&lt;/a&gt; and then just cut and embed a snippet of code on your site).&lt;/p&gt;
+&lt;p&gt;Juxtapose lets you highlight the &lt;em&gt;before-and-after&lt;/em&gt; aspect of your stories using a visually compelling slider graphic (you can &lt;a href=&#34;https://juxtapose.knightlab.com/&#34;&gt;make one on the app&amp;rsquo;s website&lt;/a&gt; and then just cut and embed a snippet of code on your site).&lt;/p&gt;
 
-&lt;p&gt;I tried it myself using two selfies I took during last World Cup&amp;rsquo;s Final, wearing the jerseys of the two finalists (lame example, I know, but think of the possibilities if you&amp;rsquo;re covering a more serious subject!)&lt;/p&gt;
+&lt;p&gt;I tried it myself using two selfies I took during the last World Cup, wearing the jerseys of the two finalists (lame example, I know, but think of the possibilities if you&amp;rsquo;re covering a more serious subject!)&lt;/p&gt;
 
 &lt;iframe frameborder=&#34;0&#34; class=&#34;juxtapose&#34; width=&#34;40%&#34; height=&#34;450&#34; src=&#34;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b440cd8c-1a4a-11e6-a524-0e7075bba956&#34;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;If you want to check out Juxtapose&amp;rsquo;s source code it is hosted on &lt;a href=&#34;https://github.com/NUKnightLab/juxtapose&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to check out the Juxtapose source code it is hosted on &lt;a href=&#34;https://github.com/NUKnightLab/juxtapose&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
