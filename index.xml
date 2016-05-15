@@ -6,8 +6,26 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2016 18:00:39 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2016 22:50:30 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Juxtapose: Javascript Before-and-After Visual Tool</title>
+      <link>http://www.mariosanchez.org/post/juxtapose/</link>
+      <pubDate>Sat, 14 May 2016 22:50:30 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/juxtapose/</guid>
+      <description>&lt;p&gt;As content creators in the digital age, writers and journalists need to get familiar with data visualization tools. One of these tools is Juxtapose, created by &lt;a href=&#34;http://knightlab.northwestern.edu/&#34;&gt;Northwestern University Knight Lab&lt;/a&gt; using Javascript.&lt;/p&gt;
+
+&lt;p&gt;Juxtapose lets you highlight the &lt;em&gt;before-and-after&lt;/em&gt; aspect of your story using a visually compelling slider graphic (you can &lt;a href=&#34;https://juxtapose.knightlab.com/&#34;&gt;make one on the app&amp;rsquo;s website&lt;/a&gt; and then just cut and embed a snippet of code on your site).&lt;/p&gt;
+
+&lt;p&gt;I tried it myself using two selfies I took during last World Cup&amp;rsquo;s Final, wearing the jerseys of the two finalists (lame example, I know, but think of the possibilities if you&amp;rsquo;re covering a more serious subject!)&lt;/p&gt;
+
+&lt;iframe frameborder=&#34;0&#34; class=&#34;juxtapose&#34; width=&#34;40%&#34; height=&#34;450&#34; src=&#34;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b440cd8c-1a4a-11e6-a524-0e7075bba956&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;If you want to check out Juxtapose&amp;rsquo;s source code it is hosted on &lt;a href=&#34;https://github.com/NUKnightLab/juxtapose&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Basic Git Workflow</title>
@@ -460,7 +478,7 @@
 
 &lt;p&gt;A powerful little book offering valuable uncommon sense advice on how to approach business in alignment with your values and beliefs. In about an hour reading time, &lt;a href=&#34;http://sivers.org&#34;&gt;Derek Sivers&lt;/a&gt; candidly tells us everything he learned from founding, operating and selling CD Baby, the business he stumbled upon when he decided to help fellow musicians sell their work on the Internet in the pre-Paypal, pre-iTunes days.&lt;/p&gt;
 
-&lt;h4 id=&#34;my-highlights-and-notes&#34;&gt;My Highlights and Notes:&lt;/h4&gt;
+&lt;h4 id=&#34;my-highlights-and-notes:395f262b5b83024ba8634078e0030eba&#34;&gt;My Highlights and Notes:&lt;/h4&gt;
 
 &lt;p&gt;You need to know your personal philosophy of what makes you happy and what&amp;rsquo;s worth doing.&lt;/p&gt;
 
@@ -630,13 +648,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -644,19 +662,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -666,7 +684,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -678,7 +696,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -704,7 +722,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -718,7 +736,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -742,7 +760,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -761,13 +779,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -777,19 +795,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -799,7 +817,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -1095,33 +1113,6 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;p&gt;Some critics have dismissed Smith&amp;rsquo;s account as oportunistic or naive, but the bottom line is that it sheds a powerful light on some of Wall Street&amp;rsquo;s worse practices.&lt;/p&gt;
 
 &lt;p&gt;Required reading for those who seek to understand corporate politics and how it can advance or hinder a business career.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/post/mornings/</link>
-      <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/mornings/</guid>
-      <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
-
-&lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
-
-&lt;p&gt;But who are these people telling us what to do with our time, our sleep, our exercise and our food? Are they physicians or dietitians? No, they&amp;rsquo;re just personal
-development &amp;ldquo;experts&amp;rdquo; who have found in the latest productivity fad a way to sell books, seminars and expensive coaching sessions.&lt;/p&gt;
-
-&lt;p&gt;So, enough of the one-size-fits-all power morning ritual. The bottom line is that &lt;mark&gt;everybody is different because our &lt;a href=&#34;https://en.wikipedia.org/wiki/Chronobiology&#34;&gt;biological rhythms&lt;/a&gt; are different&lt;/mark&gt;. Forget what the &amp;ldquo;gurus&amp;rdquo; say and just do what works for you.&lt;/p&gt;
-
-&lt;p&gt;What works for me? I need seven to eight hours of sleep, so waking up at 4am is a no-no. Upon waking up, usually at 6:30am or so, I perform a stretching and strengthening routine for my lower back, abdomen and hamstrings, followed by a healthy breakfast (sometimes blueberry yogurt with muesli, sometimes oatmeal with raisins
-and apple, or a sprouted wheat toast with cheddar cheese and a boiled egg, all preceded by a small glass of orange/carrot juice and followed by a large cup of coffee).&lt;/p&gt;
-
-&lt;p&gt;So, do you have a morning ritual?&lt;/p&gt;
-
-&lt;p&gt;For more on the topic, check out this &lt;a href=&#34;https://medium.com/@InVisionApp/what-s-your-morning-ritual-b3ff2fbcc8e5#.o9qgzlwb9&#34;&gt;Medium article&lt;/a&gt;, where several people share how they get their mornings started. It&amp;rsquo;s worth the 4 minute read (plus, the pictures
-are great!).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/5/4019/4658619672_819e8d7414_b.jpg&#34; class=&#34;roundcorners&#34;&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
