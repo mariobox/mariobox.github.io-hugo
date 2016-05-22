@@ -46,9 +46,9 @@
 
 &lt;li&gt;&lt;p&gt;Type &lt;code&gt;git init&lt;/code&gt; to create a new subdirectory, called .git, where your file changes are going to be tracked.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Create a new file, let&amp;rsquo;s say: &lt;em&gt;grocery.txt&lt;/em&gt; (a simple text file listing different grocery stores in your neighborhood).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new file, for example one called &lt;em&gt;grocery.txt&lt;/em&gt; (a simple text file listing different grocery stores in your neighborhood) by typing &lt;code&gt;touch grocery.txt&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Add some grocery store names and save the file.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Open your favorite text editor, add some grocery store names and save the file.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Add the file to the staging area by doing &lt;code&gt;git add grocery.txt&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -59,7 +59,7 @@
 &lt;ul&gt;
 &lt;li&gt;Go to Github and create a new project folder where you&amp;rsquo;re going to place and track &lt;em&gt;grocery.txt&lt;/em&gt;. You can call it &lt;em&gt;new-project&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Look around the screen for the URL of the project folder you just created. It should be something like &lt;code&gt;&lt;a href=&#34;https://www.github.com/youraccount/new-project.git&#34;&gt;https://www.github.com/youraccount/new-project.git&lt;/a&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Copy that URL, go back to your terminal, and type &lt;br /&gt;&lt;code&gt;git add remote origin &lt;a href=&#34;http://www.github.com/youraccount/new-project.git&#34;&gt;http://www.github.com/youraccount/new-project.git&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Copy that URL, go back to your terminal, and type &lt;br /&gt;&lt;code&gt;git add remote origin &lt;a href=&#34;https://www.github.com/youraccount/new-project.git&#34;&gt;https://www.github.com/youraccount/new-project.git&lt;/a&gt;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Push your file to the remote repository with &lt;code&gt;git push origin master&lt;/code&gt; (if at any point Github asks you for your username and password type them in).&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -438,7 +438,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -446,7 +446,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -456,7 +456,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
