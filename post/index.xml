@@ -190,7 +190,7 @@
       <guid>http://www.mariosanchez.org/post/ubuntu/</guid>
       <description>&lt;p&gt;When the hard drive of my old Toshiba Satellite died suddenly I thought of getting rid of it, but when I learned that you could buy a refurbished hard drive on ebay for very little money (around $35) I ordered one and installed it.&lt;/p&gt;
 
-&lt;p&gt;The clean, fresh hard drive with no OS gave me the perfect excuse to install a Linux operating system. I had heard good things about &lt;a href=&#34;http://www.ubuntu.com&#34;&gt;Ubuntu&lt;/a&gt;, with its user-friendly interface and non of the clutter that comes with a traditional Windows installation.&lt;/p&gt;
+&lt;p&gt;The clean, fresh hard drive with no OS gave me the perfect excuse to install a Linux operating system. I had heard good things about &lt;a href=&#34;http://www.ubuntu.com&#34;&gt;Ubuntu&lt;/a&gt;, with its user-friendly interface and none of the clutter that comes with a traditional Windows installation.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what I did:&lt;/p&gt;
 
@@ -201,7 +201,7 @@
 
 &lt;li&gt;&lt;p&gt;As soon as the first screen comes up press F12 (or Escape or F2 depending on the computer you&amp;rsquo;re using). You will be taken to a menu of options where you will need to change the booting order to boot from the USB drive first (&lt;a href=&#34;http://lifehacker.com/5991848/how-to-boot-from-a-cd-or-usb-drive-on-any-pc&#34;&gt;this link&lt;/a&gt; offers a pretty good explanation of how to do it, depending on the computer you&amp;rsquo;re using).&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Once Ubuntu comes up on the screen, it will give you the option to try it out from the USB port or to install it in your hard drive. You can choose either one. Since I wanted to install it in my clean, empty hard drive I chose the latter. There are other things you can do, like running Ubuntu alonside Windows, but I haven&amp;rsquo;t tried them. There are plenty of tutorials online explaining alternative installations, though, if you want to do something different.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Once Ubuntu comes up on the screen, it will give you the option to try it out from the USB port or to install it in your hard drive. You can choose either one. Since I wanted to install it in my clean, empty hard drive I chose the latter. There are other things you can do, like running Ubuntu alongside Windows, but I haven&amp;rsquo;t tried them. There are plenty of tutorials online explaining alternative installations, though, if you want to do something different.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Finally, I activated the wifi connection by looking for it in the connections icon at the top right of the main window.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -264,7 +264,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -272,7 +272,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -282,7 +282,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -646,7 +646,7 @@ are great!).&lt;/p&gt;
 
 &lt;p&gt;Here they are:&lt;/p&gt;
 
-&lt;h3 id=&#34;people&#34;&gt;People&lt;/h3&gt;
+&lt;h3 id=&#34;people:aacdfef422bea8f6180e1d1e68804581&#34;&gt;People&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Family&lt;/li&gt;
@@ -661,7 +661,7 @@ are great!).&lt;/p&gt;
 &lt;li&gt;Service Providers&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+&lt;h3 id=&#34;resources:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Resources&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Cash&lt;/li&gt;
@@ -684,7 +684,7 @@ are great!).&lt;/p&gt;
 &lt;li&gt;Brands&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;self&#34;&gt;Self&lt;/h3&gt;
+&lt;h3 id=&#34;self:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Self&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Values&lt;/li&gt;
@@ -700,7 +700,7 @@ are great!).&lt;/p&gt;
 &lt;li&gt;Personality Profile&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;credentials&#34;&gt;Credentials&lt;/h3&gt;
+&lt;h3 id=&#34;credentials:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Credentials&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Degrees&lt;/li&gt;
@@ -715,7 +715,7 @@ are great!).&lt;/p&gt;
 &lt;li&gt;Driver License&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;memberships&#34;&gt;Memberships&lt;/h3&gt;
+&lt;h3 id=&#34;memberships:aacdfef422bea8f6180e1d1e68804581&#34;&gt;Memberships&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Alumni Associations&lt;/li&gt;
