@@ -6,8 +6,38 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 May 2016 11:17:25 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 21:10:53 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The 9 Principles</title>
+      <link>http://www.mariosanchez.org/post/principles/</link>
+      <pubDate>Thu, 14 Jul 2016 21:10:53 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/principles/</guid>
+      <description>&lt;p&gt;I found this slide in a meeting room at &lt;a href=&#34;http://www.theideacenter.co&#34;&gt;The Idea Center&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://67.media.tumblr.com/2310dd5921f5742e43873efe4187ac86/tumblr_oac1a49Eqv1qz7ur9o1_1280.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The principles, succinctly listed on the page, resonated immediately so I took a picture of the slide. Later, when I got home, I Googled them and found the source: Joi Ito, director of MIT&amp;rsquo;s Media Lab &lt;a href=&#34;https://www.media.mit.edu/about/principles&#34;&gt;wrote them in 2012&lt;/a&gt; as he distilled the mental models required to succeed in the new world of work brought upon us by technology and the internet.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;http://www.inktalks.com/discover/287/joichi-ito-mit-media-lab-from-a-container-to-a-network&#34;&gt;watch Ito&amp;rsquo;s presentation&lt;/a&gt; where he explains in more detail each one of them.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m just going to list them here as a note-to-self for future reference:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Resilience Over Strength&lt;/li&gt;
+&lt;li&gt;Systems Over Objects&lt;/li&gt;
+&lt;li&gt;Disobedience Over Compliance&lt;/li&gt;
+&lt;li&gt;Pull Over Push&lt;/li&gt;
+&lt;li&gt;Compasses Over Maps&lt;/li&gt;
+&lt;li&gt;Emergence Over Authority&lt;/li&gt;
+&lt;li&gt;Risk Over Safety&lt;/li&gt;
+&lt;li&gt;Practice Over Theory&lt;/li&gt;
+&lt;li&gt;Learning Over Education&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>7 Useful Habits for the Digital Age</title>
@@ -264,7 +294,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -272,7 +302,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -282,7 +312,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -324,13 +354,13 @@
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -338,19 +368,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -360,7 +390,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -372,7 +402,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -398,7 +428,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -412,7 +442,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -436,7 +466,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -455,13 +485,13 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -471,19 +501,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -493,7 +523,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -760,24 +790,6 @@ are great!).&lt;/p&gt;
 &lt;p&gt;With this set up, plus good money habits, you should be well on your way to a comfortable financial position.&lt;/p&gt;
 
 &lt;p&gt;Remember that these are just a few tips, and that there are plenty of good books in the personal finance space that you can read. Two that I recommend are: &lt;a href=&#34;http://amzn.to/1EzmBcC&#34;&gt;The Millionaire Next Door&lt;/a&gt;, by William D. Danko, to start developing good money habits, and &lt;a href=&#34;http://amzn.to/0761147489&#34;&gt;I Will Teach You To Be Rich&lt;/a&gt;, by Ramit Sethi, for actionable tips on setting up your financial accounts and designing the right systems to manage your money.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Practical Minimalism</title>
-      <link>http://www.mariosanchez.org/post/mini/</link>
-      <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/mini/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a lot of talk about minimalism these days, and much confusion about what it means. While I&amp;rsquo;m far from being an authority on the subject (I consider myself a minimalist-in-training) I&amp;rsquo;m going to throw in my two cents and explain what minimalism means to me.&lt;/p&gt;
-
-&lt;p&gt;Minimalism doesn&amp;rsquo;t mean that we have to turn into some sort of Buddhist monk going through life with six or seven worldly possessions.  &lt;mark&gt;Getting rid of stuff is not the goal here, but rather the consequence of choosing to live in a more deliberate way&lt;/mark&gt;.&lt;/p&gt;
-
-&lt;p&gt;Minimalism starts by understanding that everything we surround ourselves with either adds value to our life or is just taking space. Things add value by being useful or by bringing us joy. Everything we let into our lives has to earn it&amp;rsquo;s place.&lt;/p&gt;
-
-&lt;p&gt;A good way to make minimalism a daily practice is to get into the habit of constantly asking ourselves this question: &amp;ldquo;What is this doing here?&amp;rdquo; If it&amp;rsquo;s not adding value or bringing us joy, get rid of it. Throw it away or give it to someone who may need it/like it/want it. Here&amp;rsquo;s the key, though: whatever we decide to do we must decide quickly, or the resistance (laziness, procrastination, the just-in-case syndrome) will take over.&lt;/p&gt;
-
-&lt;p&gt;Keep it up until this daily practice becomes a habit, and you&amp;rsquo;ll be surprised by how eliminating physical clutter contributes to getting rid of mental clutter too. I&amp;rsquo;ve noticed that since I&amp;rsquo;m doing this I&amp;rsquo;m able to think more clearly, and have an easier time getting organized and getting things done.&lt;/p&gt;
 </description>
     </item>
     

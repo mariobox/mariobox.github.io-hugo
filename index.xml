@@ -6,8 +6,38 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 May 2016 11:17:25 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 21:10:53 -0400</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The 9 Principles</title>
+      <link>http://www.mariosanchez.org/post/principles/</link>
+      <pubDate>Thu, 14 Jul 2016 21:10:53 -0400</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/principles/</guid>
+      <description>&lt;p&gt;I found this slide in a meeting room at &lt;a href=&#34;http://www.theideacenter.co&#34;&gt;The Idea Center&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://67.media.tumblr.com/2310dd5921f5742e43873efe4187ac86/tumblr_oac1a49Eqv1qz7ur9o1_1280.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The principles, succinctly listed on the page, resonated immediately so I took a picture of the slide. Later, when I got home, I Googled them and found the source: Joi Ito, director of MIT&amp;rsquo;s Media Lab &lt;a href=&#34;https://www.media.mit.edu/about/principles&#34;&gt;wrote them in 2012&lt;/a&gt; as he distilled the mental models required to succeed in the new world of work brought upon us by technology and the internet.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;http://www.inktalks.com/discover/287/joichi-ito-mit-media-lab-from-a-container-to-a-network&#34;&gt;watch Ito&amp;rsquo;s presentation&lt;/a&gt; where he explains in more detail each one of them.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m just going to list them here as a note-to-self for future reference:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Resilience Over Strength&lt;/li&gt;
+&lt;li&gt;Systems Over Objects&lt;/li&gt;
+&lt;li&gt;Disobedience Over Compliance&lt;/li&gt;
+&lt;li&gt;Pull Over Push&lt;/li&gt;
+&lt;li&gt;Compasses Over Maps&lt;/li&gt;
+&lt;li&gt;Emergence Over Authority&lt;/li&gt;
+&lt;li&gt;Risk Over Safety&lt;/li&gt;
+&lt;li&gt;Practice Over Theory&lt;/li&gt;
+&lt;li&gt;Learning Over Education&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>7 Useful Habits for the Digital Age</title>
@@ -500,7 +530,7 @@
 
 &lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
 
-&lt;h3 id=&#34;learn&#34;&gt;Learn&lt;/h3&gt;
+&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
 
 &lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
 
@@ -508,7 +538,7 @@
 
 &lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiments&#34;&gt;Experiments&lt;/h3&gt;
+&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
 
 &lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
 
@@ -518,7 +548,7 @@
 
 &lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
 
-&lt;h3 id=&#34;self-awareness&#34;&gt;Self-Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
 
 &lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
 
@@ -540,7 +570,7 @@
 
 &lt;p&gt;A powerful little book offering valuable uncommon sense advice on how to approach business in alignment with your values and beliefs. In about an hour reading time, &lt;a href=&#34;http://sivers.org&#34;&gt;Derek Sivers&lt;/a&gt; candidly tells us everything he learned from founding, operating and selling CD Baby, the business he stumbled upon when he decided to help fellow musicians sell their work on the Internet in the pre-Paypal, pre-iTunes days.&lt;/p&gt;
 
-&lt;h4 id=&#34;my-highlights-and-notes:395f262b5b83024ba8634078e0030eba&#34;&gt;My Highlights and Notes:&lt;/h4&gt;
+&lt;h4 id=&#34;my-highlights-and-notes&#34;&gt;My Highlights and Notes:&lt;/h4&gt;
 
 &lt;p&gt;You need to know your personal philosophy of what makes you happy and what&amp;rsquo;s worth doing.&lt;/p&gt;
 
@@ -710,13 +740,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -724,19 +754,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -746,7 +776,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -758,7 +788,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -784,7 +814,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -798,7 +828,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -822,7 +852,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -841,13 +871,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -857,19 +887,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -879,7 +909,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -1093,72 +1123,6 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;p&gt;Goes deep into the details of the deal itself and the personalities and egoes of the people involved. You will find this book thoroughly enjoyable if you are into real estate investing or politics.&lt;/p&gt;
 
 &lt;p&gt;Highly recommended.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The 6S Discipline</title>
-      <link>http://www.mariosanchez.org/post/6s/</link>
-      <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/6s/</guid>
-      <description>
-
-&lt;p&gt;A few weeks ago, the company moved us to a new office. When we walked into our shiny, new cubicles we found a single sheet of paper laid out on top of our recently installed, empty desks describing something called &amp;ldquo;The 6S Discipline&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;It was a concise list of 6 bullet points that summarized a process to keep our work stations clean and organized. I later found out that the 6S concept comes from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Lean_manufacturing&#34;&gt;Lean Manufacturing&lt;/a&gt; philosophy, the principles of which can also be applied to an office setting.&lt;/p&gt;
-
-&lt;p&gt;Since I have always liked to keep my workplace neatly organized and keep around only the things I need at one particular moment, the 6S concept strongly resonated with me.&lt;/p&gt;
-
-&lt;p&gt;If you want to learn more about the 6S philosophy, you can read this &lt;a href=&#34;https://www.vitalentusa.com/learn/An_Introduction_to_6S.pdf&#34;&gt;comprehensive 6S overview&lt;/a&gt; I found searching online. On the other hand, if you just want to grasp the gist of it, here are the 6S principles in short form, just like in the page I found on my desk:&lt;/p&gt;
-
-&lt;h3 id=&#34;sort:42441621e042de90c292d1ae34891e18&#34;&gt;Sort&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sort out necessary and unnecessary items&lt;/li&gt;
-&lt;li&gt;Keep only items necessary to perform the job&lt;/li&gt;
-&lt;li&gt;Remove and discard the items not required&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;set-in-order:42441621e042de90c292d1ae34891e18&#34;&gt;Set In Order&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Organize the essential materials in the workplace&lt;/li&gt;
-&lt;li&gt;Find &amp;ldquo;a place for everything and keep everything in its place&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;shine:42441621e042de90c292d1ae34891e18&#34;&gt;Shine&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Keep the area clean at all times&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;standardize:42441621e042de90c292d1ae34891e18&#34;&gt;Standardize&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Maintain the Sort, Set In Order, and Shine Steps&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;sustain:42441621e042de90c292d1ae34891e18&#34;&gt;Sustain&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Maintain the gain&lt;/li&gt;
-&lt;li&gt;Look for ways to continuously improve your work area&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;safety-first:42441621e042de90c292d1ae34891e18&#34;&gt;Safety First&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Provide an accident-free workplace. Eliminate hazards.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In essence, 6S is about &lt;mark&gt;eliminating waste and maximizing value-adding activities&lt;/mark&gt;, by creating and maintaining an organized, clean, safe and efficient work environment.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://c2.staticflickr.com/4/3548/3389551970_a24a14b9ba_z.jpg&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo Credits: &lt;a href=&#34;https://www.flickr.com/photos/cocokelley/3389551970&#34;&gt;Cassandra Lavalle&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
