@@ -6,8 +6,50 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jul 2016 21:10:53 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a SPA with Angular.js</title>
+      <link>http://www.mariosanchez.org/post/angularspa/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/angularspa/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/images/angularjs.png&#34; class=&#34;profile&#34;&gt;A few weeks ago I came across the concept of SPA, or &lt;a href=&#34;https://en.wikipedia.org/wiki/Single-page_application&#34;&gt;Single Page Application&lt;/a&gt;, and learned that they can be created with &lt;a href=&#34;https://angularjs.org/&#34;&gt;Angular.js&lt;/a&gt;, a JavaScript library supported by Google.&lt;/p&gt;
+
+&lt;p&gt;Most definitions of SPA you can find online are very technical and full of jargon, so perhaps the best way a newbie web developer like me can understand it is with an example:&lt;/p&gt;
+
+&lt;p&gt;Suppose you have an &lt;code&gt;index.html&lt;/code&gt; web page with three different sections:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The header (where the navigation menu is)&lt;/li&gt;
+&lt;li&gt;The content area, and&lt;/li&gt;
+&lt;li&gt;The footer.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The header and the footer remain the same all over the website, so the only thing that really changes when you go from the &lt;code&gt;index.html&lt;/code&gt; page to, say, the &lt;code&gt;about.html&lt;/code&gt; page is the actual page content.&lt;/p&gt;
+
+&lt;p&gt;What a SPA does is to allow the header and the footer to stay right where they are, while it calls only the actual content of the &lt;code&gt;about.html&lt;/code&gt; page and sticks it right between the header and the footer. No new page is loaded (that&amp;rsquo;s where the &amp;ldquo;Single Page&amp;rdquo; part of Single Page Application comes from).&lt;/p&gt;
+
+&lt;p&gt;The switch between the content of your &lt;code&gt;index.html&lt;/code&gt; and your &lt;code&gt;about.html&lt;/code&gt; page is done on the fly by the browser of the person viewing your site, by following the &lt;strong&gt;Angular.js&lt;/strong&gt; directives embedded in the page code.&lt;/p&gt;
+
+&lt;p&gt;I wanted to test building a SPA by creating a barebones, basic brochure site, using Angular.js to generate four page views: Home, About, Contact and Resume.&lt;/p&gt;
+
+&lt;p&gt;I found an &lt;a href=&#34;https://www.airpair.com/angularjs/building-angularjs-app-tutorial&#34;&gt;excellent tutorial&lt;/a&gt; online. After reading it carefully several times I started by creating the index template, which contains the Angular directives to make the site work, and which acts as a template for the whole site.&lt;/p&gt;
+
+&lt;p&gt;I then created bare-bones html files for the other three pages of the site: About, Contact and Resume (nothing fancy, just a couple of &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tags and a paragraph).&lt;/p&gt;
+
+&lt;p&gt;Finally, I tweaked the &lt;strong&gt;main.js&lt;/strong&gt; file to refer to my four pages: &lt;code&gt;/home&lt;/code&gt;, &lt;code&gt;/contact&lt;/code&gt;, &lt;code&gt;/about&lt;/code&gt;, and &lt;code&gt;/resume&lt;/code&gt;, instead of all the different pages listed in the tutorial (which uses a bloated website template that I decided not to follow, for simplicity&amp;rsquo;s sake. I also didn&amp;rsquo;t use the Bootstrap style sheets suggested by the author, opting instead for a much simpler style sheet based on &lt;a href=&#34;http://getskeleton.com&#34;&gt;Skeleton&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;main.js&lt;/strong&gt; file is where the real magic happens: it contains the Routes, which are basically the instructions that &lt;strong&gt;Angular.js&lt;/strong&gt; gives the browser: &amp;ldquo;if user clicks on &lt;code&gt;/about&lt;/code&gt; do this; if user clicks on &lt;code&gt;/contact&lt;/code&gt; do that&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;If you want to try it yourself I recommend that you read and follow the &lt;a href=&#34;https://www.airpair.com/angularjs/building-angularjs-app-tutorial&#34;&gt;tutorial&lt;/a&gt;. The author is obviously a very capable programmer and can explain things much better than I can.&lt;/p&gt;
+
+&lt;p&gt;You can also clone the site I created. Here is the Github repo: &lt;a href=&#34;http://github.com/mariobox/angulartestsite/&#34;&gt;http://github.com/mariobox/angulartestsite&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have also created a &lt;a href=&#34;http://mariobox.github.io/angulartestsite&#34;&gt;Live Demo&lt;/a&gt; so you can try it out on your browser.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The 9 Principles</title>
@@ -256,23 +298,23 @@
 
 &lt;p&gt;Following one of &lt;a href=&#34;http://www.mariosanchez.org/post/3words16/&#34;&gt;my themes for 2016&lt;/a&gt; I recently started learning Javascript. Rather than using a book I signed up to Treehouse, an online platform that specializes in teaching how to code.  After using the site for a few days I am now able to better understand how technology can help solve the problem of the skyrocketing cost of today&amp;rsquo;s higher education:&lt;/p&gt;
 
-&lt;h3 id=&#34;1-scale:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;1. Scale&lt;/h3&gt;
+&lt;h3 id=&#34;1-scale&#34;&gt;1. Scale&lt;/h3&gt;
 
 &lt;p&gt;The economies of scale achieved through technology have dramatically reduced the cost of education delivery. While courses in bricks-and-mortar schools can cost thousands of dollars, you can take unlimited classes online for less than $50 a month. Think of the savings this represents over the four years of a typical college education. If colleges and universities are investing in real estate instead of technology they&amp;rsquo;re making a big mistake.&lt;/p&gt;
 
-&lt;h3 id=&#34;2-lesson-delivery:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;2. Lesson Delivery&lt;/h3&gt;
+&lt;h3 id=&#34;2-lesson-delivery&#34;&gt;2. Lesson Delivery&lt;/h3&gt;
 
 &lt;p&gt;While some people will always prefer face to face lessons, the advantages of video are hard to ignore. For one, cost: why pay somebody to deliver the same lesson over and over again, when you can just capture it on video, once?  Today&amp;rsquo;s educational videos are highly optimized pieces of content where everything, from the instructor&amp;rsquo;s tone of voice, to the words chosen to explain the concepts, to the infographics used as teaching aids, and even the backround decor, have been thoroughly tested to provide the most effective learning experience. A video can also reach millions, not just the number of students that fit in a typical classroom. You can also rewind a video at your leisure, watch it as many times as you want, when you want, wherever you may be.&lt;/p&gt;
 
-&lt;h3 id=&#34;3-socialization-and-interaction:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;3. Socialization and Interaction&lt;/h3&gt;
+&lt;h3 id=&#34;3-socialization-and-interaction&#34;&gt;3. Socialization and Interaction&lt;/h3&gt;
 
 &lt;p&gt;Proponents of traditional education may argue that campus life enables students to interact, socialize and make connections.  The same, however, can be achieved through online education. While the interaction may not always be face to face, online tools like forums, social networks, and email let us be in contact with peers, ask questions, and give and get help. Students can also research their local scene for meetups where like-minded people can get together to discuss any topic, exchange ideas, and socialize.&lt;/p&gt;
 
-&lt;h3 id=&#34;4-pace-and-rewards:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;4. Pace and Rewards&lt;/h3&gt;
+&lt;h3 id=&#34;4-pace-and-rewards&#34;&gt;4. Pace and Rewards&lt;/h3&gt;
 
 &lt;p&gt;Online schools are pioneers of the &lt;em&gt;gamification&lt;/em&gt; of education. They break down subjects into bite-sized lessons and give out points when a student completes them. Successfully passing a course or track earns them a badge. These achievements are then listed in the student&amp;rsquo;s profile, for bragging rights and motivation. Online teaching platforms are succeeding in making education fun, by providing a learning environment that resonates with digital natives, used to instant gratification and fast feedback loops. Traditional institutions, on the other hand, mostly follow the rigid set of rythms, timelines and processes of the industrial age.&lt;/p&gt;
 
-&lt;h3 id=&#34;5-skills-versus-credentials:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;5. Skills versus Credentials&lt;/h3&gt;
+&lt;h3 id=&#34;5-skills-versus-credentials&#34;&gt;5. Skills versus Credentials&lt;/h3&gt;
 
 &lt;p&gt;Providing a credential is one of the few considerations where traditional education may still come out ahead. I believe, however, that as the cost of traditional education gets higher and less people are willing to mortgage their lives in exchange for a diploma, more employers will have to adapt and get with the times. I also envision the talent pool getting bigger and competition stronger, which will devalue credentials in favor of skills and experience. Those who hone their skills working on intersting projects will be more valuable than those who just hide behind a piece of paper.&lt;/p&gt;
 
@@ -740,13 +782,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -754,19 +796,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -776,7 +818,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -788,7 +830,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -814,7 +856,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -828,7 +870,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -852,7 +894,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -871,13 +913,13 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -887,19 +929,19 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -909,7 +951,7 @@ impress an invisible jury.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
@@ -1109,22 +1151,6 @@ We like to think of innovation as striking us in a stunning eureka moment, where
 &lt;p&gt;Great missions are transformed into great successes as the result of finding projects that satisfy the law of remarkability, which requires that an idea inspires people to remark about it, and is launched in a venue where such remarking is made easy.&lt;/p&gt;
 
 &lt;p&gt;For a mission-driven project to succeed, it should be remarkable in two different ways. First, it must compel people who encounter it to remark about it to others. Second, it must be launched in a venue that supports such remarking.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Other People&#39;s Money</title>
-      <link>http://www.mariosanchez.org/book/opm/</link>
-      <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/book/opm/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.mariosanchez.org/images/opm.jpg&#34; width=&#34;100px&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Excellent journalistic work about the biggest real estate deal ever made. If follows the saga of Stuyvesant Town, the largest residential project in New York City, from it&amp;rsquo;s humble beginnings as a middle class bastion in the late 1940s, to object of desire of financiers and speculators in the cusp of the real estate bubble of the early 2000s.&lt;/p&gt;
-
-&lt;p&gt;Goes deep into the details of the deal itself and the personalities and egoes of the people involved. You will find this book thoroughly enjoyable if you are into real estate investing or politics.&lt;/p&gt;
-
-&lt;p&gt;Highly recommended.&lt;/p&gt;
 </description>
     </item>
     
