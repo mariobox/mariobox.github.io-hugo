@@ -274,23 +274,23 @@
 
 &lt;p&gt;Following one of &lt;a href=&#34;http://www.mariosanchez.org/post/3words16/&#34;&gt;my themes for 2016&lt;/a&gt; I recently started learning Javascript. Rather than using a book I signed up to Treehouse, an online platform that specializes in teaching how to code.  After using the site for a few days I am now able to better understand how technology can help solve the problem of the skyrocketing cost of today&amp;rsquo;s higher education:&lt;/p&gt;
 
-&lt;h3 id=&#34;1-scale:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;1. Scale&lt;/h3&gt;
+&lt;h3 id=&#34;1-scale&#34;&gt;1. Scale&lt;/h3&gt;
 
 &lt;p&gt;The economies of scale achieved through technology have dramatically reduced the cost of education delivery. While courses in bricks-and-mortar schools can cost thousands of dollars, you can take unlimited classes online for less than $50 a month. Think of the savings this represents over the four years of a typical college education. If colleges and universities are investing in real estate instead of technology they&amp;rsquo;re making a big mistake.&lt;/p&gt;
 
-&lt;h3 id=&#34;2-lesson-delivery:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;2. Lesson Delivery&lt;/h3&gt;
+&lt;h3 id=&#34;2-lesson-delivery&#34;&gt;2. Lesson Delivery&lt;/h3&gt;
 
 &lt;p&gt;While some people will always prefer face to face lessons, the advantages of video are hard to ignore. For one, cost: why pay somebody to deliver the same lesson over and over again, when you can just capture it on video, once?  Today&amp;rsquo;s educational videos are highly optimized pieces of content where everything, from the instructor&amp;rsquo;s tone of voice, to the words chosen to explain the concepts, to the infographics used as teaching aids, and even the backround decor, have been thoroughly tested to provide the most effective learning experience. A video can also reach millions, not just the number of students that fit in a typical classroom. You can also rewind a video at your leisure, watch it as many times as you want, when you want, wherever you may be.&lt;/p&gt;
 
-&lt;h3 id=&#34;3-socialization-and-interaction:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;3. Socialization and Interaction&lt;/h3&gt;
+&lt;h3 id=&#34;3-socialization-and-interaction&#34;&gt;3. Socialization and Interaction&lt;/h3&gt;
 
 &lt;p&gt;Proponents of traditional education may argue that campus life enables students to interact, socialize and make connections.  The same, however, can be achieved through online education. While the interaction may not always be face to face, online tools like forums, social networks, and email let us be in contact with peers, ask questions, and give and get help. Students can also research their local scene for meetups where like-minded people can get together to discuss any topic, exchange ideas, and socialize.&lt;/p&gt;
 
-&lt;h3 id=&#34;4-pace-and-rewards:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;4. Pace and Rewards&lt;/h3&gt;
+&lt;h3 id=&#34;4-pace-and-rewards&#34;&gt;4. Pace and Rewards&lt;/h3&gt;
 
 &lt;p&gt;Online schools are pioneers of the &lt;em&gt;gamification&lt;/em&gt; of education. They break down subjects into bite-sized lessons and give out points when a student completes them. Successfully passing a course or track earns them a badge. These achievements are then listed in the student&amp;rsquo;s profile, for bragging rights and motivation. Online teaching platforms are succeeding in making education fun, by providing a learning environment that resonates with digital natives, used to instant gratification and fast feedback loops. Traditional institutions, on the other hand, mostly follow the rigid set of rythms, timelines and processes of the industrial age.&lt;/p&gt;
 
-&lt;h3 id=&#34;5-skills-versus-credentials:a1d805a8a8ab61b425677631aabd1cb0&#34;&gt;5. Skills versus Credentials&lt;/h3&gt;
+&lt;h3 id=&#34;5-skills-versus-credentials&#34;&gt;5. Skills versus Credentials&lt;/h3&gt;
 
 &lt;p&gt;Providing a credential is one of the few considerations where traditional education may still come out ahead. I believe, however, that as the cost of traditional education gets higher and less people are willing to mortgage their lives in exchange for a diploma, more employers will have to adapt and get with the times. I also envision the talent pool getting bigger and competition stronger, which will devalue credentials in favor of skills and experience. Those who hone their skills working on intersting projects will be more valuable than those who just hide behind a piece of paper.&lt;/p&gt;
 
@@ -308,13 +308,13 @@
 
 &lt;p&gt;These are the instructions to create a minimal, functional Hugo site. For more information read the &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;Hugo Documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;download-hugo&#34;&gt;Download Hugo&lt;/h4&gt;
+&lt;h4 id=&#34;download-hugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Download Hugo&lt;/h4&gt;
 
 &lt;p&gt;You can download Hugo for many different platforms from the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo site&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
+&lt;h4 id=&#34;copy-hugo-exe-on-a-working-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Copy hugo.exe on a working folder&lt;/h4&gt;
 
 &lt;p&gt;Create a folder (you can name it /projects/) under your root, and then navigate to that folder by typing&lt;/p&gt;
 
@@ -322,19 +322,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-new-hugo-site-in-a-subfolder-of-projects-called-projecthugo:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a new Hugo site in a subfolder of /projects called /projecthugo&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new site ~/projects/projecthugo/&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;go-to-your-hugo-site-folder&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
+&lt;h4 id=&#34;go-to-your-hugo-site-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Go to your Hugo site folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;cd projecthugo&lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
+&lt;h4 id=&#34;list-the-contents-of-the-projecthugo-folder:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;List the contents of the /projecthugo folder&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/pre&gt;
 
@@ -344,7 +344,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;install-hugo-in-your-path&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
+&lt;h4 id=&#34;install-hugo-in-your-path:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Install Hugo in your path.&lt;/h4&gt;
 
 &lt;p&gt;Copy the hugo.exe into your /projecthugo folder.&lt;/p&gt;
 
@@ -356,7 +356,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-some-posts&#34;&gt;Create some posts&lt;/h4&gt;
+&lt;h4 id=&#34;create-some-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create some posts&lt;/h4&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo new post/post1.md&lt;/code&gt;&lt;/pre&gt;
 
@@ -382,7 +382,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
+&lt;h3 id=&#34;create-a-couple-of-pages-that-are-not-posts:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a couple of pages that are not posts&lt;/h3&gt;
 
 &lt;p&gt;These would be pages like &lt;strong&gt;about&lt;/strong&gt; or &lt;strong&gt;contact&lt;/strong&gt;.&lt;/p&gt;
 
@@ -396,7 +396,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-default-templates&#34;&gt;Create _default templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-default-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create _default templates&lt;/h4&gt;
 
 &lt;p&gt;You will create four templates and place them in a folder called /layouts/_default:&lt;/p&gt;
 
@@ -420,7 +420,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-partial-templates&#34;&gt;Create partial templates&lt;/h4&gt;
+&lt;h4 id=&#34;create-partial-templates:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create partial templates&lt;/h4&gt;
 
 &lt;p&gt;These are good for the common areas of your site. Go ahead and create:&lt;/p&gt;
 
@@ -439,13 +439,13 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-an-index-html-template&#34;&gt;Create an index.html template&lt;/h4&gt;
+&lt;h4 id=&#34;create-an-index-html-template:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create an index.html template&lt;/h4&gt;
 
 &lt;p&gt;This template is only used for the home page. Create it however you want your home page to look and place it in the root of the /layouts folder.  You can also choose to use a list of posts as your index page. In that case just save the list template as index.html&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-css-folder-and-upload-a-style-sheet:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/css folder and upload a style sheet.&lt;/h4&gt;
 
 &lt;p&gt;Don&amp;rsquo;t forget to link to the style sheet from the header.html partial template:&lt;/p&gt;
 
@@ -455,19 +455,19 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
+&lt;h4 id=&#34;create-a-static-images-folder-and-upload-some-images:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Create a /static/images folder and upload some images.&lt;/h4&gt;
 
 &lt;p&gt;Self explanatory.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;update-your-config-toml-file&#34;&gt;Update your config.toml file&lt;/h4&gt;
+&lt;h4 id=&#34;update-your-config-toml-file:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Update your config.toml file&lt;/h4&gt;
 
 &lt;p&gt;Just add the URL of your site and your site&amp;rsquo;s description. That&amp;rsquo;s all you&amp;rsquo;re going to need to start. You can add more parameters later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;try-out-your-site&#34;&gt;Try out your site&lt;/h4&gt;
+&lt;h4 id=&#34;try-out-your-site:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Try out your site&lt;/h4&gt;
 
 &lt;p&gt;Once you have created content and templates it&amp;rsquo;s time to view your site. Type the following command:&lt;/p&gt;
 
@@ -477,7 +477,7 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;get-your-site-ready-to-upload&#34;&gt;Get your site ready to upload&lt;/h4&gt;
+&lt;h4 id=&#34;get-your-site-ready-to-upload:ed927200c6ae8a82148fa4c8d182d7fd&#34;&gt;Get your site ready to upload&lt;/h4&gt;
 
 &lt;p&gt;Once you&amp;rsquo;re satisfied with the way your site looks, run the hugo command by itself:&lt;/p&gt;
 
