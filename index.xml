@@ -6,8 +6,30 @@
     <description>Recent content on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 15:19:11 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Create an Alias for the Command Line</title>
+      <link>http://www.mariosanchez.org/post/alias/</link>
+      <pubDate>Wed, 23 Nov 2016 15:19:11 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/alias/</guid>
+      <description>&lt;p&gt;If you use a Linux-style terminal you may find yourself typing the same commands over and over again. If this is the case, you may wish to use some shorthand that the terminal can understand. You can do that with Aliases.&lt;/p&gt;
+
+&lt;p&gt;You start by going to your user directory and opening your &lt;code&gt;.bashrc&lt;/code&gt; file. A &lt;code&gt;.bashrc&lt;/code&gt; is a shell script that &lt;a href=&#34;https://en.wikipedia.org/wiki/Bash_(Unix_shell)&#34;&gt;Bash&lt;/a&gt; runs whenever it is started interactively. You can put any command in that file that you could type at the command prompt.&lt;/p&gt;
+
+&lt;p&gt;In my case, I wanted to avoid having to type &amp;ldquo;git push origin master&amp;rdquo; every time I wanted to commit changes to my remote repository, so I appended the following line of code to my &lt;code&gt;.bashrc&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;alias gpom=&amp;lsquo;git push origin master&amp;rsquo;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and saved the file.&lt;/p&gt;
+
+&lt;p&gt;Now, whenever I have something to commit I just type: &amp;lsquo;gpom&amp;rsquo; and press enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In order for the new alias to work you have to reboot your computer.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book Review: Talk Like Ted</title>
@@ -517,7 +539,7 @@
 
 &lt;p&gt;After reading the book I found out that the author had done a &lt;a href=&#34;https://www.ted.com/talks/susan_cain_the_power_of_introverts?language=en&#34;&gt;TED talk&lt;/a&gt; on the subject. While not a substitute for the book it is worth watching.&lt;/p&gt;
 
-&lt;h4 id=&#34;my-highlights-and-notes&#34;&gt;My Highlights and Notes&lt;/h4&gt;
+&lt;h4 id=&#34;my-highlights-and-notes:413acb98b45f59b87e6a91c1fc93570d&#34;&gt;My Highlights and Notes&lt;/h4&gt;
 
 &lt;p&gt;&amp;ldquo;Our lives are shaped as profoundly by personality as by gender or race.&amp;rdquo;&lt;/p&gt;
 
@@ -730,48 +752,6 @@
 &lt;p&gt;&amp;ldquo;We can demand of ourselves the effort to find the ways in which other people benefit if we do our jobs with enthusiasm rather than indifference.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Industrialization has been a spectacular human achievement. But as it has relieved material poverty, it has done so at the price of poverty of spirit.&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My 3 Words for 2016</title>
-      <link>http://www.mariosanchez.org/post/3words16/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/3words16/</guid>
-      <description>
-
-&lt;p&gt;Ten years ago, Chris Brogan started a yearly tradition: choosing the three words that would guide his actions for the next twelve months, and publishing them on his blog (you can read more about it on &lt;a href=&#34;http://chrisbrogan.com/3-words-2016/&#34;&gt;Chris&amp;rsquo;s blog&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;I find this exercise to be extremely powerful, as it forces us to sit down and think long and hard about our priorities in life and business.&lt;/p&gt;
-
-&lt;p&gt;I am now sharing my Three Words for 2016: LEARN, EXPERIMENTS, SELF-AWARENESS.&lt;/p&gt;
-
-&lt;h3 id=&#34;learn:0a431635f918607bc30d2e73d05f468d&#34;&gt;Learn&lt;/h3&gt;
-
-&lt;p&gt;I will focus on expanding my competence in new areas of knowledge. It is all too easy to just focus on the day-to-day tasks you&amp;rsquo;ve been performing for years, get complacent and stop learning. That&amp;rsquo;s how you become obsolete.&lt;/p&gt;
-
-&lt;p&gt;Dedicating 2015 to learn the basics of web development and being finally able to deploy a website from scratch, helped me understand how much I missed learning new things and the feeling of accomplishment that comes with it.&lt;/p&gt;
-
-&lt;p&gt;During 2016 I will double down on learning. A few things I want to learn: to operate a &lt;a href=&#34;https://en.wikipedia.org/wiki/Virtual_private_server&#34;&gt;VPS&lt;/a&gt;, improve my Portuguese, and get better at fixing things.&lt;/p&gt;
-
-&lt;h3 id=&#34;experiments:0a431635f918607bc30d2e73d05f468d&#34;&gt;Experiments&lt;/h3&gt;
-
-&lt;p&gt;I tend to gravitate towards the same things over and over again: the same restaurants, the same kind of books, the same passtimes. I like predictablilty and reliability, which probably means that I&amp;rsquo;ve missed out on many good things for not experimenting enough.&lt;/p&gt;
-
-&lt;p&gt;During 2016 I will focus on trying new things in the spirit of continuous self-improvement.&lt;/p&gt;
-
-&lt;p&gt;Paraphrasing Tim Ferriss, if you want opportunities to come to you, you must first throw a lot of things against the wall (experiment).&lt;/p&gt;
-
-&lt;p&gt;This guiding word also dovetails nicely with the first one (Learn) as they share many common themes.&lt;/p&gt;
-
-&lt;h3 id=&#34;self-awareness:0a431635f918607bc30d2e73d05f468d&#34;&gt;Self-Awareness&lt;/h3&gt;
-
-&lt;p&gt;At this stage it is crystal clear to me that as important as deciding what to do (or even more important) is to decide what &lt;strong&gt;NOT&lt;/strong&gt; to do.&lt;/p&gt;
-
-&lt;p&gt;By developing my career mostly in large corporations I&amp;rsquo;ve spent most of my working years living up to other people&amp;rsquo;s expectations: there is always a boss to please, employees to manage, politics to play. A few times I have also been required to play roles that were not in alignment with my core strengths and personality traits.&lt;/p&gt;
-
-&lt;p&gt;During 2016 and beyond I&amp;rsquo;m going to do less of what other people expect of me, and more of the things that allow me to leverage my strengths and get me closer to my overarching life goals. I&amp;rsquo;m going to &amp;ldquo;trust my gut&amp;rdquo;: if it doesn&amp;rsquo;t feel right, I won&amp;rsquo;t do it. No more painting by (other people&amp;rsquo;s) numbers. Life is too short.&lt;/p&gt;
 </description>
     </item>
     

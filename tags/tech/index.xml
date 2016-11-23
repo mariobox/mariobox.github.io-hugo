@@ -6,8 +6,30 @@
     <description>Recent content in Tech on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 15:19:11 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Create an Alias for the Command Line</title>
+      <link>http://www.mariosanchez.org/post/alias/</link>
+      <pubDate>Wed, 23 Nov 2016 15:19:11 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/alias/</guid>
+      <description>&lt;p&gt;If you use a Linux-style terminal you may find yourself typing the same commands over and over again. If this is the case, you may wish to use some shorthand that the terminal can understand. You can do that with Aliases.&lt;/p&gt;
+
+&lt;p&gt;You start by going to your user directory and opening your &lt;code&gt;.bashrc&lt;/code&gt; file. A &lt;code&gt;.bashrc&lt;/code&gt; is a shell script that &lt;a href=&#34;https://en.wikipedia.org/wiki/Bash_(Unix_shell)&#34;&gt;Bash&lt;/a&gt; runs whenever it is started interactively. You can put any command in that file that you could type at the command prompt.&lt;/p&gt;
+
+&lt;p&gt;In my case, I wanted to avoid having to type &amp;ldquo;git push origin master&amp;rdquo; every time I wanted to commit changes to my remote repository, so I appended the following line of code to my &lt;code&gt;.bashrc&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;alias gpom=&amp;lsquo;git push origin master&amp;rsquo;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and saved the file.&lt;/p&gt;
+
+&lt;p&gt;Now, whenever I have something to commit I just type: &amp;lsquo;gpom&amp;rsquo; and press enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In order for the new alias to work you have to reboot your computer.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building a SPA with Angular.js</title>

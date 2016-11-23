@@ -6,8 +6,30 @@
     <description>Recent content in Posts on Mario Sanchez Carrion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Nov 2016 15:19:11 -0500</lastBuildDate>
     <atom:link href="http://www.mariosanchez.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Create an Alias for the Command Line</title>
+      <link>http://www.mariosanchez.org/post/alias/</link>
+      <pubDate>Wed, 23 Nov 2016 15:19:11 -0500</pubDate>
+      
+      <guid>http://www.mariosanchez.org/post/alias/</guid>
+      <description>&lt;p&gt;If you use a Linux-style terminal you may find yourself typing the same commands over and over again. If this is the case, you may wish to use some shorthand that the terminal can understand. You can do that with Aliases.&lt;/p&gt;
+
+&lt;p&gt;You start by going to your user directory and opening your &lt;code&gt;.bashrc&lt;/code&gt; file. A &lt;code&gt;.bashrc&lt;/code&gt; is a shell script that &lt;a href=&#34;https://en.wikipedia.org/wiki/Bash_(Unix_shell)&#34;&gt;Bash&lt;/a&gt; runs whenever it is started interactively. You can put any command in that file that you could type at the command prompt.&lt;/p&gt;
+
+&lt;p&gt;In my case, I wanted to avoid having to type &amp;ldquo;git push origin master&amp;rdquo; every time I wanted to commit changes to my remote repository, so I appended the following line of code to my &lt;code&gt;.bashrc&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;alias gpom=&amp;lsquo;git push origin master&amp;rsquo;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and saved the file.&lt;/p&gt;
+
+&lt;p&gt;Now, whenever I have something to commit I just type: &amp;lsquo;gpom&amp;rsquo; and press enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In order for the new alias to work you have to reboot your computer.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book Review: Talk Like Ted</title>
@@ -713,7 +735,7 @@
 
 &lt;p&gt;If you want to learn more about the 6S philosophy, you can read this &lt;a href=&#34;https://www.vitalentusa.com/learn/An_Introduction_to_6S.pdf&#34;&gt;comprehensive 6S overview&lt;/a&gt; I found searching online. On the other hand, if you just want to grasp the gist of it, here are the 6S principles in short form, just like in the page I found on my desk:&lt;/p&gt;
 
-&lt;h3 id=&#34;sort:42441621e042de90c292d1ae34891e18&#34;&gt;Sort&lt;/h3&gt;
+&lt;h3 id=&#34;sort&#34;&gt;Sort&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sort out necessary and unnecessary items&lt;/li&gt;
@@ -721,33 +743,33 @@
 &lt;li&gt;Remove and discard the items not required&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;set-in-order:42441621e042de90c292d1ae34891e18&#34;&gt;Set In Order&lt;/h3&gt;
+&lt;h3 id=&#34;set-in-order&#34;&gt;Set In Order&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Organize the essential materials in the workplace&lt;/li&gt;
 &lt;li&gt;Find &amp;ldquo;a place for everything and keep everything in its place&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;shine:42441621e042de90c292d1ae34891e18&#34;&gt;Shine&lt;/h3&gt;
+&lt;h3 id=&#34;shine&#34;&gt;Shine&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Keep the area clean at all times&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;standardize:42441621e042de90c292d1ae34891e18&#34;&gt;Standardize&lt;/h3&gt;
+&lt;h3 id=&#34;standardize&#34;&gt;Standardize&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the Sort, Set In Order, and Shine Steps&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;sustain:42441621e042de90c292d1ae34891e18&#34;&gt;Sustain&lt;/h3&gt;
+&lt;h3 id=&#34;sustain&#34;&gt;Sustain&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Maintain the gain&lt;/li&gt;
 &lt;li&gt;Look for ways to continuously improve your work area&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;safety-first:42441621e042de90c292d1ae34891e18&#34;&gt;Safety First&lt;/h3&gt;
+&lt;h3 id=&#34;safety-first&#34;&gt;Safety First&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Provide an accident-free workplace. Eliminate hazards.&lt;/li&gt;
@@ -760,33 +782,6 @@
 &lt;p&gt;&lt;img src=&#34;https://c2.staticflickr.com/4/3548/3389551970_a24a14b9ba_z.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Photo Credits: &lt;a href=&#34;https://www.flickr.com/photos/cocokelley/3389551970&#34;&gt;Cassandra Lavalle&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Power Morning Productivity Bubble</title>
-      <link>http://www.mariosanchez.org/post/mornings/</link>
-      <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.mariosanchez.org/post/mornings/</guid>
-      <description>&lt;p&gt;It seems that the latest fad among self-proclaimed productivity gurus is the concept of &amp;ldquo;power mornings&amp;rdquo;. Just Google &lt;a href=&#34;https://www.google.com/webhp?hl=en#hl=en&amp;amp;q=morning+rituals&#34;&gt;morning rituals&lt;/a&gt; and you&amp;rsquo;ll see what I&amp;rsquo;m talking about.&lt;/p&gt;
-
-&lt;p&gt;Apparently, if you don&amp;rsquo;t wake up at 4am, meditate, run a half marathon, speed-read three books, and write a chapter of your soon-to-be-published novel before your coffee is ready, you must be a slacker.&lt;/p&gt;
-
-&lt;p&gt;But who are these people telling us what to do with our time, our sleep, our exercise and our food? Are they physicians or dietitians? No, they&amp;rsquo;re just personal
-development &amp;ldquo;experts&amp;rdquo; who have found in the latest productivity fad a way to sell books, seminars and expensive coaching sessions.&lt;/p&gt;
-
-&lt;p&gt;So, enough of the one-size-fits-all power morning ritual. The bottom line is that &lt;mark&gt;everybody is different because our &lt;a href=&#34;https://en.wikipedia.org/wiki/Chronobiology&#34;&gt;biological rhythms&lt;/a&gt; are different&lt;/mark&gt;. Forget what the &amp;ldquo;gurus&amp;rdquo; say and just do what works for you.&lt;/p&gt;
-
-&lt;p&gt;What works for me? I need seven to eight hours of sleep, so waking up at 4am is a no-no. Upon waking up, usually at 6:30am or so, I perform a stretching and strengthening routine for my lower back, abdomen and hamstrings, followed by a healthy breakfast (sometimes blueberry yogurt with muesli, sometimes oatmeal with raisins
-and apple, or a sprouted wheat toast with cheddar cheese and a boiled egg, all preceded by a small glass of orange/carrot juice and followed by a large cup of coffee).&lt;/p&gt;
-
-&lt;p&gt;So, do you have a morning ritual?&lt;/p&gt;
-
-&lt;p&gt;For more on the topic, check out this &lt;a href=&#34;https://medium.com/@InVisionApp/what-s-your-morning-ritual-b3ff2fbcc8e5#.o9qgzlwb9&#34;&gt;Medium article&lt;/a&gt;, where several people share how they get their mornings started. It&amp;rsquo;s worth the 4 minute read (plus, the pictures
-are great!).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/5/4019/4658619672_819e8d7414_b.jpg&#34; class=&#34;roundcorners&#34;&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
     </item>
     
