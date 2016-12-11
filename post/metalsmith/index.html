@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+  <meta charset="utf-8">
+  <title>How to Create an Minimal Metalsmith Blog - mariosanchez.org</title>
+  <meta name="description" content="Personal website of Mario Sanchez Carrion">
+  <meta name="author" content="Mario Sanchez Carrion">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  
+  
+  <link rel="icon" type="image/png" href="/images/mypictr_165x165.jpg">
+
+</head>
+
+
+
+<body>
+
+
+<div class="container">
+    <nav>
+    <div class="row">
+      <div class="twelve columns">
+
+        <a href="/" class="brand"><img src="/images/msc-logo.png" class="logo" alt="Site Logo"></a>
+        
+        <ul class="blocknav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/post">Blog</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+        
+        </div>
+    </div>
+            
+    </nav>
+
+
+
+
+
+<div class="row">
+	<div class="twelve columns">
+
+<div class="date">
+
+<p>
+December 11, 2016
+</p>
+
+</div>
+
+<article>
+
+
+<h1>How to Create an Minimal Metalsmith Blog</h1>
+
+
+
+
+<p>I&rsquo;ve been experimenting with <a href="http://staticsitegenerators.net">static site generators</a> for a few months now. I first started with Ruby-based <a href="http://jekyllrb.com/">Jekyll</a>, before settling for Go-based <a href="http://gohugo.io">Hugo</a>, which is what I&rsquo;m using now to run this site. What I like about Hubo is its simplicity, its many blog-friendly features (like tags and pagination), and the fact that it has a very robust documentation, which is key for relative newcomers like me.</p>
+
+<p>Lately, however, I have been hearing good things about JavaScript and <a href="http://nodejs.org">Node.js</a> (the ability to run JavaScript in your computer, not just the browser). I searched around for a tutorial to build a basic blog in <a href="http://www.metalsmith.io/">Metalsmith</a>, an increasingly popular static site generator built with JavaScript. If you want to build a basic Metalsmith site there is no better place to start than this <a href="https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/">Metalsmith tutorial</a> by <a href="http://www.neustadt.fr/">Parimal Satyal</a>.</p>
+
+<p>I am not going to repeat the instuctions here because you will be better off just checking out the <a href="https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/">tutorial</a>. I am just going to summarize the main steps here:</p>
+
+<ol>
+<li>Download <a href="http://nodejs.org">Node.js and npm</a>.</li>
+<li>Create and navigate to a directory for your project.</li>
+<li>Create a <code>src</code> folder, where all your content and templates are going to be.</li>
+<li>Create a <code>package.json</code> where the meta information about your site is going to be.</li>
+<li>Download and install <a href="http://www.metalsmith.io/">Metalsmith</a>.</li>
+<li>Create a <code>build.js</code> file, where the flow of instructions to create your site are going to be.</li>
+<li>Update <code>package.json</code> to &ldquo;tell&rdquo; it to run <code>build.js</code> every time Metalsmith is run.</li>
+<li>Test run your installation by typing <code>npm start</code> from the command line.</li>
+<li>If everything is OK at this point, download all the Metalsmith modules you need, one by one, updating your <code>build.js</code> each time, to add them to the build flow.</li>
+<li>Create some templates and place them in a folder named <code>/layouts</code>.</li>
+<li>Write some blog posts.</li>
+<li>Run Metalsmith by typing: <code>npm start</code></li>
+<li>Go to <code>localhost:8082</code> in your browser, and you should see your site there!</li>
+</ol>
+
+<p>Aside from the instructions in the tutorial, I threw in a link to <a href="http://getbootstrap.com">Bootstrap</a> to give the files some minimal styling.
+Don&rsquo;t try to follow the instructions above; they are just notes-to-self to remember the basic steps to create the site. Go to the <a href="https://www.neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/">tutorial</a> instead, and follow the instructions carefully.</p>
+
+<p>I have placed the <a href="https://github.com/mariobox/MinimalMetalsmithBlog">source files</a> of my newly created Minimal Metalsmith Blog in <a href="https://github.com/mariobox/MinimalMetalsmithBlog">Github</a>. You can also see a <a href="http://www.mariosanchez.org/MiniMetalDemo/">Live Demo here</a>.</p>
+
+
+</article>
+
+<br />
+
+<p><strong>Tags:</strong></p> 
+
+
+
+<ul>
+<li class="tagbox"> <a href="http://www.mariosanchez.org/tags/tech">tech</a> </li>
+</ul>
+
+<br />
+
+<center>
+
+<div>
+	<a href="http://www.mariosanchez.org/post/alias/">Previous</a> | <a href="http://www.mariosanchez.org/post/">Blog</a>
+</div>
+
+</center>
+
+<br />
+
+<hr />
+
+</div>
+</div>
+
+
+<div class="row">
+
+<div class="three columns">
+
+<img src="/images/mscwebdev.JPG" class="profile" alt="My Picture">
+
+</div>
+
+<div class="nine columns">
+
+<p>
+This is the personal website of <strong>Mario Sanchez Carrion</strong>, a Miami-based product marketing manager and front-end web developer in training. [<a href="/about">More</a>]</p>
+
+<p><strong>Contact</strong>:<br />
+<a href="tel:305-699-6541">(305) 699-6541</a> | <a href="mailto:mario@mariosanchez.org">mario@mariosanchez.org</a><br />
+<a href="http://www.twitter.com/mariobox">Twitter</a> | <a href="http://www.linkedin.com/in/mariobox/">LinkedIn</a> | <a href="http://github.com/mariobox">Github</a>
+</p>
+
+</div>
+
+</div>
+
+
+<hr />
+
+
+
+
+
+
+
+<footer>
+	
+<div class="row">
+
+<div class="twelve columns">
+
+<p class="small">USA 2016 | Made with <a href="http://gohugo.io">Hugo</a> | Deployed with <a href="https://github.com/mariobox/mariosanchez.org">Github</a> | Current <a href="../../colophon/">Stack</a> | <a href="/now">Now</a></p>
+
+</div>
+
+</div>
+
+
+
+</footer>
+
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59988651-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
