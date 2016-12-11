@@ -339,7 +339,7 @@
 
 &lt;p&gt;Here we go.&lt;/p&gt;
 
-&lt;h3 id=&#34;creating-a-repository-from-scratch:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Creating a repository from scratch&lt;/h3&gt;
+&lt;h3 id=&#34;creating-a-repository-from-scratch&#34;&gt;Creating a repository from scratch&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Open your Terminal and navigate to a folder you want to start tracking (if you don&amp;rsquo;t know how to use the Terminal this &lt;a href=&#34;https://www.codecademy.com/learn/learn-the-command-line&#34;&gt;quick online course&lt;/a&gt; will show you the basics).&lt;/p&gt;&lt;/li&gt;
@@ -380,7 +380,7 @@
 
 &lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
 
-&lt;h3 id=&#34;cloning-a-remote-repository:a603a77b1f5c5be5405a46ac8ca7dda3&#34;&gt;Cloning a remote repository&lt;/h3&gt;
+&lt;h3 id=&#34;cloning-a-remote-repository&#34;&gt;Cloning a remote repository&lt;/h3&gt;
 
 &lt;p&gt;Cloning a remote repository means installing a copy in your local computer. You may want to clone one of your existing remote repositories to do some work on it locally, or you may want to clone a remote repository belonging to somebody else and use it as a template for your own project. In this case, first make sure you have permission from the repository owner.&lt;/p&gt;
 
